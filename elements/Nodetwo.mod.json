@@ -1,0 +1,36 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowrootCattail"
+      },
+      {
+        "value": "CUSTOM:GlowrootRose"
+      },
+      {
+        "value": "CUSTOM:GlowMushroom"
+      },
+      {
+        "value": "CUSTOM:GlowrootDandelion"
+      },
+      {
+        "value": "CUSTOM:GlowrootPaeonia"
+      },
+      {
+        "value": "CUSTOM:GlowrootAllium"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "nodetwo",
+    "namespace": "mod"
+  }
+}

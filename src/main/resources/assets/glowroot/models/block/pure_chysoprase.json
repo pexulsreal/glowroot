@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/blockofchlorophaysecrystalized",
+    "up": "glowroot:block/blockofchlorophaysecrystalized",
+    "north": "glowroot:block/blockofchlorophaysecrystalized",
+    "east": "glowroot:block/blockofchlorophaysecrystalized",
+    "south": "glowroot:block/blockofchlorophaysecrystalized",
+    "west": "glowroot:block/blockofchlorophaysecrystalized",
+    "particle": "glowroot:block/blockofchlorophaysecrystalized"
+  },
+  "render_type": "solid"
+}

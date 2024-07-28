@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "glowroot:glowroot_caves",
+  "features": "glowroot:glowroot_tall_weeds",
+  "step": "vegetal_decoration"
+}

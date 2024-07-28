@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:cut_glowroot"
+    },
+    "3": {
+      "item": "glowroot:cut_glowroot"
+    },
+    "4": {
+      "item": "glowroot:cut_glowroot"
+    },
+    "6": {
+      "item": "glowroot:cut_glowroot"
+    },
+    "7": {
+      "item": "glowroot:cut_glowroot"
+    },
+    "8": {
+      "item": "glowroot:cut_glowroot"
+    }
+  },
+  "result": {
+    "item": "glowroot:cut_glowroot_stairs",
+    "count": 8
+  }
+}

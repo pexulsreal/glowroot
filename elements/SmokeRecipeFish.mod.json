@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.4,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:RawGlowfish"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedGlowfish"
+    },
+    "name": "smoke_recipe_fish",
+    "namespace": "mod"
+  }
+}

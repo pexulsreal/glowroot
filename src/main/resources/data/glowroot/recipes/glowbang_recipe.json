@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:glowroot_chip"
+    }
+  ],
+  "result": {
+    "item": "glowroot:glowbang",
+    "count": 2
+  }
+}

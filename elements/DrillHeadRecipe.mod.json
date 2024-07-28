@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootPanel"
+      },
+      {
+        "value": "CUSTOM:GlowrootPanel"
+      },
+      {
+        "value": "CUSTOM:GlowrootPanel"
+      },
+      {
+        "value": "CUSTOM:GlowingRunes"
+      },
+      {
+        "value": "CUSTOM:GlowrootPanel"
+      },
+      {
+        "value": "CUSTOM:GlowrootChip"
+      },
+      {
+        "value": "CUSTOM:GlowrootPanel"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MinersSaddle"
+    },
+    "name": "drill_head_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "particle",
+  "definition": {
+    "texture": "glowrootinkcustom.png",
+    "animate": true,
+    "frameDuration": 3,
+    "width": 0.6,
+    "height": 0.6,
+    "scale": 1.7000000000000002,
+    "speedFactor": 0.95,
+    "gravity": 0.0,
+    "maxAge": 20,
+    "maxAgeDiff": 2,
+    "angularVelocity": 0.05,
+    "angularAcceleration": -0.001,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

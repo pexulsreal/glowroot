@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "5": "crystalcluster4"
+      },
+      "name": "default"
+    }
+  }
+}

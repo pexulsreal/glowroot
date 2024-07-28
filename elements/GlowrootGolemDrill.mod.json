@@ -1,0 +1,143 @@
+{
+  "_fv": 47,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Glowroot Golem",
+    "mobLabel": "",
+    "mobModelName": "Modelglowrootgolemdrill",
+    "mobModelTexture": "drill.png",
+    "mobModelGlowTexture": "glowrootgolemnewglowing.png",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "modelWidth": 1.9,
+    "modelHeight": 1.9000000000000001,
+    "modelShadowSize": 1.0999999999999999,
+    "mountedYOffset": -0.3,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -15520959,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -14237021,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 10,
+    "attackKnockback": 1.5,
+    "knockbackResistance": 1.0,
+    "movementSpeed": 0.19,
+    "stepHeight": 1.2,
+    "armorBaseValue": 0.0,
+    "trackingRange": 16,
+    "followRange": 16,
+    "health": 80,
+    "xpAmount": 8,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": true,
+    "immuneToAnvil": false,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:robotactive"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:robothurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:robotdies"
+    },
+    "stepSound": {
+      "value": "entity.sniffer.step"
+    },
+    "whenMobDies": {
+      "name": "GlowrootGolemDrilLDies"
+    },
+    "onMobTickUpdate": {
+      "name": "GlowrootGolemDrillEntityTickUpdate"
+    },
+    "onInitialSpawn": {
+      "name": "GlowrootGolemDrillOnInitialEntitySpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">Awgfawg,Awgfawg</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:GlowRoot</field></block></value><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">Conditionrage,Conditionrage</field><next><block type=\"follow_owner\"><field name=\"speed\">1</field><field name=\"min_distance\">64</field><field name=\"max_distance\">1</field><field name=\"condition\">null,null</field><next><block type=\"wander_avoid_water\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_with_range\" x=\"1185\" y=\"142\"><field name=\"range\">2</field><field name=\"speed\">1</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"follow_entity\" x=\"1210\" y=\"242\"><field name=\"speed\">1</field><field name=\"maxrange\">64</field><field name=\"followarea\">10</field><field name=\"condition\">null,null</field></block><block type=\"watch_closest_entity\" x=\"1075\" y=\"408\"><field name=\"entity\">EntityPlayerMP</field><field name=\"radius\">20</field><field name=\"condition\">null,null</field></block><block type=\"follow_owner\" x=\"940\" y=\"539\"><field name=\"speed\">1</field><field name=\"min_distance\">10</field><field name=\"max_distance\">2</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"protect_owner\"><field name=\"condition\">null,null</field><next><block type=\"fight_as_owner\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block><block type=\"swim_in_water\" x=\"996\" y=\"667\"><field name=\"condition\">null,null</field></block><block type=\"attack_fly\" x=\"631\" y=\"784\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"40\" y=\"960\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "CUSTOM:GlowRoot"
+      },
+      {
+        "value": "CUSTOM:GlowRootEnd"
+      },
+      {
+        "value": "CUSTOM:GlowrootLeaf"
+      },
+      {
+        "value": "CUSTOM:Glowroots"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

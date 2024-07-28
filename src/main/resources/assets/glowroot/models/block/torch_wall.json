@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/metal_torch_wall",
+  "textures": {
+    "all": "glowroot:block/base_on",
+    "particle": "glowroot:block/base_on",
+    "2": "glowroot:block/base_on"
+  },
+  "render_type": "cutout"
+}

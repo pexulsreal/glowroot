@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "particle",
+  "definition": {
+    "texture": "glowrootvinesnew.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 2.0,
+    "speedFactor": 0.1,
+    "gravity": 0.05,
+    "maxAge": 70,
+    "maxAgeDiff": 20,
+    "angularVelocity": 0.1,
+    "angularAcceleration": -5.0E-5,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "OPAQUE"
+  }
+}

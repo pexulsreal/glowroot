@@ -1,0 +1,20 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "glowroot:item/flashlighton"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowroot:glowlight_flashlighton": 1
+      },
+      "model": "glowroot:item/glowlight_0"
+    },
+    {
+      "predicate": {
+        "glowroot:glowlight_flashlighton": 2
+      },
+      "model": "glowroot:item/glowlight_1"
+    }
+  ]
+}

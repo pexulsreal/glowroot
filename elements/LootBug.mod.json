@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Loot Bug",
+    "achievementDescription": "Get hooked by the claws of a Glowroot Hermit.",
+    "achievementIcon": {
+      "value": "CUSTOM:HermitClaw"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "Mediumchrysoprasebud"
+    ],
+    "rewardRecipes": [],
+    "rewardFunction": "AdvancementCompleteGlowroot",
+    "rewardXP": 10,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:UndergroundLighting"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"72\" y=\"121\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

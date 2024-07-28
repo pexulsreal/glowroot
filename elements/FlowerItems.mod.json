@@ -1,0 +1,42 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LargeGlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowPoppy"
+      },
+      {
+        "value": "CUSTOM:GlowMushroom"
+      },
+      {
+        "value": "CUSTOM:GlowrootCattail"
+      },
+      {
+        "value": "CUSTOM:GlowrootRose"
+      },
+      {
+        "value": "CUSTOM:GlowrootDandelion"
+      },
+      {
+        "value": "CUSTOM:GlowrootPaeonia"
+      },
+      {
+        "value": "CUSTOM:GlowrootAllium"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "flowers",
+    "namespace": "minecraft"
+  }
+}

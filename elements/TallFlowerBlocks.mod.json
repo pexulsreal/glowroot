@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LargeGlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowrootTallWeeds"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "tall_flowers",
+    "namespace": "minecraft"
+  }
+}

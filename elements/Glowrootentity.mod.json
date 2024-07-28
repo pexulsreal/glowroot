@@ -1,0 +1,36 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:BabyGlowSquid"
+      },
+      {
+        "value": "CUSTOM:Glowfish"
+      },
+      {
+        "value": "CUSTOM:GlowrootBomber"
+      },
+      {
+        "value": "CUSTOM:GlowrootGolem"
+      },
+      {
+        "value": "CUSTOM:GlowrootHermit"
+      },
+      {
+        "value": "CUSTOM:GlowrootedZombie"
+      },
+      {
+        "value": "CUSTOM:GlowrootGolemDrill"
+      }
+    ],
+    "biomes": [],
+    "name": "glowrootentity",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/glowrootventblocklight",
+  "textures": {
+    "all": "glowroot:block/steelrootblockglowtwo",
+    "particle": "glowroot:block/steelrootblockglow",
+    "2": "glowroot:block/steelrootblockglowtwo"
+  },
+  "render_type": "solid"
+}

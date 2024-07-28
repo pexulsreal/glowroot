@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "glowroot:glowroot_caves",
+  "features": "glowroot:crystal_2222",
+  "step": "underground_structures"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/spawnersides",
+    "up": "glowroot:block/spawnersides",
+    "north": "glowroot:block/spawnersides",
+    "east": "glowroot:block/spawnersides",
+    "south": "glowroot:block/spawnersides",
+    "west": "glowroot:block/spawnersides",
+    "particle": "glowroot:block/spawnersides"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "glowroot:block/glowrootstone",
+    "top": "glowroot:block/glowrootstonetop",
+    "side": "glowroot:block/glowrootstoneside",
+    "overlay": "glowroot:block/glowrootstoneside",
+    "particle": "glowroot:block/glowrootstone"
+  },
+  "render_type": "solid"
+}

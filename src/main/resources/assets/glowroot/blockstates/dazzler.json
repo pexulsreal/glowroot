@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "glowroot:block/dazzler"
+    },
+    "facing=east": {
+      "model": "glowroot:block/dazzler",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "glowroot:block/dazzler",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "glowroot:block/dazzler",
+      "y": 270
+    }
+  }
+}

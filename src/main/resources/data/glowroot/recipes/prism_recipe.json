@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "1": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "2": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "3": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "4": {
+      "item": "glowroot:pure_chysoprase"
+    },
+    "5": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "6": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "7": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "8": {
+      "item": "glowroot:chrysoprase_dust"
+    }
+  },
+  "result": {
+    "item": "glowroot:prism",
+    "count": 1
+  }
+}

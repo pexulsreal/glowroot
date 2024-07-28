@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glowroot_brick_wall",
+    "glowroot:glowroot_stone_wall"
+  ]
+}

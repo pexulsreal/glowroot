@@ -1,0 +1,1 @@
+playsound glowroot:gogglesequipped player @p ~ ~ ~ 1 1

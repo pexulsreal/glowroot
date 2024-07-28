@@ -1,0 +1,42 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PureChrysoprase"
+      },
+      {
+        "value": "CUSTOM:GlowingRunes"
+      },
+      {
+        "value": "CUSTOM:GlowrootSeeker"
+      },
+      {
+        "value": "CUSTOM:GlowrootMachine"
+      },
+      {
+        "value": "CUSTOM:GlowrootNode"
+      },
+      {
+        "value": "CUSTOM:ArtificalGlowrootedBlock"
+      },
+      {
+        "value": "CUSTOM:ArtificalGlowrootedBlock3"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootedBlock2"
+      },
+      {
+        "value": "CUSTOM:GlowrootCore"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "glowrootartificialchargeblock",
+    "namespace": "mod"
+  }
+}

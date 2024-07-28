@@ -1,0 +1,433 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn2.png",
+          "use1Xscale": false,
+          "x": 69,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_glowroot_machine",
+          "text": {
+            "fixedValue": "Glowroot Machine"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 96,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_glowroot_machine",
+          "text": {
+            "fixedValue": "The Glowroot Machine is"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_an_infuser_of_which",
+          "text": {
+            "fixedValue": "an infuser of which"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_combines_certain",
+          "text": {
+            "fixedValue": "combines certain items"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_with_artificial_properties",
+          "text": {
+            "fixedValue": "with artificial power."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artificial_power_has",
+          "text": {
+            "fixedValue": "Artificial power has 3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_different_levels_with_3",
+          "text": {
+            "fixedValue": "different levels, with 3"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_being_the_hardest_to",
+          "text": {
+            "fixedValue": "being the hardest to"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_obtain",
+          "text": {
+            "fixedValue": "obtain."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_can_search_up",
+          "text": {
+            "fixedValue": "You can search up items"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_their_respective",
+          "text": {
+            "fixedValue": "and their respective"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_recipe_via_searchbar",
+          "text": {
+            "fixedValue": "recipe via searchbar."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 78,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_some_main_items_are",
+          "text": {
+            "fixedValue": "Some main items are"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_glowcards_emitter_flasks",
+          "text": {
+            "fixedValue": "Glowcards, Glowbangs,"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_emitter_flasks",
+          "text": {
+            "fixedValue": "Emitter Flasks, and"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_artificial_blocks",
+          "text": {
+            "fixedValue": "Artificial Blocks."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_typing_the_items",
+          "text": {
+            "fixedValue": "Typing the item's"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_respective_id_or",
+          "text": {
+            "fixedValue": "respective ID, name"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ingame_name_will",
+          "text": {
+            "fixedValue": "or similar name into"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_searchbar_above",
+          "text": {
+            "fixedValue": "the searchbar above"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_will_provide_you_with",
+          "text": {
+            "fixedValue": "will provide you with"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_recipe_for_it",
+          "text": {
+            "fixedValue": "the recipe for it."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 188
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Glowroot Machine",
+          "name": "RecipeFinder",
+          "width": 120,
+          "height": 20,
+          "x": 225,
+          "y": 57
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonx",
+          "image": "buttonx.png",
+          "hoveredImage": "buttonx.png",
+          "onClick": {
+            "name": "Closegui"
+          },
+          "x": 77,
+          "y": 43
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonsearch",
+          "image": "eyebutton.png",
+          "hoveredImage": "buttonsearch.png",
+          "onClick": {
+            "name": "GlowrootInfoTextboxButton"
+          },
+          "x": 272,
+          "y": 79
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_search",
+          "text": {
+            "fixedValue": "Search"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 270,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_close_out",
+          "text": {
+            "fixedValue": "Close Out"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 74,
+          "y": 39
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "texture": "reversedrillglowroot",
+    "customModelName": "Normal",
+    "name": "Glowroot Drill",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GlowrootTab"
+    },
+    "harvestLevel": 5,
+    "efficiency": 8.0,
+    "attackSpeed": 1.6,
+    "enchantability": 15,
+    "damageVsEntity": 6.5,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:GlowrootDust"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onCrafted": {
+      "name": "GlowrootPickaxeItemIsCraftedsmelted"
+    },
+    "onItemInInventoryTick": {
+      "name": "GlowrootPickaxeToolInInventoryTick"
+    }
+  }
+}

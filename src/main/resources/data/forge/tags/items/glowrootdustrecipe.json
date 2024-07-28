@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:large_glow_flower",
+    "glowroot:glow_bulb",
+    "glowroot:glow_mushroom",
+    "glowroot:glow_fungi",
+    "glowroot:glow_root",
+    "glowroot:glow_flower"
+  ]
+}

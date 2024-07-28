@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowroot_bricks"
+    },
+    "1": {
+      "item": "glowroot:glowroot_bricks"
+    },
+    "2": {
+      "item": "glowroot:glowroot_bricks"
+    },
+    "3": {
+      "item": "glowroot:glowroot_bricks"
+    },
+    "4": {
+      "item": "glowroot:glowroot_bricks"
+    },
+    "5": {
+      "item": "glowroot:glowroot_bricks"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_brick_wall",
+    "count": 8
+  }
+}

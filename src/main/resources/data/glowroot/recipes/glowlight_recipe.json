@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "2": {
+      "item": "glowroot:prism"
+    },
+    "3": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "4": {
+      "item": "glowroot:glowroot_engine"
+    },
+    "5": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "6": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "7": {
+      "item": "glowroot:glowroot_chip"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowlight",
+    "count": 1
+  }
+}

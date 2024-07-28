@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowroot:hermit_claw"
+    },
+    "title": {
+      "translate": "advancements.loot_bug.title"
+    },
+    "description": {
+      "translate": "advancements.loot_bug.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "loot_bug": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "function": "glowroot:advancement_complete_glowroot",
+    "loot": [
+      "glowroot:blocks/medium_chrysoprase_bud"
+    ]
+  },
+  "parent": "glowroot:underground_lighting"
+}

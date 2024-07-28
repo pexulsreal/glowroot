@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "glowroot:block/glowrootstone",
+    "particle": "glowroot:block/glowrootstone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Dazzled",
+    "icon": "dazzled.png",
+    "color": {
+      "value": -5373972,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "FlashbangedEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "FlashbangedOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "FlashbangedEffectExpires"
+    }
+  }
+}

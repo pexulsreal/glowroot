@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "glowroot:block/glowrootstone"
+  },
+  "render_type": "solid"
+}

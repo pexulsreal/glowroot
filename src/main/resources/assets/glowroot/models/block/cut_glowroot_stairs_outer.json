@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "glowroot:block/glowrootcuttile2",
+    "top": "glowroot:block/glowrootcuttile2",
+    "side": "glowroot:block/glowrootcuttile2"
+  },
+  "render_type": "solid"
+}

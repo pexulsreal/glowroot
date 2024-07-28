@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowroot:glowroot_drill_head"
+    },
+    "title": {
+      "translate": "advancements.better_than_horses.title"
+    },
+    "description": {
+      "translate": "advancements.better_than_horses.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "better_than_horses": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "function": "glowroot:advancement_complete_glowroot",
+    "loot": [
+      "glowroot:blocks/chrysoprase_cluster"
+    ]
+  },
+  "parent": "glowroot:methamphetamine"
+}

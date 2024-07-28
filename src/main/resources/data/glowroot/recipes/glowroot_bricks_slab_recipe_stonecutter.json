@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "glowroot:glowroot_bricks"
+  },
+  "result": "glowroot:glowroot_brick_slab"
+}

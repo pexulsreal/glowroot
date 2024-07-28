@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "particle",
+  "definition": {
+    "texture": "spore.png",
+    "animate": true,
+    "frameDuration": 12,
+    "width": 0.4,
+    "height": 0.4,
+    "scale": 1.4000000000000001,
+    "speedFactor": 0.95,
+    "gravity": 0.0,
+    "maxAge": 47,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.10999999999999999,
+    "angularAcceleration": -0.001,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.4,
+    "cookingTime": 350,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:RawGlowfish"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:CookedGlowfish"
+    },
+    "name": "smoke_recipec_amfire",
+    "namespace": "mod"
+  }
+}

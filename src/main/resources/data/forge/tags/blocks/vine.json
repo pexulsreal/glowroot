@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glow_root_end",
+    "glowroot:glow_root"
+  ]
+}

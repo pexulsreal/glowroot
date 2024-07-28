@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowroot:glow_goggles_helmet"
+    },
+    "title": {
+      "translate": "advancements.glow_goggles_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.glow_goggles_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glow_goggles_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 12,
+    "function": "glowroot:advancement_complete_glowroot",
+    "recipes": [
+      "glowroot:emitter_flask_recipe"
+    ]
+  },
+  "parent": "glowroot:greenhouse"
+}

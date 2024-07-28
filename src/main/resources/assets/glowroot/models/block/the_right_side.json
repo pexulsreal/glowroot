@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/glowrunemulti",
+    "up": "glowroot:block/glowrunemulti",
+    "north": "glowroot:block/jewishrune",
+    "east": "glowroot:block/jewishrune",
+    "south": "glowroot:block/jewishrune",
+    "west": "glowroot:block/jewishrune",
+    "particle": "glowroot:block/glowrunemulti"
+  },
+  "render_type": "solid"
+}

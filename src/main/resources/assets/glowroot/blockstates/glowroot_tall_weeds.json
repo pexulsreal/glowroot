@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "glowroot:block/glowroot_tall_weeds"
+    },
+    "half=lower": {
+      "model": "glowroot:block/glowroot_tall_weeds_bottom"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GlowrootChip"
+      },
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": "CUSTOM:GlowrootChip"
+      },
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": "CUSTOM:GlowrootChip"
+      },
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": "CUSTOM:GlowrootChip"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowrootTNT"
+    },
+    "name": "glowroot_tntrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "glowroot:block/the_right_side"
+    }
+  }
+}

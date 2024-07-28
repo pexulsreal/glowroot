@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowing_runes"
+    },
+    "1": {
+      "item": "glowroot:glowroot_engine"
+    },
+    "2": {
+      "item": "glowroot:glowing_runes"
+    },
+    "3": {
+      "item": "glowroot:glow_glass"
+    },
+    "4": {
+      "item": "glowroot:pure_chysoprase"
+    },
+    "5": {
+      "item": "glowroot:glow_glass"
+    },
+    "6": {
+      "item": "glowroot:glowing_runes"
+    },
+    "7": {
+      "item": "glowroot:glowroot_engine"
+    },
+    "8": {
+      "item": "glowroot:glowing_runes"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_core",
+    "count": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "glowbomb",
+    "customModelName": "Normal",
+    "name": "Glowbang",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GlowrootTab"
+    },
+    "stackSize": 16,
+    "ammoItem": {
+      "value": "CUSTOM:Glowbang"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "entity.tnt.primed"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "GlowbangRangedItemUsed"
+    },
+    "bulletPower": 0.8,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": ""
+    },
+    "bulletModel": "Modelglowbomb",
+    "customBulletModelTexture": "glowbombtexture.png",
+    "onBulletHitsBlock": {
+      "name": "GlowbangProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "GlowbangProjectileHitsBlock"
+    },
+    "onBulletFlyingTick": {
+      "name": "GlowbangWhileProjectileFlyingTick"
+    }
+  }
+}

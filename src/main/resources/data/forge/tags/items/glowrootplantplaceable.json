@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glowrootdirt",
+    "minecraft:coarse_dirt",
+    "minecraft:rooted_dirt",
+    "glowroot:glowrooted_stone",
+    "minecraft:grass_block",
+    "minecraft:moss_block",
+    "minecraft:dirt",
+    "minecraft:podzol"
+  ]
+}

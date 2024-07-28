@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glowroot_astilbes",
+    "glowroot:glow_poppy",
+    "glowroot:glowroot_fern",
+    "glowroot:glow_weeds",
+    "glowroot:glow_root_end",
+    "glowroot:glowroot_tall_weeds",
+    "glowroot:glow_root",
+    "glowroot:glowroot_leaves_fallen"
+  ]
+}

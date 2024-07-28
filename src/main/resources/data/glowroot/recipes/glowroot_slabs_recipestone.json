@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "1": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "2": {
+      "item": "glowroot:glowrootdirt"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_stone_slab",
+    "count": 6
+  }
+}

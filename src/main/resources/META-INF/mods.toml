@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="glowroot"
+version="1.0.8"
+displayName="Glowroot"
+credits="pexuls_"
+displayURL="https://modrinth.com/mod/glowroot / https://www.curseforge.com/minecraft/mc-mods/glowroot"
+logoFile="logo.png"
+authors="pexuls_"
+description="A cave-biome mod based on glow squids with new mobs, structures, and energy system."
+
+[[dependencies.glowroot]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

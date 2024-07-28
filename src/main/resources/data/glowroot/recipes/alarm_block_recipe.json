@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "3": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "4": {
+      "item": "glowroot:glow_bulb"
+    },
+    "5": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "6": {
+      "item": "glowroot:glow_runes"
+    },
+    "7": {
+      "item": "glowroot:glowroot_seeker"
+    },
+    "8": {
+      "item": "glowroot:glow_runes"
+    }
+  },
+  "result": {
+    "item": "glowroot:alarmoff",
+    "count": 1
+  }
+}

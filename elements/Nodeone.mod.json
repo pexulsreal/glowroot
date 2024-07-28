@@ -1,0 +1,39 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GlowRoot"
+      },
+      {
+        "value": "CUSTOM:GlowRootEnd"
+      },
+      {
+        "value": "CUSTOM:GlowPoppy"
+      },
+      {
+        "value": "CUSTOM:GlowWeeds"
+      },
+      {
+        "value": "CUSTOM:GlowrootTallWeeds"
+      },
+      {
+        "value": "CUSTOM:Glowroots"
+      },
+      {
+        "value": "CUSTOM:GlowrootFern"
+      },
+      {
+        "value": "CUSTOM:GlowrootAstilbes"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "nodeone",
+    "namespace": "mod"
+  }
+}

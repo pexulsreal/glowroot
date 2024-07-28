@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glowroot_rose",
+    "glowroot:glow_poppy",
+    "glowroot:glowrooted_stone",
+    "glowroot:glowroot_cattail",
+    "glowroot:glowroot_tall_weeds",
+    "glowroot:glow_flower",
+    "glowroot:glowrootdirt",
+    "glowroot:large_glow_flower",
+    "glowroot:glowroot_paeonia",
+    "glowroot:glowroot_leaves",
+    "glowroot:glowroot_fern",
+    "glowroot:glow_bulb",
+    "glowroot:glowshroom",
+    "glowroot:glow_weeds",
+    "glowroot:glowroot_dandelion",
+    "glowroot:glowroot_leaves_fallen",
+    "glowroot:glowroot_allium"
+  ]
+}

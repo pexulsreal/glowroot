@@ -1,0 +1,60 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn2.png",
+          "use1Xscale": false,
+          "x": 69,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonx",
+          "image": "buttonx.png",
+          "hoveredImage": "buttonx.png",
+          "x": 77,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonxupside",
+          "image": "buttonxupside.png",
+          "hoveredImage": "",
+          "x": 328,
+          "y": 186
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/glowrootedbasaltsmooth2",
+    "up": "glowroot:block/glowrootedbasaltsmooth2",
+    "north": "glowroot:block/glowrootedbasaltsmooth2",
+    "east": "glowroot:block/glowrootedbasaltsmooth2",
+    "south": "glowroot:block/glowrootedbasaltsmooth2",
+    "west": "glowroot:block/glowrootedbasaltsmooth2",
+    "particle": "glowroot:block/glowrootedbasaltsmooth2"
+  },
+  "render_type": "solid"
+}

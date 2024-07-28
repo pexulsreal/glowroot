@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glowroot_drill",
+    "glowroot:glowroot_pickaxe"
+  ]
+}

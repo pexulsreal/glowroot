@@ -1,0 +1,20 @@
+{
+  "type": "glowroot:glowroot_lapis_ore",
+  "config": {
+    "size": 7,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "glowroot:glowrootdirt"
+          }
+        },
+        "state": {
+          "Name": "glowroot:glowroot_lapis_ore"
+        }
+      }
+    ]
+  }
+}

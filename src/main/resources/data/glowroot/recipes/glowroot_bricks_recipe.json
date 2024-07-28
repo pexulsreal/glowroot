@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "1": {
+      "item": "glowroot:chrysoprase_dust"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_block",
+    "count": 1
+  }
+}

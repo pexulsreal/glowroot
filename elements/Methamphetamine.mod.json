@@ -1,0 +1,29 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Protein",
+    "achievementDescription": "Give a Glowroot Golem some Chrysoprase Dust while riding it to increase it's power and speed.",
+    "achievementIcon": {
+      "value": "CUSTOM:GlowrootDust"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "Chrysoprasecluster"
+    ],
+    "rewardRecipes": [
+      "DrillHeadRecipe"
+    ],
+    "rewardFunction": "AdvancementCompleteGlowroot",
+    "rewardXP": 10,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:UndergroundLighting"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"25\" y=\"36\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

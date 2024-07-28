@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.5,
+    "cookingTime": 300,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:GlowsquidTentacle"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedGlowSquidTentacle"
+    },
+    "name": "cooked_squid_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "glowroot:block/grow_emitter"
+    },
+    "facing=east": {
+      "model": "glowroot:block/grow_emitter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "glowroot:block/grow_emitter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "glowroot:block/grow_emitter",
+      "y": 270
+    }
+  }
+}

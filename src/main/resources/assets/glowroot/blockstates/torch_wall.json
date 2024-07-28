@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "glowroot:block/torch_wall"
+    },
+    "facing=east": {
+      "model": "glowroot:block/torch_wall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "glowroot:block/torch_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "glowroot:block/torch_wall",
+      "y": 270
+    }
+  }
+}

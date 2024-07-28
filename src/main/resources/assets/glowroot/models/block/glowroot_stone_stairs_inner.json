@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "glowroot:block/glowrootstone",
+    "top": "glowroot:block/glowrootstone",
+    "side": "glowroot:block/glowrootstone"
+  },
+  "render_type": "solid"
+}

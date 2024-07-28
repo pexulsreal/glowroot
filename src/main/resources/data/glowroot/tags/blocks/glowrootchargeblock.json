@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glowroot_machine",
+    "glowroot:dazzler",
+    "glowroot:glowroot_seeker",
+    "glowroot:grow_emitter",
+    "glowroot:glowing_runes",
+    "glowroot:glowroot_laser_emitter",
+    "glowroot:glow_detector",
+    "glowroot:darkness_detector",
+    "glowroot:artifical_glowrooted_block_1",
+    "glowroot:glowroot_core",
+    "glowroot:artificial_glowrooted_block_2",
+    "glowroot:glowroot_furnace",
+    "glowroot:glow_emitter",
+    "glowroot:light_detector",
+    "glowroot:artifical_glowrooted_block_3",
+    "glowroot:glowroot_node"
+  ]
+}

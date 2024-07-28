@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glow_runes"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_chip",
+    "count": 4
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowing_runes"
+    },
+    "1": {
+      "item": "glowroot:block_of_chrysoprase"
+    },
+    "2": {
+      "item": "glowroot:glowing_runes"
+    },
+    "3": {
+      "item": "glowroot:block_of_chrysoprase"
+    },
+    "4": {
+      "item": "glowroot:glow_emitter"
+    },
+    "5": {
+      "item": "glowroot:block_of_chrysoprase"
+    },
+    "6": {
+      "item": "glowroot:glowing_runes"
+    },
+    "7": {
+      "item": "glowroot:block_of_chrysoprase"
+    },
+    "8": {
+      "item": "glowroot:glowing_runes"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_node",
+    "count": 1
+  }
+}

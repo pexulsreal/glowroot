@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ink_sac"
+    },
+    "1": {
+      "item": "glowroot:squid_tentacle"
+    },
+    "2": {
+      "item": "minecraft:ink_sac"
+    },
+    "3": {
+      "item": "glowroot:squid_tentacle"
+    },
+    "4": {
+      "item": "glowroot:light_detector"
+    },
+    "5": {
+      "item": "glowroot:squid_tentacle"
+    },
+    "6": {
+      "item": "minecraft:ink_sac"
+    },
+    "7": {
+      "item": "glowroot:squid_tentacle"
+    },
+    "8": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "glowroot:darkness_detector",
+    "count": 1
+  }
+}

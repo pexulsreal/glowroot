@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "1": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "2": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "3": {
+      "item": "glowroot:chrysoprase_crystal"
+    }
+  },
+  "result": {
+    "item": "glowroot:block_of_chrysoprase",
+    "count": 1
+  }
+}

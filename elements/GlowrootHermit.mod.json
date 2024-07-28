@@ -1,0 +1,131 @@
+{
+  "_fv": 47,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Glowroot Hermit",
+    "mobLabel": "",
+    "mobModelName": "Modelglowroothermit",
+    "mobModelTexture": "glowroothermittexture.png",
+    "mobModelGlowTexture": "glowroothermitglowing.png",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "modelWidth": 1.8,
+    "modelHeight": 0.5,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -14476739,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -13476759,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:GlowrootTab"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 2,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.5,
+    "movementSpeed": 0.26,
+    "stepHeight": 0.5,
+    "armorBaseValue": 2.0,
+    "trackingRange": 64,
+    "followRange": 64,
+    "health": 25,
+    "xpAmount": 6,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:robotactive"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:robothurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:robotdies"
+    },
+    "stepSound": {
+      "value": "CUSTOM:robotstep"
+    },
+    "whenMobDies": {
+      "name": "GlowrootQuadcopterdies"
+    },
+    "onMobTickUpdate": {
+      "name": "GlowrootHermitOnEntityTickUpdate"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">Lookpropcedure,Lookpropcedure</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">Lookpropcedure,Lookpropcedure</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"fly\" x=\"1306\" y=\"312\"><field name=\"speed\">0.8</field><field name=\"condition\">Lookprocedurebomber,Lookprocedurebomber</field></block><block type=\"watch_closest_entity\" x=\"870\" y=\"519\"><field name=\"entity\">CUSTOM:GlowrootGolem</field><field name=\"radius\">15</field><field name=\"condition\">null,null</field></block><block type=\"follow_entity\" x=\"243\" y=\"579\"><field name=\"speed\">1</field><field name=\"maxrange\">60</field><field name=\"followarea\">60</field><field name=\"condition\">null,null</field></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 3,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GlowrootCaves"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

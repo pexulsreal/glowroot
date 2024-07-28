@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowrootLadder"
+    },
+    "name": "glowroot_ladder_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "title": {
+      "translate": "advancements.greenhouse.title"
+    },
+    "description": {
+      "translate": "advancements.greenhouse.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "greenhouse": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "function": "glowroot:advancement_complete_glowroot",
+    "recipes": [
+      "glowroot:glowroot_lamp_recipe",
+      "glowroot:glow_runes_recipe",
+      "glowroot:glowing_runes_recipe",
+      "glowroot:glow_glass_recipe",
+      "glowroot:light_detector_recipe",
+      "glowroot:grow_emitter_recipe",
+      "glowroot:keycardrecipe",
+      "glowroot:glowroot_crystal_to_dustconverter",
+      "glowroot:glowlight_recipe",
+      "glowroot:glowroot_torch_recipe",
+      "glowroot:glowroot_machine_recipe",
+      "glowroot:node_recipe",
+      "glowroot:chyrosphrase_pure_recipe",
+      "glowroot:chrysophse_crystal_block_recipe",
+      "glowroot:chryrosprasetodustrecipe",
+      "glowroot:alarm_block_recipe",
+      "glowroot:pure_chyrophrase_recipe",
+      "glowroot:chyrophrasebacktocrystal",
+      "glowroot:darknessdetectorrecipe",
+      "glowroot:glow_glass_panes_recipe",
+      "glowroot:light_detector_recip",
+      "glowroot:core_recipe_temp",
+      "glowroot:prism_recipe",
+      "glowroot:seeker_recipe",
+      "glowroot:chip_recipe",
+      "glowroot:artificial_1_blocks",
+      "glowroot:artificial_2_blocks",
+      "glowroot:artificial_3blocks"
+    ]
+  },
+  "parent": "glowroot:underground_lighting"
+}

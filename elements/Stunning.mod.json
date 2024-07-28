@@ -1,0 +1,28 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Stunning!",
+    "achievementDescription": "Get hit by a projectile or item that emits the dazzling effect.",
+    "achievementIcon": {
+      "value": "CUSTOM:Glowbang"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "GlowbangRecipe",
+      "GlowrootTntrecipe"
+    ],
+    "rewardFunction": "AdvancementCompleteGlowroot",
+    "rewardXP": 10,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:PowerWithLight"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"72\" y=\"121\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

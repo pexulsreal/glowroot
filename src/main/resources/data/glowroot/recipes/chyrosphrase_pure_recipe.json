@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    }
+  ],
+  "result": {
+    "item": "glowroot:unpure_chrysoprase",
+    "count": 1
+  }
+}

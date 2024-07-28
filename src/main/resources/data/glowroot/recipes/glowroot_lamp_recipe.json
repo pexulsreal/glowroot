@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:glowroot_block"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    }
+  ],
+  "result": {
+    "item": "glowroot:glow_root_lantern",
+    "count": 1
+  }
+}

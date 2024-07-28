@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/glowbulb",
+  "textures": {
+    "all": "glowroot:block/glowbulbtexture",
+    "particle": "glowroot:block/glowleaves",
+    "2": "glowroot:block/glowbulbtexture"
+  },
+  "render_type": "cutout"
+}

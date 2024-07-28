@@ -1,0 +1,134 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.glowroot.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.registries.Registries;
+
+import net.mcreator.glowroot.GlowrootMod;
+
+public class GlowrootModTabs {
+	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, GlowrootMod.MODID);
+	public static final RegistryObject<CreativeModeTab> GLOWROOT_TAB = REGISTRY.register("glowroot_tab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.glowroot.glowroot_tab")).icon(() -> new ItemStack(GlowrootModItems.GLOWROOTICON.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(GlowrootModBlocks.GLOW_ROOT.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_WEEDS.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_TALL_WEEDS.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_FERN.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_ASTILBES.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_POPPY.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_ROSE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_FLOWER.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_PAEONIA.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_ALLIUM.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_DANDELION.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_CATTAIL.get().asItem());
+				tabData.accept(GlowrootModBlocks.LARGE_GLOW_FLOWER.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWSHROOM.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_BULB.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_LEAVES_FALLEN.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_LEAVES.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOTED_STONE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOTDIRT.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_COAL_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_COPPE_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_IRON_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_GOLD_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_LAPIS_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_REDSTONE_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_DIAMOND_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_EMERALD_ORE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_STONE_STAIRS.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_STONE_SLAB.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_STONE_WALL.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_STONE_BUTTON.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_STONE_PRESSURE_PLATE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_BRICKS.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_BRICK_STAIRS.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_BRICK_SLAB.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_BRICK_WALL.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHISELED_GLOWROOT_BRICKS.get().asItem());
+				tabData.accept(GlowrootModBlocks.CUT_GLOWROOT.get().asItem());
+				tabData.accept(GlowrootModBlocks.CUT_GLOWROOT_STAIRS.get().asItem());
+				tabData.accept(GlowrootModBlocks.CUT_GLOWROOT_SLAB.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_CONCRETE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_PILLAR.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_GRATE.get().asItem());
+				tabData.accept(GlowrootModBlocks.THE_RIGHT_SIDE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_PANEL.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_VENT_DUCT.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_LIT_VENT_DUCT.get().asItem());
+				tabData.accept(GlowrootModBlocks.ALARMOFF.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_LOCKER.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_CART.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_VENT.get().asItem());
+				tabData.accept(GlowrootModItems.GLOWROOT_TORCH.get());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_DOOR.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_LADDER.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_BARS.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_CHAIN.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_BLOCK.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_ROOT_LANTERN.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_RUNES.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWING_RUNES.get().asItem());
+				tabData.accept(GlowrootModBlocks.ARTIFICAL_GLOWROOT_BLOCK_1.get().asItem());
+				tabData.accept(GlowrootModBlocks.ARTIFICIAL_GLOWROOT_BLOCK_2.get().asItem());
+				tabData.accept(GlowrootModBlocks.ARTIFICAL_GLOWROOT_BLOCK_3.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_UPGRADER.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_MACHINE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_NODE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_EMITTER.get().asItem());
+				tabData.accept(GlowrootModBlocks.LIGHT_DETECTOR.get().asItem());
+				tabData.accept(GlowrootModBlocks.DARKNESS_DETECTOR.get().asItem());
+				tabData.accept(GlowrootModBlocks.GROW_EMITTER.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_SEEKER.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_GLASS.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOW_GLASS_PANE.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_TNT.get().asItem());
+				tabData.accept(GlowrootModItems.SQUID_TENTACLE.get());
+				tabData.accept(GlowrootModItems.GLOWSQUID_TENTACLE.get());
+				tabData.accept(GlowrootModItems.COOKED_SQUID_TENTACLE.get());
+				tabData.accept(GlowrootModItems.INK_BALLOON.get());
+				tabData.accept(GlowrootModItems.GLOW_INK_BALLOON.get());
+				tabData.accept(GlowrootModItems.CHRYSOPRASE_DUST.get());
+				tabData.accept(GlowrootModItems.CHRYSOPRASE_CRYSTAL.get());
+				tabData.accept(GlowrootModBlocks.UNPURE_CHRYSOPRASE.get().asItem());
+				tabData.accept(GlowrootModBlocks.PURE_CHYSOPRASE.get().asItem());
+				tabData.accept(GlowrootModBlocks.BLOCK_OF_CHRYSOPRASE.get().asItem());
+				tabData.accept(GlowrootModBlocks.BUDDED_BLOCK_OF_CHRYSOPRASE.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_CLUSTER.get().asItem());
+				tabData.accept(GlowrootModBlocks.LARGE_CHRYSOPRASE_BUD.get().asItem());
+				tabData.accept(GlowrootModBlocks.MEDIUM_CHRYSOPRASE_BUD.get().asItem());
+				tabData.accept(GlowrootModBlocks.SMALL_CHRYSOPRASE_BUD.get().asItem());
+				tabData.accept(GlowrootModItems.GLOWROOT_CHIP.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_DRILL_HEAD.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_ENGINE.get());
+				tabData.accept(GlowrootModBlocks.GLOWROOT_CORE.get().asItem());
+				tabData.accept(GlowrootModItems.GLOWCARD.get());
+				tabData.accept(GlowrootModItems.GLOWLIGHT.get());
+				tabData.accept(GlowrootModItems.EMITTER_FLASK.get());
+				tabData.accept(GlowrootModItems.GLOWBANG.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_VEST_CHESTPLATE.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_MUSIC_DISC.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_SWORD.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_PICKAXE.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_SHOVEL.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_DRILL.get());
+				tabData.accept(GlowrootModItems.PRISM.get());
+				tabData.accept(GlowrootModItems.GLOW_GOGGLES_HELMET.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_GOLEM_SPAWN_EGG.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_BOMBER_SPAWN_EGG.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_HERMIT_SPAWN_EGG.get());
+				tabData.accept(GlowrootModItems.GLOWROOTED_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(GlowrootModItems.GLOWROOT_HYBRID_SPAWN_EGG.get());
+				tabData.accept(GlowrootModItems.MATTERWARPER.get());
+				tabData.accept(GlowrootModBlocks.CAVE_PAINTING_1.get().asItem());
+			}).withSearchBar().build());
+}

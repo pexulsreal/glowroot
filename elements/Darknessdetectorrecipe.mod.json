@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": "CUSTOM:SquidTentacle"
+      },
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": "CUSTOM:SquidTentacle"
+      },
+      {
+        "value": "CUSTOM:LightDetector"
+      },
+      {
+        "value": "CUSTOM:SquidTentacle"
+      },
+      {
+        "value": "Items.DYE#0"
+      },
+      {
+        "value": "CUSTOM:SquidTentacle"
+      },
+      {
+        "value": "Items.DYE#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarknessDetector"
+    },
+    "name": "darknessdetectorrecipe",
+    "namespace": "mod"
+  }
+}

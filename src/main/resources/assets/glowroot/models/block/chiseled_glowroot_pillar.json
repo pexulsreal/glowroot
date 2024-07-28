@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/glowroottntbottom",
+    "up": "glowroot:block/glowroottntbottom",
+    "north": "glowroot:block/chiseledpillar2",
+    "east": "glowroot:block/chiseledpillar2",
+    "south": "glowroot:block/chiseledpillar2",
+    "west": "glowroot:block/chiseledpillar2",
+    "particle": "glowroot:block/glowroottntbottom"
+  },
+  "render_type": "solid"
+}

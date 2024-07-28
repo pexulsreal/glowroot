@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "glowroot:glowroot_panel"
+    },
+    "2": {
+      "item": "glowroot:glowroot_panel"
+    },
+    "3": {
+      "item": "glowroot:glowroot_panel"
+    },
+    "4": {
+      "item": "glowroot:glowing_runes"
+    },
+    "5": {
+      "item": "glowroot:glowroot_panel"
+    },
+    "6": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "7": {
+      "item": "glowroot:glowroot_panel"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_drill_head",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "glowroot:block/redstone_glow_flashlight_light"
+    }
+  }
+}

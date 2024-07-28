@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "glowroot:block/blocksprite_glass-pane",
+    "pane": "glowroot:block/glowglass"
+  },
+  "render_type": "cutout"
+}

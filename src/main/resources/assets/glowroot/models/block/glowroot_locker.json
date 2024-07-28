@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/glowrootlocker",
+  "textures": {
+    "all": "glowroot:block/glowrootlockertexture",
+    "particle": "glowroot:block/glowrootsteelblock",
+    "0": "glowroot:block/glowrootlockertexture"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LargeGlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowBulb"
+      },
+      {
+        "value": "CUSTOM:GlowrootLeaf"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "nodethree",
+    "namespace": "mod"
+  }
+}

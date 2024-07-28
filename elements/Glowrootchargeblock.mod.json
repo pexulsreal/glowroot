@@ -1,0 +1,63 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GlowingRunes"
+      },
+      {
+        "value": "CUSTOM:GlowDetector"
+      },
+      {
+        "value": "CUSTOM:GlowEmitter"
+      },
+      {
+        "value": "CUSTOM:LightDetector"
+      },
+      {
+        "value": "CUSTOM:GrowEmitter"
+      },
+      {
+        "value": "CUSTOM:Dazzler"
+      },
+      {
+        "value": "CUSTOM:GlowrootFurnace"
+      },
+      {
+        "value": "CUSTOM:ArtificalGlowrootedBlock"
+      },
+      {
+        "value": "CUSTOM:ArtificalGlowrootedBlock3"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootedBlock2"
+      },
+      {
+        "value": "CUSTOM:DarknessDetector"
+      },
+      {
+        "value": "CUSTOM:GlowrootSeeker"
+      },
+      {
+        "value": "CUSTOM:GlowrootMachine"
+      },
+      {
+        "value": "CUSTOM:GlowrootNode"
+      },
+      {
+        "value": "CUSTOM:GlowrootLaserEmitter"
+      },
+      {
+        "value": "CUSTOM:GlowrootCore"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "glowrootchargeblock",
+    "namespace": "mod"
+  }
+}

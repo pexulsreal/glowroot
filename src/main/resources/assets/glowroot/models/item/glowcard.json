@@ -1,0 +1,26 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "glowroot:item/keycardundone"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowroot:glowcard_levelcard1": 1
+      },
+      "model": "glowroot:item/glowcard_0"
+    },
+    {
+      "predicate": {
+        "glowroot:glowcard_levelcard2": 2
+      },
+      "model": "glowroot:item/glowcard_1"
+    },
+    {
+      "predicate": {
+        "glowroot:glowcard_levelcard3": 3
+      },
+      "model": "glowroot:item/glowcard_2"
+    }
+  ]
+}

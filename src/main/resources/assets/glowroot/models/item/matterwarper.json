@@ -1,0 +1,38 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "glowroot:item/matterwarpernew"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowroot:matterwarper_hybrideye": 1
+      },
+      "model": "glowroot:item/matterwarper_0"
+    },
+    {
+      "predicate": {
+        "glowroot:matterwarper_rootrepair": 2
+      },
+      "model": "glowroot:item/matterwarper_1"
+    },
+    {
+      "predicate": {
+        "glowroot:matterwarper_lighthands": 3
+      },
+      "model": "glowroot:item/matterwarper_2"
+    },
+    {
+      "predicate": {
+        "glowroot:matterwarper_lighttransport": 4
+      },
+      "model": "glowroot:item/matterwarper_3"
+    },
+    {
+      "predicate": {
+        "glowroot:matterwarper_runetransplant": 5
+      },
+      "model": "glowroot:item/matterwarper_4"
+    }
+  ]
+}

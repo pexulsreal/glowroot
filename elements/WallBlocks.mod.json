@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GlowrootBrickWall"
+      },
+      {
+        "value": "CUSTOM:GlowrootStoneWall"
+      },
+      {
+        "value": "CUSTOM:GlowrootBrickFence"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

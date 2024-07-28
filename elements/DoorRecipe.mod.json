@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GlowGlassPane"
+      },
+      {
+        "value": "CUSTOM:GlowGlassPane"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowrootDoor"
+    },
+    "name": "door_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "glowroot:block/glowrootbricks",
+    "top": "glowroot:block/glowrootbricks",
+    "side": "glowroot:block/glowrootbricks"
+  },
+  "render_type": "solid"
+}

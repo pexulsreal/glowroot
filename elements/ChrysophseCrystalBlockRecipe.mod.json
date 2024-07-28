@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": "CUSTOM:GlowrootCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GlowrootCrystalizedBlock"
+    },
+    "name": "chrysophse_crystal_block_recipe",
+    "namespace": "mod"
+  }
+}

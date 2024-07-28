@@ -1,0 +1,237 @@
+{
+  "hybridbites": {
+    "subtitle": "subtitles.hybridbites",
+    "sounds": [
+      {
+        "name": "glowroot:bite3",
+        "stream": false
+      },
+      {
+        "name": "glowroot:bite1",
+        "stream": false
+      }
+    ]
+  },
+  "hybridhurt": {
+    "subtitle": "subtitles.hybridhurt",
+    "sounds": [
+      {
+        "name": "glowroot:aggressive3",
+        "stream": false
+      },
+      {
+        "name": "glowroot:aggressive2",
+        "stream": false
+      },
+      {
+        "name": "glowroot:aggressive1",
+        "stream": false
+      }
+    ]
+  },
+  "hybridsteps": {
+    "subtitle": "subtitles.hybridsteps",
+    "sounds": [
+      {
+        "name": "glowroot:step5",
+        "stream": false
+      },
+      {
+        "name": "glowroot:step4",
+        "stream": false
+      },
+      {
+        "name": "glowroot:step3",
+        "stream": false
+      },
+      {
+        "name": "glowroot:step2",
+        "stream": false
+      },
+      {
+        "name": "glowroot:step1",
+        "stream": false
+      }
+    ]
+  },
+  "glowrootedblock": {
+    "subtitle": "subtitles.glowrootedblock",
+    "sounds": [
+      {
+        "name": "glowroot:assets_minecraft_sounds_block_chorus_flower_grow1",
+        "stream": false
+      },
+      {
+        "name": "glowroot:assets_minecraft_sounds_block_chorus_flower_grow2",
+        "stream": false
+      },
+      {
+        "name": "glowroot:assets_minecraft_sounds_block_chorus_flower_grow3",
+        "stream": false
+      },
+      {
+        "name": "glowroot:assets_minecraft_sounds_block_chorus_flower_grow4",
+        "stream": false
+      }
+    ]
+  },
+  "robotdies": {
+    "subtitle": "subtitles.robotdies",
+    "sounds": [
+      {
+        "name": "glowroot:untitled_video_2",
+        "stream": false
+      }
+    ]
+  },
+  "robotstep": {
+    "subtitle": "subtitles.robotstep",
+    "sounds": [
+      {
+        "name": "glowroot:untitled_video_3",
+        "stream": false
+      }
+    ]
+  },
+  "button": {
+    "subtitle": "subtitles.button",
+    "sounds": [
+      {
+        "name": "glowroot:mixkit-ui-zoom-in-2617",
+        "stream": false
+      }
+    ]
+  },
+  "drillon": {
+    "subtitle": "subtitles.drillon",
+    "sounds": [
+      {
+        "name": "glowroot:mixkit-steam-powered-mech-suit-activate-3165",
+        "stream": false
+      }
+    ]
+  },
+  "drillgenericmove": {
+    "subtitle": "subtitles.drillgenericmove",
+    "sounds": [
+      {
+        "name": "glowroot:mixkit-shuffling-gear-mech-item-3152",
+        "stream": false
+      }
+    ]
+  },
+  "glowrootcavebiome": {
+    "sounds": [
+      {
+        "name": "glowroot:dark-pulsing-drone-18935",
+        "stream": true
+      }
+    ]
+  },
+  "salamanderroar": {
+    "subtitle": "subtitles.salamanderroar",
+    "sounds": [
+      {
+        "name": "glowroot:robotic-monster-roars-x5-194041",
+        "stream": false
+      }
+    ]
+  },
+  "robotactive": {
+    "subtitle": "subtitles.robotactive",
+    "sounds": [
+      {
+        "name": "glowroot:wake-up-the-robot-84894",
+        "stream": false
+      },
+      {
+        "name": "glowroot:ui_sci-fi-sound-36061",
+        "stream": false
+      },
+      {
+        "name": "glowroot:robot-power-off-97246",
+        "stream": false
+      },
+      {
+        "name": "glowroot:robot_01-47250",
+        "stream": false
+      },
+      {
+        "name": "glowroot:power-down-02-82200",
+        "stream": false
+      }
+    ]
+  },
+  "gogglesequipped": {
+    "subtitle": "subtitles.gogglesequipped",
+    "sounds": [
+      {
+        "name": "glowroot:winlevel-83194",
+        "stream": false
+      }
+    ]
+  },
+  "robothurt": {
+    "subtitle": "subtitles.robothurt",
+    "sounds": [
+      {
+        "name": "glowroot:short_circuit-soundbible.com-1450168875",
+        "stream": false
+      }
+    ]
+  },
+  "alarm": {
+    "subtitle": "subtitles.alarm",
+    "sounds": [
+      {
+        "name": "glowroot:futuristic-system-alarm-71403",
+        "stream": false
+      }
+    ]
+  },
+  "keycardaccept": {
+    "subtitle": "subtitles.keycardaccept",
+    "sounds": [
+      {
+        "name": "glowroot:keycard_accept",
+        "stream": false
+      }
+    ]
+  },
+  "keycarddenied": {
+    "subtitle": "subtitles.keycarddenied",
+    "sounds": [
+      {
+        "name": "glowroot:keycard_deny",
+        "stream": false
+      }
+    ]
+  },
+  "quadcopterdropsbang": {
+    "subtitle": "subtitles.quadcopterdropsbang",
+    "sounds": [
+      {
+        "name": "glowroot:assets_minecraft_sounds_block_beacon_deactivate",
+        "stream": false
+      }
+    ]
+  },
+  "quadcoptercharges": {
+    "subtitle": "subtitles.quadcoptercharges",
+    "sounds": [
+      {
+        "name": "glowroot:assets_minecraft_sounds_block_beacon_activate",
+        "stream": false
+      }
+    ]
+  },
+  "ambientglowrootblock": {
+    "subtitle": "subtitles.ambientglowrootblock",
+    "sounds": [
+      {
+        "name": "glowroot:assets_minecraft_sounds_block_beacon_ambient",
+        "stream": false
+      }
+    ]
+  }
+}

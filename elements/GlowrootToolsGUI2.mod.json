@@ -1,0 +1,440 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn2.png",
+          "use1Xscale": false,
+          "x": 70,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonx",
+          "image": "buttonx.png",
+          "hoveredImage": "buttonx.png",
+          "onClick": {
+            "name": "ToolsGUI1"
+          },
+          "x": 78,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowdown.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowdown.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootcore.png",
+          "use1Xscale": true,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootcore.png",
+          "use1Xscale": true,
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootshovel.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootdrill.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowchip.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowchip.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "engine.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "head.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_chip",
+          "text": {
+            "fixedValue": "Glowroot Chip"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_core",
+          "text": {
+            "fixedValue": "Glowroot Core"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_chip1",
+          "text": {
+            "fixedValue": "Glowroot Chip"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 113
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_shovel",
+          "text": {
+            "fixedValue": "Glowroot Shovel"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 157
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_drill",
+          "text": {
+            "fixedValue": "Glowroot Drill"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 157
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_drill_head",
+          "text": {
+            "fixedValue": "Glowroot Drill Head"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 75
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_core1",
+          "text": {
+            "fixedValue": "Glowroot Core"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_engine",
+          "text": {
+            "fixedValue": "Glowroot Engine"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 113
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_page_1",
+          "text": {
+            "fixedValue": "Page 1"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 76,
+          "y": 41
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

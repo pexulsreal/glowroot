@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:squid_tentacle"
+    },
+    "1": {
+      "item": "minecraft:ink_sac"
+    },
+    "2": {
+      "item": "minecraft:ink_sac"
+    },
+    "3": {
+      "item": "glowroot:squid_tentacle"
+    }
+  },
+  "result": {
+    "item": "glowroot:ink_balloon",
+    "count": 2
+  }
+}

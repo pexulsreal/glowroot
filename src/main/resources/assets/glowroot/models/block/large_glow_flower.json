@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "glowroot:block/topflower",
+    "particle": "glowroot:block/topflower"
+  },
+  "render_type": "cutout"
+}

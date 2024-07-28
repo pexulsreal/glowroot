@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowroot_block"
+    },
+    "2": {
+      "item": "glowroot:glowroot_block"
+    },
+    "3": {
+      "item": "glowroot:glowroot_block"
+    },
+    "4": {
+      "item": "glowroot:glowroot_block"
+    },
+    "5": {
+      "item": "glowroot:glowroot_block"
+    },
+    "6": {
+      "item": "glowroot:glowroot_block"
+    },
+    "8": {
+      "item": "glowroot:glowroot_block"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_ladder",
+    "count": 16
+  }
+}

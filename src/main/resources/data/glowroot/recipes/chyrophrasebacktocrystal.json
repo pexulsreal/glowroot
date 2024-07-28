@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:pure_chysoprase"
+    }
+  },
+  "result": {
+    "item": "glowroot:chrysoprase_crystal",
+    "count": 3
+  }
+}

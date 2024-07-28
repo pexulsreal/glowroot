@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "glowroot:block/glowroot_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "glowroot:block/glowroot_pillar"
+    },
+    "axis=z": {
+      "model": "glowroot:block/glowroot_pillar",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.5,
+    "cookingTime": 150,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:GlowsquidTentacle"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:CookedGlowSquidTentacle"
+    },
+    "name": "smoke_recipesquid",
+    "namespace": "mod"
+  }
+}

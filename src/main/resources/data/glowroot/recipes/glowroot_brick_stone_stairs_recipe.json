@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "3": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "4": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "6": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "7": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "8": {
+      "item": "glowroot:glowrootdirt"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_stone_stairs",
+    "count": 8
+  }
+}

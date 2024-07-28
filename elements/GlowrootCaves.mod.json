@@ -1,0 +1,163 @@
+{
+  "_fv": 47,
+  "_type": "biome",
+  "definition": {
+    "name": "Glowroot Caves",
+    "groundBlock": {
+      "value": "CUSTOM:GlowrootedStone"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Glowrootdirt"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:Glowrootdirt"
+    },
+    "grassColor": {
+      "value": -15025263,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13584236,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13399091,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13334079,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "CUSTOM:glowrootcavebiome"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "GLOW"
+    },
+    "particlesProbability": 0.06,
+    "rainingPossibility": 0.0,
+    "temperature": 0.2,
+    "spawnBiome": false,
+    "spawnInCaves": true,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.25,
+      "max": 0.55
+    },
+    "genHumidity": {
+      "min": -6.000000000000001E-4,
+      "max": 5.0E-4
+    },
+    "genContinentalness": {
+      "min": -0.5011,
+      "max": -5.0E-4
+    },
+    "genErosion": {
+      "min": -5.0E-4,
+      "max": -4.0E-4
+    },
+    "genWeirdness": {
+      "min": -5.0E-4,
+      "max": -4.0E-4
+    },
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 0,
+    "treeStem": {
+      "value": "Blocks.CAVE_AIR"
+    },
+    "treeBranch": {
+      "value": "Blocks.CAVE_AIR"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "ExtraEmeraldOre"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:GlowrootGolem"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 1,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:GlowrootedZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 3,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:GlowrootBomber"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 2,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:GlowrootHermit"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 2,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityGlowSquid"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 1,
+        "spawnType": "undergroundWaterCreature"
+      }
+    ]
+  }
+}

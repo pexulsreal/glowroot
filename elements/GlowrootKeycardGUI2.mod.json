@@ -1,0 +1,385 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn2.png",
+          "use1Xscale": false,
+          "x": 69,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonx",
+          "image": "buttonx.png",
+          "hoveredImage": "buttonx.png",
+          "onClick": {
+            "name": "GlowrootKeycardGUI1Button"
+          },
+          "x": 77,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowdown.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "key_card3.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "key_card2.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "prismitem.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "prismitem.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "prismitem.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "prismitem.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "engine.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "engine.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "engine.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "engine.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_page_1",
+          "text": {
+            "fixedValue": "Page 1"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 75,
+          "y": 41
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_prism",
+          "text": {
+            "fixedValue": "Prism"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_prism1",
+          "text": {
+            "fixedValue": "Prism"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_prism2",
+          "text": {
+            "fixedValue": "Prism"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_prism3",
+          "text": {
+            "fixedValue": "Prism"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 110,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_engine",
+          "text": {
+            "fixedValue": "Glowroot Engine"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 148,
+          "y": 74
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_engine1",
+          "text": {
+            "fixedValue": "Glowroot Engine"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 108,
+          "y": 74
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_engine2",
+          "text": {
+            "fixedValue": "Glowroot Engine"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 108,
+          "y": 114
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowroot_engine3",
+          "text": {
+            "fixedValue": "Glowroot Engine"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 148,
+          "y": 114
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowcard_3",
+          "text": {
+            "fixedValue": "Glowcard - 3"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 127,
+          "y": 157
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowcard",
+          "text": {
+            "fixedValue": "Glowcard - 2"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 94
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

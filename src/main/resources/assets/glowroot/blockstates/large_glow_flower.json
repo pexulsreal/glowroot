@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "glowroot:block/large_glow_flower"
+    },
+    "half=lower": {
+      "model": "glowroot:block/large_glow_flower_bottom"
+    }
+  }
+}

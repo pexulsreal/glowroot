@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "glowroot:block_of_chrysoprase"
+    },
+    "3": {
+      "item": "glowroot:block_of_chrysoprase"
+    },
+    "4": {
+      "item": "glowroot:unpure_chrysoprase"
+    },
+    "5": {
+      "item": "glowroot:block_of_chrysoprase"
+    },
+    "7": {
+      "item": "glowroot:block_of_chrysoprase"
+    }
+  },
+  "result": {
+    "item": "glowroot:pure_chysoprase",
+    "count": 1
+  }
+}

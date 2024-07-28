@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowroot:glowbang"
+    },
+    "title": {
+      "translate": "advancements.stunning.title"
+    },
+    "description": {
+      "translate": "advancements.stunning.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stunning": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "function": "glowroot:advancement_complete_glowroot",
+    "recipes": [
+      "glowroot:glowbang_recipe",
+      "glowroot:glowroot_tntrecipe"
+    ]
+  },
+  "parent": "glowroot:power_with_light"
+}

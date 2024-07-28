@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "glowroot:block/crystalcluster1",
+    "particle": "glowroot:block/crystalcluster1"
+  },
+  "render_type": "cutout"
+}

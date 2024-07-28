@@ -1,0 +1,306 @@
+{
+  "_fv": 47,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "circleog.png",
+          "use1Xscale": false,
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bar.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bar"
+          },
+          "x": 28,
+          "y": 9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "0.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light0"
+          },
+          "x": 12,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light1"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light2"
+          },
+          "x": 12,
+          "y": 9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light3"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light4"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light5"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light6"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light7"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light8"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light12"
+          },
+          "x": 6,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light9"
+          },
+          "x": 11,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light10"
+          },
+          "x": 7,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light11"
+          },
+          "x": 7,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light13"
+          },
+          "x": 7,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light14"
+          },
+          "x": 7,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Light15"
+          },
+          "x": 7,
+          "y": 10
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dotred.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Below3"
+          },
+          "x": 55,
+          "y": 9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dotred.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Below5"
+          },
+          "x": 36,
+          "y": 9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dotred.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Below1"
+          },
+          "x": 74,
+          "y": 9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "greendot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Above10"
+          },
+          "x": 36,
+          "y": 9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "greendot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Above13"
+          },
+          "x": 55,
+          "y": 9
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "greendot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Above15"
+          },
+          "x": 74,
+          "y": 9
+        }
+      }
+    ],
+    "baseTexture": "visoroverlayy.png",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "GlowVisorOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

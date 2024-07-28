@@ -1,0 +1,32 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "glowroot:item/emptyflask"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowroot:emitter_flask_dazzler": 1
+      },
+      "model": "glowroot:item/emitter_flask_0"
+    },
+    {
+      "predicate": {
+        "glowroot:emitter_flask_glower": 2
+      },
+      "model": "glowroot:item/emitter_flask_1"
+    },
+    {
+      "predicate": {
+        "glowroot:emitter_flask_grow": 3
+      },
+      "model": "glowroot:item/emitter_flask_2"
+    },
+    {
+      "predicate": {
+        "glowroot:emitter_flask_dark": 4
+      },
+      "model": "glowroot:item/emitter_flask_3"
+    }
+  ]
+}

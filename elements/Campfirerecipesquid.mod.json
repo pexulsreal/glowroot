@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 0.5,
+    "cookingTime": 400,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:GlowsquidTentacle"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:CookedGlowSquidTentacle"
+    },
+    "name": "campfirerecipesquid",
+    "namespace": "mod"
+  }
+}

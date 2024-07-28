@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "1": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "2": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "3": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "4": {
+      "item": "glowroot:glowrootdirt"
+    },
+    "5": {
+      "item": "glowroot:glowrootdirt"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_stone_wall",
+    "count": 8
+  }
+}

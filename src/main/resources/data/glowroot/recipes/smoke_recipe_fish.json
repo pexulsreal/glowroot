@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0.4,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "glowroot:raw_glowfish"
+  },
+  "result": "glowroot:cooked_glowfish"
+}

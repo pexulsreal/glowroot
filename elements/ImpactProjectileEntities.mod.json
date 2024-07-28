@@ -1,0 +1,18 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:PrimedGlowrootTNT"
+      }
+    ],
+    "biomes": [],
+    "name": "impact_projectiles",
+    "namespace": "minecraft"
+  }
+}

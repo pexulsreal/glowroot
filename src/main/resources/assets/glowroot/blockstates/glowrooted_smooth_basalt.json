@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "glowroot:block/glowrooted_smooth_basalt"
+    },
+    "facing=east": {
+      "model": "glowroot:block/glowrooted_smooth_basalt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "glowroot:block/glowrooted_smooth_basalt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "glowroot:block/glowrooted_smooth_basalt",
+      "y": 270
+    }
+  }
+}

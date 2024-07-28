@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/glowrootladder",
+  "textures": {
+    "all": "glowroot:block/chiseledglowroot3",
+    "particle": "glowroot:block/chiseledglowroot3",
+    "0": "glowroot:block/chiseledglowroot3"
+  },
+  "render_type": "cutout"
+}

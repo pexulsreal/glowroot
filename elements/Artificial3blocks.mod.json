@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      },
+      {
+        "value": "CUSTOM:HardenedChysoprase"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      },
+      {
+        "value": "CUSTOM:ArtificialGlowrootBlock2"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArtificalGlowrootBlock3"
+    },
+    "name": "artificial_3blocks",
+    "namespace": "mod"
+  }
+}

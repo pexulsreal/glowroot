@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "1": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "2": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "3": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "4": {
+      "item": "glowroot:glow_runes"
+    },
+    "5": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "6": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "7": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "8": {
+      "item": "glowroot:chrysoprase_dust"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowcard",
+    "count": 1
+  }
+}

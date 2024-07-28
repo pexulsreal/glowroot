@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    "title": {
+      "translate": "advancements.methamphetamine.title"
+    },
+    "description": {
+      "translate": "advancements.methamphetamine.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "methamphetamine": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "function": "glowroot:advancement_complete_glowroot",
+    "loot": [
+      "glowroot:blocks/chrysoprase_cluster"
+    ],
+    "recipes": [
+      "glowroot:drill_head_recipe"
+    ]
+  },
+  "parent": "glowroot:underground_lighting"
+}

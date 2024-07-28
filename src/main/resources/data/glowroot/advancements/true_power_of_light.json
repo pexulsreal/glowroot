@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "glowroot:glow_emitter"
+    },
+    "title": {
+      "translate": "advancements.true_power_of_light.title"
+    },
+    "description": {
+      "translate": "advancements.true_power_of_light.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "true_power_of_light": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15,
+    "function": "glowroot:advancement_complete_glowroot",
+    "loot": [
+      "glowroot:blocks/chrysoprase_cluster"
+    ]
+  },
+  "parent": "glowroot:power_with_light"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "glowroot:block/glowroot_stone_slab"
+    },
+    "type=top": {
+      "model": "glowroot:block/glowroot_stone_slab_top"
+    },
+    "type=double": {
+      "model": "glowroot:block/glowroot_stone_slab_full"
+    }
+  }
+}

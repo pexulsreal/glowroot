@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:water",
+    "minecraft:obsidian",
+    "minecraft:enchanting_table",
+    "minecraft:structure_void",
+    "minecraft:end_portal_frame",
+    "minecraft:barrier",
+    "minecraft:netherite_block",
+    "minecraft:bedrock",
+    "minecraft:structure_block",
+    "minecraft:repeating_command_block",
+    "minecraft:end_portal",
+    "minecraft:crying_obsidian",
+    "minecraft:spawner",
+    "minecraft:beacon",
+    "minecraft:end_gateway",
+    "minecraft:bubble_column",
+    "minecraft:respawn_anchor",
+    "glowroot:glowroot_tnt",
+    "minecraft:lava",
+    "minecraft:light",
+    "minecraft:jigsaw"
+  ]
+}

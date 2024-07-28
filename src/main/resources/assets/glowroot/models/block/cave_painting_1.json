@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/cavepaintinghybrid",
+  "textures": {
+    "all": "glowroot:block/cavepainting1",
+    "particle": "glowroot:block/cavepainting1",
+    "0": "glowroot:block/cavepainting1"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "particle",
+  "definition": {
+    "texture": "sigma.png",
+    "animate": true,
+    "frameDuration": 5,
+    "width": 0.4,
+    "height": 0.4,
+    "scale": 2.0,
+    "speedFactor": 0.95,
+    "gravity": 0.0,
+    "maxAge": 34,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.31,
+    "angularAcceleration": -0.005,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "inkballoon",
+    "customModelName": "Normal",
+    "name": "Glow Ink Balloon",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GlowrootTab"
+    },
+    "stackSize": 32,
+    "ammoItem": {
+      "value": "CUSTOM:GlowInkBalloon"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "item.glow_ink_sac.use"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "GlowInKSacballoonitemused"
+    },
+    "bulletPower": 0.72,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:GlowInkBalloon"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "Balloonhitblocks"
+    },
+    "onBulletHitsEntity": {
+      "name": "Balloonhitblocks"
+    },
+    "onBulletFlyingTick": {
+      "name": "Balloonglowflying"
+    }
+  }
+}

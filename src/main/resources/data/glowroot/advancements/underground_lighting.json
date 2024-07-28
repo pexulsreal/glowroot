@@ -1,0 +1,96 @@
+{
+  "display": {
+    "background": "glowroot:textures/screens/glowrootstone.png",
+    "icon": {
+      "item": "glowroot:glowrooticon"
+    },
+    "title": {
+      "translate": "advancements.underground_lighting.title"
+    },
+    "description": {
+      "translate": "advancements.underground_lighting.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "underground_lighting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "glowroot:glowroot_caves"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "function": "glowroot:advancement_complete_glowroot",
+    "recipes": [
+      "glowroot:glowroot_pillar_recipe",
+      "glowroot:glowstone_tles_recipe",
+      "glowroot:glowstone_tiles_stonecutt",
+      "glowroot:glowinksacrecipe",
+      "glowroot:glowroot_emitter_recipe",
+      "glowroot:glowroot_tiles_recipe",
+      "glowroot:glowroot_tiles_recipee",
+      "glowroot:glowroot_pillar_recipecraft",
+      "glowroot:glowroot_grates_recipee",
+      "glowroot:glowroot_stone_recipe",
+      "glowroot:chiseled_glowroot_brick_recipe",
+      "glowroot:chiseled_glowroot_recipe_stonecutter",
+      "glowroot:glowroot_slabs_recipe",
+      "glowroot:glowroot_slabs_recipestone",
+      "glowroot:glowroot_brick_stairs_recipe",
+      "glowroot:glowroot_brick_stone_stairs_recipe",
+      "glowroot:glowroot_stone_stairs_recipe_stonecuter",
+      "glowroot:glowroot_stone_stairs_recipe_stonecutter",
+      "glowroot:glowroot_brick_wall_recipe",
+      "glowroot:glowroot_stone_wall_recipe",
+      "glowroot:glowroot_brick_wall_recipe_stonecutter",
+      "glowroot:glowroot_stone_wall_cutter_recipe",
+      "glowroot:glowroot_bars_recipe",
+      "glowroot:cooked_squid_recipe",
+      "glowroot:smoke_recipesquid",
+      "glowroot:campfirerecipesquid",
+      "glowroot:cook_glowfish_recipe",
+      "glowroot:smoke_recipe_fish",
+      "glowroot:smoke_recipec_amfire",
+      "glowroot:leaves_recipe",
+      "glowroot:leaves_recipe_reverse",
+      "glowroot:glowroot_chain_recipe",
+      "glowroot:stonecutterchainrecipe",
+      "glowroot:glowroot_bricks_recipe",
+      "glowroot:cookedsquidrecipe_2",
+      "glowroot:smokerecipesquid_2",
+      "glowroot:campfirerecipesquid_2",
+      "glowroot:glow_ink_balloon_recipe",
+      "glowroot:ink_balloon_recipe",
+      "glowroot:panel_recipe",
+      "glowroot:vent_glow_recipe",
+      "glowroot:panl_recipe_real",
+      "glowroot:door_recipe",
+      "glowroot:glowroot_cart_recipe",
+      "glowroot:glowroot_locker_recipe",
+      "glowroot:glowroot_ladder_recipe",
+      "glowroot:glowroot_cut_recipe",
+      "glowroot:glowroot_cut_stairs_recipe",
+      "glowroot:glowroot_cut_stairs_stonecutter",
+      "glowroot:glowroot_cut_slabs_recipe",
+      "glowroot:glowroot_cut_slab_recipe_st_onecutter",
+      "glowroot:glowroot_stone_slab_recipe_stonecutter",
+      "glowroot:glowroot_bricks_slab_recipe_stonecutter",
+      "glowroot:vent_recipe_glowroot"
+    ]
+  }
+}

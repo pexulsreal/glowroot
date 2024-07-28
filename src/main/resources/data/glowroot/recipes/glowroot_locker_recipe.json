@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowroot_block"
+    },
+    "1": {
+      "item": "glowroot:glowroot_block"
+    },
+    "2": {
+      "item": "glowroot:glowroot_block"
+    },
+    "3": {
+      "item": "glowroot:glowroot_block"
+    },
+    "4": {
+      "item": "glowroot:glowroot_block"
+    },
+    "5": {
+      "item": "glowroot:glowroot_block"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_locker",
+    "count": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "glowroot:glowroot_bushes",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "glowroot:glowroot_leaves",
+        "Properties": {
+          "waterlogged": "false"
+        }
+      }
+    }
+  }
+}

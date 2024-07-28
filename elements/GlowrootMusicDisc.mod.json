@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc ",
+    "texture": "glowrootdisc",
+    "description": "Pexuls - root",
+    "creativeTab": {
+      "value": "CUSTOM:GlowrootTab"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:glowrootcavebiome"
+    },
+    "lengthInTicks": 7080,
+    "analogOutput": 5
+  }
+}

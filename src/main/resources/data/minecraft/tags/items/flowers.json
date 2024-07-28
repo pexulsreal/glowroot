@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "glowroot:glowroot_rose",
+    "glowroot:large_glow_flower",
+    "glowroot:glowroot_paeonia",
+    "glowroot:glow_poppy",
+    "glowroot:glowshroom",
+    "glowroot:glowroot_cattail",
+    "glowroot:glowroot_dandelion",
+    "glowroot:glow_flower",
+    "glowroot:glowroot_allium"
+  ]
+}

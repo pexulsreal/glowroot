@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowroot_chain"
+    },
+    "1": {
+      "item": "glowroot:glowroot_chain"
+    },
+    "2": {
+      "item": "glowroot:glowroot_chain"
+    },
+    "3": {
+      "item": "glowroot:glowroot_chain"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_vent",
+    "count": 2
+  }
+}

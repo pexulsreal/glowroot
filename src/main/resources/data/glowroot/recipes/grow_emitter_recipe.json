@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glow_glass"
+    },
+    "1": {
+      "item": "minecraft:conduit"
+    },
+    "2": {
+      "item": "glowroot:glowroot_node"
+    }
+  },
+  "result": {
+    "item": "glowroot:grow_emitter",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    },
+    "1": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    },
+    "2": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    },
+    "3": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    },
+    "4": {
+      "item": "glowroot:pure_chysoprase"
+    },
+    "5": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    },
+    "6": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    },
+    "7": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    },
+    "8": {
+      "item": "glowroot:artifical_glowroot_block_1"
+    }
+  },
+  "result": {
+    "item": "glowroot:artificial_glowroot_block_2",
+    "count": 8
+  }
+}

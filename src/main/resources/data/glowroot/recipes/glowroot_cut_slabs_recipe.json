@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:cut_glowroot"
+    },
+    "1": {
+      "item": "glowroot:cut_glowroot"
+    },
+    "2": {
+      "item": "glowroot:cut_glowroot"
+    }
+  },
+  "result": {
+    "item": "glowroot:cut_glowroot_slab",
+    "count": 6
+  }
+}

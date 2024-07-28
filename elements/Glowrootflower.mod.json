@@ -1,0 +1,51 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowMushroom"
+      },
+      {
+        "value": "CUSTOM:GlowPoppy"
+      },
+      {
+        "value": "CUSTOM:GlowrootRose"
+      },
+      {
+        "value": "CUSTOM:GlowBulb"
+      },
+      {
+        "value": "CUSTOM:GlowWeeds"
+      },
+      {
+        "value": "CUSTOM:GlowrootFern"
+      },
+      {
+        "value": "CUSTOM:GlowrootDandelion"
+      },
+      {
+        "value": "CUSTOM:Glowroots"
+      },
+      {
+        "value": "CUSTOM:GlowrootPaeonia"
+      },
+      {
+        "value": "CUSTOM:GlowrootAllium"
+      },
+      {
+        "value": "CUSTOM:GlowrootAstilbes"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "glowrootflower",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glow_glass"
+    },
+    "1": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "2": {
+      "item": "glowroot:glowing_runes"
+    }
+  },
+  "result": {
+    "item": "glowroot:light_detector",
+    "count": 1
+  }
+}

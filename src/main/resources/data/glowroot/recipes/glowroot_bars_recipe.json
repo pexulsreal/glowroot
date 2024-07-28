@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowroot_grate"
+    },
+    "1": {
+      "item": "glowroot:glowroot_grate"
+    },
+    "2": {
+      "item": "glowroot:glowroot_grate"
+    },
+    "3": {
+      "item": "glowroot:glowroot_grate"
+    },
+    "4": {
+      "item": "glowroot:glowroot_grate"
+    },
+    "5": {
+      "item": "glowroot:glowroot_grate"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_bars",
+    "count": 16
+  }
+}

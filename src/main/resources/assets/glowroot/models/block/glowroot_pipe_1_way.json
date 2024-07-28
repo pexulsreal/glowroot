@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/pipe1",
+  "textures": {
+    "all": "glowroot:block/glowrootlockertexture",
+    "particle": "glowroot:block/glowrootsteelblock",
+    "1": "glowroot:block/glowrootlockertexture"
+  },
+  "render_type": "solid"
+}

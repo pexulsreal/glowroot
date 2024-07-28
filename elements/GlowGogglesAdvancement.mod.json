@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "J.A.R.V.I.S",
+    "achievementDescription": "Put on a pair of Glowroot Visors to disable all dazzling effects, and read the amount of light.",
+    "achievementIcon": {
+      "value": "CUSTOM:GlowGoggles.helmet"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "EmitterFlaskRecipe"
+    ],
+    "rewardFunction": "AdvancementCompleteGlowroot",
+    "rewardXP": 12,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Greenhouse"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"16\" y=\"19\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:GlowGoggles.helmet</field></block></value></block><block type=\"custom_trigger\" x=\"121\" y=\"82\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

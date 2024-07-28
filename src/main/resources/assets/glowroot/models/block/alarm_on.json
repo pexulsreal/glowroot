@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/alarmblock",
+  "textures": {
+    "all": "glowroot:block/alarmblocktexture",
+    "particle": "glowroot:block/glowruneblockglowing",
+    "1": "glowroot:block/alarmblocktexture"
+  },
+  "render_type": "cutout"
+}

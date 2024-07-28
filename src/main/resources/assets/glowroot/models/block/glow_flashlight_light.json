@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/invsiblelbokc",
+    "up": "glowroot:block/invsiblelbokc",
+    "north": "glowroot:block/invsiblelbokc",
+    "east": "glowroot:block/invsiblelbokc",
+    "south": "glowroot:block/invsiblelbokc",
+    "west": "glowroot:block/invsiblelbokc",
+    "particle": "glowroot:block/invsiblelbokc"
+  },
+  "render_type": "translucent"
+}

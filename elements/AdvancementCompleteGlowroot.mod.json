@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "function",
+  "definition": {
+    "code": "playsound glowroot:gogglesequipped player @p ~ ~ ~ 1 1",
+    "name": "advancement_complete_glowroot",
+    "namespace": "mod"
+  }
+}

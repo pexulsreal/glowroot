@@ -1,0 +1,15 @@
+{
+  "_fv": 47,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Golem Drill Use",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "DrillActivateOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "DrillActivateOnKeyPressed"
+    }
+  }
+}

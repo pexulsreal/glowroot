@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "glowroot:glowroot_caves",
+  "spawners": {
+    "type": "glowroot:glowroot_bomber",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

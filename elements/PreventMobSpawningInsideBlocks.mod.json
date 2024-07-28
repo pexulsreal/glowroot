@@ -1,0 +1,117 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GlowRunes"
+      },
+      {
+        "value": "CUSTOM:GlowingRunes"
+      },
+      {
+        "value": "CUSTOM:GlowDetector"
+      },
+      {
+        "value": "CUSTOM:GlowrootConcrete"
+      },
+      {
+        "value": "CUSTOM:GlowrootGrate"
+      },
+      {
+        "value": "CUSTOM:GlowrootPillar"
+      },
+      {
+        "value": "CUSTOM:GlowEmitter"
+      },
+      {
+        "value": "CUSTOM:GlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:LightDetector"
+      },
+      {
+        "value": "CUSTOM:GrowEmitter"
+      },
+      {
+        "value": "CUSTOM:ArtificalGlowrootBlock"
+      },
+      {
+        "value": "CUSTOM:ArtificalGlowrootedBlock"
+      },
+      {
+        "value": "CUSTOM:Dazzler"
+      },
+      {
+        "value": "CUSTOM:GlowrootFurnace"
+      },
+      {
+        "value": "CUSTOM:GlowrootBricks"
+      },
+      {
+        "value": "CUSTOM:ChiseledGlowrootBricks"
+      },
+      {
+        "value": "CUSTOM:GlowrootBrickSlab"
+      },
+      {
+        "value": "CUSTOM:GlowrootStoneSlab"
+      },
+      {
+        "value": "CUSTOM:GlowrootBrickStairs"
+      },
+      {
+        "value": "CUSTOM:GlowrootStoneStairs"
+      },
+      {
+        "value": "CUSTOM:GlowrootBrickWall"
+      },
+      {
+        "value": "CUSTOM:GlowrootStoneWall"
+      },
+      {
+        "value": "CUSTOM:GlowrootStoneButton"
+      },
+      {
+        "value": "CUSTOM:GlowrootStonePressurePlate"
+      },
+      {
+        "value": "CUSTOM:GlowrootLocker"
+      },
+      {
+        "value": "CUSTOM:GlowrootLockerOpen"
+      },
+      {
+        "value": "CUSTOM:GlowrootCart"
+      },
+      {
+        "value": "CUSTOM:GlowrootPipe1Way"
+      },
+      {
+        "value": "CUSTOM:GlowrootPipe2Way"
+      },
+      {
+        "value": "CUSTOM:GlowrootPipe4Way"
+      },
+      {
+        "value": "CUSTOM:GlowrootBars"
+      },
+      {
+        "value": "CUSTOM:TorchFloor"
+      },
+      {
+        "value": "CUSTOM:TorchWall"
+      },
+      {
+        "value": "CUSTOM:GlowrootChain"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "prevent_mob_spawning_inside",
+    "namespace": "minecraft"
+  }
+}

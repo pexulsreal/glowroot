@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "glowroot:block/meteortallgrassbottom",
+    "particle": "glowroot:block/meteortallgrassbottom"
+  },
+  "render_type": "cutout"
+}

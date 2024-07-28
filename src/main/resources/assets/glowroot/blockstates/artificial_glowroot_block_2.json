@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "glowroot:block/artificial_glowroot_block_2"
+    }
+  }
+}

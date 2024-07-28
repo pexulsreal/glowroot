@@ -1,0 +1,730 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn2.png",
+          "use1Xscale": false,
+          "x": 69,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonx",
+          "image": "buttonx.png",
+          "hoveredImage": "buttonx.png",
+          "onClick": {
+            "name": "GlowrootInfoProcedure"
+          },
+          "x": 77,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonxupside",
+          "image": "buttonxupside.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Glowrootemitterflask2open"
+          },
+          "x": 328,
+          "y": 186
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emptyflask.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowsac.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowsac.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowsac.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowsac.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowdown.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowdown.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootdustfinal.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootdust.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootdust.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootdust.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootcrystalfinal.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootcrystalfinal.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootcrystalfinal.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowrootcrystalfinal.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowstonedust.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowstonedust.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowstonedust.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowstonedust.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flaskglowyfilled.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flaskglowyfilled.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flaskdazzlefilled.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 161
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_back",
+          "text": {
+            "fixedValue": "Back"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 75,
+          "y": 40
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_page_2",
+          "text": {
+            "fixedValue": "Page 2"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 325,
+          "y": 182
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowstone_dust",
+          "text": {
+            "fixedValue": "Glowstone Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowstone_dust1",
+          "text": {
+            "fixedValue": "Glowstone Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 110,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowstone_dust2",
+          "text": {
+            "fixedValue": "Glowstone Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowstone_dust3",
+          "text": {
+            "fixedValue": "Glowstone Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 113
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_empty_emitter_flask",
+          "text": {
+            "fixedValue": "Empty Emitter Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glow_ink_sac",
+          "text": {
+            "fixedValue": "Glow Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glow_ink_sac1",
+          "text": {
+            "fixedValue": "Glow Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 110,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glow_ink_sac2",
+          "text": {
+            "fixedValue": "Glow Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glow_ink_sac3",
+          "text": {
+            "fixedValue": "Glow Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 110,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowing_flask",
+          "text": {
+            "fixedValue": "Glowing Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 127,
+          "y": 157
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_dust",
+          "text": {
+            "fixedValue": "Chrysoprase Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 252,
+          "y": 74
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_dust1",
+          "text": {
+            "fixedValue": "Chrysoprase Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 292,
+          "y": 74
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_dust2",
+          "text": {
+            "fixedValue": "Chrysoprase Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 292,
+          "y": 114
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_dust3",
+          "text": {
+            "fixedValue": "Chrysoprase Dust"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 252,
+          "y": 114
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_crystal",
+          "text": {
+            "fixedValue": "Chrysoprase Crystal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_crystal1",
+          "text": {
+            "fixedValue": "Chrysoprase Crystal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 254,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_crystal2",
+          "text": {
+            "fixedValue": "Chrysoprase Crystal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 290,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_chrysoprase_crystal3",
+          "text": {
+            "fixedValue": "Chrysoprase Crystal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowing_flask1",
+          "text": {
+            "fixedValue": "Glowing Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_dazzling_flask",
+          "text": {
+            "fixedValue": "Dazzling Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 157
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

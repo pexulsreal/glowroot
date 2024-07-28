@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/glowglass",
+    "up": "glowroot:block/glowglass",
+    "north": "glowroot:block/glowglass",
+    "east": "glowroot:block/glowglass",
+    "south": "glowroot:block/glowglass",
+    "west": "glowroot:block/glowglass",
+    "particle": "glowroot:block/glowglass"
+  },
+  "render_type": "cutout"
+}

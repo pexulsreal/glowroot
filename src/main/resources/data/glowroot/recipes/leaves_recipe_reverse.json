@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "glowroot:glowroot_leaves"
+    }
+  ],
+  "result": {
+    "item": "glowroot:glowroot_leaves_fallen",
+    "count": 4
+  }
+}

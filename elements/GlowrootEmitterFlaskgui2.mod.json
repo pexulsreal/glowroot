@@ -1,0 +1,704 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn2.png",
+          "use1Xscale": false,
+          "x": 69,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_buttonx",
+          "image": "buttonx.png",
+          "hoveredImage": "buttonx.png",
+          "onClick": {
+            "name": "GlowrootEmitterFlask1open"
+          },
+          "x": 77,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frostborn.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emptyflask.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowdown.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "growfilledflask.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowmushrroom.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowmushrroom.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowmushrroom.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glowmushrroom.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bmeal.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bmeal.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bmeal.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bmeal.png",
+          "use1Xscale": false,
+          "x": 114,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "aa.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "a.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrowdown.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "atransparent.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flaskdarkfilled.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "emptyflask.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inksacnotglow.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inksacnotglow.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inksacnotglow.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inksacnotglow.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "regularsquidtentacle.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "regularsquidtentacle.png",
+          "use1Xscale": false,
+          "x": 294,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "regularsquidtentacle.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "regularsquidtentacle.png",
+          "use1Xscale": false,
+          "x": 258,
+          "y": 98
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ink_sac",
+          "text": {
+            "fixedValue": "Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 254,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ink_sac1",
+          "text": {
+            "fixedValue": "Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 290,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ink_sac2",
+          "text": {
+            "fixedValue": "Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 254,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_ink_sac3",
+          "text": {
+            "fixedValue": "Ink Sac"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 290,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_raw_squid_tentacle",
+          "text": {
+            "fixedValue": "Raw Squid Tentacle"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_raw_squid_tentacle1",
+          "text": {
+            "fixedValue": "Raw Squid Tentacle"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 254,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_raw_squid_tentacle2",
+          "text": {
+            "fixedValue": "Raw Squid Tentacle"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 290,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_raw_squid_tentacle3",
+          "text": {
+            "fixedValue": "Raw Squid Tentacle"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_empty_emitter_flask",
+          "text": {
+            "fixedValue": "Empty Emitter Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_blinding_flask",
+          "text": {
+            "fixedValue": "Blinding Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 272,
+          "y": 157
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_growing_flask",
+          "text": {
+            "fixedValue": "Growing Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 127,
+          "y": 157
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_empty_emitter_flask1",
+          "text": {
+            "fixedValue": "Empty Emitter Flask"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowshroom",
+          "text": {
+            "fixedValue": "Glowshroom"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 110,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowshroom1",
+          "text": {
+            "fixedValue": "Glowshroom"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowshroom2",
+          "text": {
+            "fixedValue": "Glowshroom"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 94
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_glowshroom3",
+          "text": {
+            "fixedValue": "Glowshroom"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 113
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bone_meal",
+          "text": {
+            "fixedValue": "Bone Meal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bone_meal1",
+          "text": {
+            "fixedValue": "Bone Meal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 110,
+          "y": 112
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bone_meal2",
+          "text": {
+            "fixedValue": "Bone Meal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 109,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_bone_meal3",
+          "text": {
+            "fixedValue": "Bone Meal"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 146,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_page_1",
+          "text": {
+            "fixedValue": "Page 1"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 75,
+          "y": 40
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

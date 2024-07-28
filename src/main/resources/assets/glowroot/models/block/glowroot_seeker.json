@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/seekernew",
+    "up": "glowroot:block/seekernew",
+    "north": "glowroot:block/seekernew",
+    "east": "glowroot:block/seekernew",
+    "south": "glowroot:block/seekernew",
+    "west": "glowroot:block/seekernew",
+    "particle": "glowroot:block/seekernew"
+  },
+  "render_type": "solid"
+}

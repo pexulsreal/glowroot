@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "1": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "2": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "3": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "4": {
+      "item": "minecraft:tnt"
+    },
+    "5": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "6": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "7": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "8": {
+      "item": "glowroot:glowroot_chip"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_tnt",
+    "count": 1
+  }
+}

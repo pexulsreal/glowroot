@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "glowroot:block/glowrootbars",
+    "pane": "glowroot:block/glowrootbars"
+  },
+  "render_type": "cutout"
+}

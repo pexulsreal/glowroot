@@ -1,0 +1,69 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GlowRoot"
+      },
+      {
+        "value": "CUSTOM:LargeGlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowFlower"
+      },
+      {
+        "value": "CUSTOM:GlowRootEnd"
+      },
+      {
+        "value": "CUSTOM:GlowMushroom"
+      },
+      {
+        "value": "CUSTOM:GlowPoppy"
+      },
+      {
+        "value": "CUSTOM:GlowWeeds"
+      },
+      {
+        "value": "CUSTOM:GlowBulb"
+      },
+      {
+        "value": "CUSTOM:GlowrootTallWeeds"
+      },
+      {
+        "value": "CUSTOM:GlowrootCattail"
+      },
+      {
+        "value": "CUSTOM:GlowrootRose"
+      },
+      {
+        "value": "CUSTOM:Glowroots"
+      },
+      {
+        "value": "CUSTOM:GlowrootLeaf"
+      },
+      {
+        "value": "CUSTOM:GlowrootFern"
+      },
+      {
+        "value": "CUSTOM:GlowrootDandelion"
+      },
+      {
+        "value": "CUSTOM:GlowrootPaeonia"
+      },
+      {
+        "value": "CUSTOM:GlowrootAllium"
+      },
+      {
+        "value": "CUSTOM:GlowrootAstilbes"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "nodeitem",
+    "namespace": "mod"
+  }
+}

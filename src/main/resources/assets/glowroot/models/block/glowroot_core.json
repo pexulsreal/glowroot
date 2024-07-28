@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/glowrootcore",
+  "textures": {
+    "all": "glowroot:block/flashlightoff",
+    "particle": "glowroot:block/glowrootcoretop",
+    "0": "glowroot:block/flashlightoff"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/glowrootgrates",
+    "up": "glowroot:block/glowrootgrates",
+    "north": "glowroot:block/glowrootgrates",
+    "east": "glowroot:block/glowrootgrates",
+    "south": "glowroot:block/glowrootgrates",
+    "west": "glowroot:block/glowrootgrates",
+    "particle": "glowroot:block/glowrootgrates"
+  },
+  "render_type": "cutout_mipped"
+}

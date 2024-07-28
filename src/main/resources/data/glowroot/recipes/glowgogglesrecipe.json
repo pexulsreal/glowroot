@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowggogles",
+  "category": "equipment",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "3": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "4": {
+      "item": "glowroot:prism"
+    },
+    "5": {
+      "item": "glowroot:chrysoprase_crystal"
+    },
+    "6": {
+      "item": "glowroot:glow_glass"
+    },
+    "7": {
+      "item": "glowroot:glow_glass"
+    },
+    "8": {
+      "item": "glowroot:glow_glass"
+    }
+  },
+  "result": {
+    "item": "glowroot:glow_goggles_helmet",
+    "count": 1
+  }
+}

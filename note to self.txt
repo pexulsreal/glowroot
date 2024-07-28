@@ -1,0 +1,12 @@
+hey heres ome things to work on for glowroot
+
+1) please check up and finish all recipes if there are any remainer items that odnt have recipe,s add recipes for them bc of the arthys server and also 1.0.7 of course
+
+2) glowroot golem drill variant got a update when given the dust so the range is more bigger so test it out
+
+3) make maybe a command that any player level can use like /glowrootinfo and it will just spit out a list explain most of the mods content, for the meantime while there isn't a glowroot guide book added in yet.
+
+4) try to get the laser emitter working and functioning. if it doesn't work, even after asking for help, you can delete it from the mod, its fine.
+
+5) try to re-fix glow detectors/emitters by using the cool range technique w/ math that nerdy explained, similar to what
+u did for darkness detector

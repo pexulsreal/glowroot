@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GlowrootPickaxe"
+      },
+      {
+        "value": "CUSTOM:GlowrootDrill"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pickaxes",
+    "namespace": "minecraft"
+  }
+}

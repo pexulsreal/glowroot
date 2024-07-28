@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GlowrootDust"
+      },
+      {
+        "value": "CUSTOM:GlowBulb"
+      },
+      {
+        "value": "CUSTOM:GlowrootDust"
+      },
+      {
+        "value": "CUSTOM:GlowRunes"
+      },
+      {
+        "value": "CUSTOM:GlowrootSeeker"
+      },
+      {
+        "value": "CUSTOM:GlowRunes"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Alarmoff"
+    },
+    "name": "alarm_block_recipe",
+    "namespace": "mod"
+  }
+}

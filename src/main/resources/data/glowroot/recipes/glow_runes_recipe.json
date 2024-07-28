@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "glowroot:glowroot_chip"
+    },
+    {
+      "item": "glowroot:glowroot_chip"
+    },
+    {
+      "item": "glowroot:glowroot_block"
+    },
+    {
+      "item": "glowroot:glowroot_chip"
+    },
+    {
+      "item": "glowroot:glowroot_chip"
+    }
+  ],
+  "result": {
+    "item": "glowroot:glow_runes",
+    "count": 1
+  }
+}

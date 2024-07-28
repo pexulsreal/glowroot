@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "glowroot:block/bottomflowr",
+    "particle": "glowroot:block/bottomflowr"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "glowroot:block/glowroot_pipe_4_way",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "glowroot:block/glowroot_pipe_4_way"
+    },
+    "axis=z": {
+      "model": "glowroot:block/glowroot_pipe_4_way",
+      "x": 90
+    }
+  }
+}

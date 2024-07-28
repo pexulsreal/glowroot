@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "item": "glowroot:glowroot_panel"
+  },
+  "result": "glowroot:glowroot_vent_duct"
+}

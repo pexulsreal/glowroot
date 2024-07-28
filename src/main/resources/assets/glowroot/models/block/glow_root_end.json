@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "glowroot:block/glowrootvinesend",
+    "particle": "glowroot:block/glowrootvinesend"
+  },
+  "render_type": "cutout_mipped"
+}

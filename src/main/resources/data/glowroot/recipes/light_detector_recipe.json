@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "glowroot:glow_glass"
+    },
+    {
+      "item": "glowroot:chrysoprase_dust"
+    },
+    {
+      "item": "glowroot:light_detector"
+    }
+  ],
+  "result": {
+    "item": "glowroot:glow_detector",
+    "count": 1
+  }
+}
