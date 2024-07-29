@@ -27,6 +27,7 @@ import net.mcreator.glowroot.entity.GlowrootBomberEntity;
 import net.mcreator.glowroot.entity.GlowfishEntity;
 import net.mcreator.glowroot.entity.GlowbangEntity;
 import net.mcreator.glowroot.entity.GlowInkBalloonEntity;
+import net.mcreator.glowroot.entity.GHONEEntity;
 import net.mcreator.glowroot.entity.BabyGlowSquidEntity;
 import net.mcreator.glowroot.GlowrootMod;
 
@@ -61,6 +62,8 @@ public class GlowrootModEntities {
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GlowrootHybridEntity::new).fireImmune().sized(1.5f, 3.8f));
 	public static final RegistryObject<EntityType<GlowrootGolemDrillEntity>> GLOWROOT_GOLEM_DRILL = register("glowroot_golem_drill", EntityType.Builder.<GlowrootGolemDrillEntity>of(GlowrootGolemDrillEntity::new, MobCategory.AMBIENT)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(GlowrootGolemDrillEntity::new).fireImmune().sized(1.9f, 1.9f));
+	public static final RegistryObject<EntityType<GHONEEntity>> GHONE = register("ghone",
+			EntityType.Builder.<GHONEEntity>of(GHONEEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GHONEEntity::new).fireImmune().sized(1.5f, 3.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -78,6 +81,7 @@ public class GlowrootModEntities {
 			PrimedGlowrootTNTEntity.init();
 			GlowrootHybridEntity.init();
 			GlowrootGolemDrillEntity.init();
+			GHONEEntity.init();
 		});
 	}
 
@@ -92,5 +96,6 @@ public class GlowrootModEntities {
 		event.put(PRIMED_GLOWROOT_TNT.get(), PrimedGlowrootTNTEntity.createAttributes().build());
 		event.put(GLOWROOT_HYBRID.get(), GlowrootHybridEntity.createAttributes().build());
 		event.put(GLOWROOT_GOLEM_DRILL.get(), GlowrootGolemDrillEntity.createAttributes().build());
+		event.put(GHONE.get(), GHONEEntity.createAttributes().build());
 	}
 }

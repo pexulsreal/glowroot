@@ -11173,6 +11173,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -11640,6 +11644,21 @@
           "src/main/resources/assets/glowroot/blockstates/glowroot_astilbes.json"
         ]
       }
+    },
+    {
+      "name": "GHONE",
+      "type": "livingentity",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/client/renderer/GHONERenderer.java",
+          "src/main/java/net/mcreator/glowroot/entity/GHONEEntity.java",
+          "src/main/resources/assets/glowroot/models/item/ghone_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11937,6 +11956,7 @@
       "block.glowroot.artifical_glowroot_block_3": "Glowroot Artifical-3 Block",
       "gui.glowroot.glowroot_cart_gui.label_glowroot_cart": "Glowroot Cart",
       "block.glowroot.artifical_glowroot_block_1": "Glowroot Artifical-1 Block",
+      "item.glowroot.ghone_spawn_egg": "GHONE Spawn Egg",
       "advancements.true_power_of_light.descr": "Use a Glow Emitter and Glow Detector in a loop, creating a sensing machine",
       "block.glowroot.glowroot_pipe_4_way": "Glowroot Pipe 4-Way",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_page_2": "Page 2",
@@ -12089,6 +12109,7 @@
       "block.glowroot.invisible_glowroot_block_2": "Invisible Glowroot Block 2",
       "block.glowroot.glowroot_leaves": "Glowroot Leaves",
       "gui.glowroot.glowroot_tools_gui_1.tooltip_glowroot_core1": "Glowroot Core",
+      "entity.glowroot.ghone": "GHONE",
       "gui.glowroot.glowroot_keycard_gui_1.label_recipe_via_searchbar": "recipe via searchbar.",
       "gui.glowroot.glowroot_machine_gui_info_1.label_artificial_power_has": "Artificial power has 3",
       "subtitles.hermitwalk": "Glowroot Hermit walks",

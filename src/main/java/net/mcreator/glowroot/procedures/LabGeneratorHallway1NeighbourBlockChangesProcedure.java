@@ -5,12 +5,15 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlac
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
 public class LabGeneratorHallway1NeighbourBlockChangesProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+		if (entity == null)
+			return;
 		boolean found = false;
 		double sx = 0;
 		double sy = 0;
@@ -18,9 +21,11 @@ public class LabGeneratorHallway1NeighbourBlockChangesProcedure {
 		if (world instanceof ServerLevel _serverworld) {
 			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootlabhall"));
 			if (template != null) {
-				template.placeInWorld(_serverworld, BlockPos.containing(x - 3, y + 1, z), BlockPos.containing(x - 3, y + 1, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+				template.placeInWorld(_serverworld, BlockPos.containing(x - 3, y - 1, z + 1), BlockPos.containing(x - 3, y - 1, z + 1), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 						_serverworld.random, 3);
 			}
 		}
+		if (!entity.level().isClientSide())
+			entity.discard();
 	}
 }

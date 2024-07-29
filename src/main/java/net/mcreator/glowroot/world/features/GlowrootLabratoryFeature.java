@@ -11,14 +11,12 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.glowroot.procedures.LabGeneratorHallway1NeighbourBlockChangesProcedure;
 import net.mcreator.glowroot.init.GlowrootModBlocks;
 
 import java.util.Set;
@@ -39,7 +37,7 @@ public class GlowrootLabratoryFeature extends Feature<NoneFeatureConfiguration> 
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("glowroot", "labroomplants"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("glowroot", "labhallwayplants1"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
@@ -53,13 +51,8 @@ public class GlowrootLabratoryFeature extends Feature<NoneFeatureConfiguration> 
 				if (!base_blocks.contains(context.level().getBlockState(new BlockPos(i, j, k)).getBlock()))
 					continue;
 				BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
-				WorldGenLevel world = context.level();
-				int x = spawnTo.getX();
-				int y = spawnTo.getY();
-				int z = spawnTo.getZ();
-				if (template.placeInWorld(context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.values()[context.random().nextInt(2)]).setRotation(Rotation.values()[context.random().nextInt(3)]).setRandom(context.random())
-						.addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
-					LabGeneratorHallway1NeighbourBlockChangesProcedure.execute(world, x, y, z);
+				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
+						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
 					anyPlaced = true;
 				}
 			}
