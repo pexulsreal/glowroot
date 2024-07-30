@@ -10,7 +10,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
-public class LabGeneratorHallway1NeighbourBlockChangesProcedure {
+public class GRPONEplaceProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
@@ -18,11 +18,11 @@ public class LabGeneratorHallway1NeighbourBlockChangesProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if (Math.random() >= 0.08) {
+		if (Math.random() >= 0.5) {
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootlabhall"));
+				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "labhallwayplants1"));
 				if (template != null) {
-					template.placeInWorld(_serverworld, BlockPos.containing(x - 3, y - 1, z + 1), BlockPos.containing(x - 3, y - 1, z + 1), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+					template.placeInWorld(_serverworld, BlockPos.containing(x - 6, y - 2, z + 1), BlockPos.containing(x - 6, y - 2, z + 1), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 							_serverworld.random, 3);
 				}
 			}
@@ -30,9 +30,9 @@ public class LabGeneratorHallway1NeighbourBlockChangesProcedure {
 				entity.discard();
 		} else {
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootlabhallcollapsededited"));
+				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootstorage"));
 				if (template != null) {
-					template.placeInWorld(_serverworld, BlockPos.containing(x - 3, y - 1, z + 1), BlockPos.containing(x - 3, y - 1, z + 1), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+					template.placeInWorld(_serverworld, BlockPos.containing(x - 6, y - 2, z + 1), BlockPos.containing(x - 6, y - 2, z + 1), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 							_serverworld.random, 3);
 				}
 			}

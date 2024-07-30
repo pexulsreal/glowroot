@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "glowroot:block/blockofchlorophaysecrystalized",
-    "up": "glowroot:block/blockofchlorophaysecrystalized",
-    "north": "glowroot:block/blockofchlorophaysecrystalized",
-    "east": "glowroot:block/blockofchlorophaysecrystalized",
-    "south": "glowroot:block/blockofchlorophaysecrystalized",
-    "west": "glowroot:block/blockofchlorophaysecrystalized",
-    "particle": "glowroot:block/blockofchlorophaysecrystalized"
+    "all": "glowroot:block/glowrootpurechryophrasetestfinal",
+    "particle": "glowroot:block/glowrootpurechryophrasetestfinal"
   },
   "render_type": "solid"
 }

@@ -131,5 +131,7 @@ public class GlowrootModTabs {
 				tabData.accept(GlowrootModItems.MATTERWARPER.get());
 				tabData.accept(GlowrootModBlocks.CAVE_PAINTING_1.get().asItem());
 				tabData.accept(GlowrootModItems.GHONE_SPAWN_EGG.get());
+				tabData.accept(GlowrootModItems.GRPONE_SPAWN_EGG.get());
+				tabData.accept(GlowrootModItems.GHROOMORHALLWAY_SPAWN_EGG.get());
 			}).withSearchBar().build());
 }

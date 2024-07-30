@@ -37,7 +37,7 @@ public class GlowrootLabratoryFeature extends Feature<NoneFeatureConfiguration> 
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("glowroot", "labhallwayplants1"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("glowroot", "labentrance"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
@@ -50,7 +50,7 @@ public class GlowrootLabratoryFeature extends Feature<NoneFeatureConfiguration> 
 				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
 				if (!base_blocks.contains(context.level().getBlockState(new BlockPos(i, j, k)).getBlock()))
 					continue;
-				BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
+				BlockPos spawnTo = new BlockPos(i + 0, j + -5, k + 0);
 				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
 						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
 					anyPlaced = true;

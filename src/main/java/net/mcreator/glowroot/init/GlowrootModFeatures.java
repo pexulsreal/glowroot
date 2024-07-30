@@ -51,6 +51,7 @@ import net.mcreator.glowroot.world.features.Crystal1Feature;
 import net.mcreator.glowroot.world.features.Crystal11Feature;
 import net.mcreator.glowroot.world.features.Crystal111Feature;
 import net.mcreator.glowroot.world.features.Crystal1111Feature;
+import net.mcreator.glowroot.world.features.CattailGenerationFeature;
 import net.mcreator.glowroot.GlowrootMod;
 
 @Mod.EventBusSubscriber
@@ -96,4 +97,5 @@ public class GlowrootModFeatures {
 	public static final RegistryObject<Feature<?>> CRYSTAL_1111 = REGISTRY.register("crystal_1111", Crystal1111Feature::new);
 	public static final RegistryObject<Feature<?>> CRYSTAL_2222 = REGISTRY.register("crystal_2222", Crystal2222Feature::new);
 	public static final RegistryObject<Feature<?>> GLOWROOT_LABRATORY = REGISTRY.register("glowroot_labratory", GlowrootLabratoryFeature::new);
+	public static final RegistryObject<Feature<?>> CATTAIL_GENERATION = REGISTRY.register("cattail_generation", CattailGenerationFeature::new);
 }

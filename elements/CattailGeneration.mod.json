@@ -1,0 +1,17 @@
+{
+  "_fv": 47,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "UNDERGROUND_DECORATION",
+    "restrictionDimensions": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GlowrootCaves"
+      }
+    ],
+    "generateCondition": {
+      "name": "GlowrootCattailBlockValidPlacementCondition"
+    },
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"-70\" y=\"56\"><value name=\"feature\"><block type=\"feature_simple_block\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:GlowrootCattail</field></block></value></block></value><next><block type=\"placement_heightmap\"><field name=\"heightmap\">OCEAN_FLOOR_WG</field><next><block type=\"placement_rarity\"><field name=\"rarity\">1</field><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">6</field></block></value><next><block type=\"placement_biome_filter\"><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:GlowrootCattail</field></block></value><next><block type=\"placement_in_square\"></block></next></block></next></block></next></block></next></block></next></block></next></block><block type=\"block_predicate_is_air_or_water\" x=\"1006\" y=\"67\"></block><block type=\"feature_random_patch\" x=\"857\" y=\"199\"><field name=\"tries\">128</field><field name=\"xzSpread\">7</field><field name=\"ySpread\">3</field><value name=\"feature\"><block type=\"feature_simple_block\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:GlowrootCattail</field></block></value></block></value></block><block type=\"placement_block_predicate_filter\" x=\"1243\" y=\"305\"><value name=\"condition\"><block type=\"block_predicate_all_of\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"2\"></mutation><value name=\"condition0\"><block type=\"block_predicate_matching_blocks\"><field name=\"x\">0</field><field name=\"y\">0</field><field name=\"z\">0</field><value name=\"blockSet\"><block type=\"block_holderset_list\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"2\"></mutation><field name=\"block0\">Blocks.FLOWING_WATER</field><field name=\"block1\">Blocks.WATER</field></block></value></block></value><value name=\"condition1\"><block type=\"block_predicate_solid\"><field name=\"x\">0</field><field name=\"y\">-1</field><field name=\"z\">0</field></block></value></block></value></block><block type=\"block_predicate_not\" x=\"282\" y=\"370\"><value name=\"condition\"><block type=\"block_predicate_solid\"><field name=\"x\">0</field><field name=\"y\">1</field><field name=\"z\">0</field></block></value></block><block type=\"block_holderset_tag\" x=\"1181\" y=\"473\"><field name=\"tag\">minecraft:dirt</field></block><block type=\"state_provider_randomized_int\" x=\"554\" y=\"583\"><field name=\"property\">waterlogged</field><value name=\"source\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:GlowrootAstilbes</field></block></value><value name=\"value\"><block type=\"int_provider_constant\"><field name=\"value\">1</field></block></value></block></xml>"
+  }
+}

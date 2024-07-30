@@ -27,9 +27,9 @@
         "mx": 1.0,
         "my": 0.0,
         "mz": 1.0,
-        "Mx": 16.0,
+        "Mx": 15.0,
         "My": 15.0,
-        "Mz": 16.0,
+        "Mz": 15.0,
         "subtract": false
       }
     ],
@@ -63,19 +63,19 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "LICHEN_GREEN",
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "NONE",
+    "offsetType": "XZ",
     "aiPathNodeType": "OPEN",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.0,
-    "jumpFactor": 1.0,
-    "reactionToPushing": "DESTROY",
+    "speedFactor": 0.9,
+    "jumpFactor": 0.9,
+    "reactionToPushing": "BLOCK",
     "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {

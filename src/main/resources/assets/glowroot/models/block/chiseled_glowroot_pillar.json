@@ -3,10 +3,10 @@
   "textures": {
     "down": "glowroot:block/glowroottntbottom",
     "up": "glowroot:block/glowroottntbottom",
-    "north": "glowroot:block/chiseledpillar2",
-    "east": "glowroot:block/chiseledpillar2",
-    "south": "glowroot:block/chiseledpillar2",
-    "west": "glowroot:block/chiseledpillar2",
+    "north": "glowroot:block/chiseledpillar",
+    "east": "glowroot:block/chiseledpillar",
+    "south": "glowroot:block/chiseledpillar",
+    "west": "glowroot:block/chiseledpillar",
     "particle": "glowroot:block/glowroottntbottom"
   },
   "render_type": "solid"

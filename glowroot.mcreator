@@ -2181,7 +2181,7 @@
       "type": "tool",
       "sortid": 101,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "glowroot_pickaxe",
       "metadata": {
         "files": [
@@ -2883,7 +2883,7 @@
       "type": "tool",
       "sortid": 100,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "glowroot_sword",
       "metadata": {
         "files": [
@@ -3813,7 +3813,7 @@
       "type": "tool",
       "sortid": 102,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "glowroot_shovel",
       "metadata": {
         "files": [
@@ -7108,7 +7108,7 @@
       "type": "tool",
       "sortid": 104,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "prism",
       "metadata": {
         "files": [
@@ -8386,7 +8386,7 @@
       "type": "tool",
       "sortid": 103,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "glowroot_drill",
       "metadata": {
         "files": [
@@ -11196,22 +11196,6 @@
       }
     },
     {
-      "name": "LabGeneratorHallway1",
-      "type": "block",
-      "sortid": 566,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lab_generator_hallway_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/glowroot/block/LabGeneratorHallway1Block.java",
-          "src/main/resources/assets/glowroot/models/item/lab_generator_hallway_1.json",
-          "src/main/resources/assets/glowroot/blockstates/lab_generator_hallway_1.json",
-          "src/main/resources/assets/glowroot/models/block/lab_generator_hallway_1.json"
-        ]
-      }
-    },
-    {
       "name": "GlowrootSpore",
       "type": "particle",
       "sortid": 567,
@@ -11659,6 +11643,122 @@
           "src/main/resources/assets/glowroot/models/item/ghone_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "GRPONE",
+      "type": "livingentity",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grpone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/client/renderer/GRPONERenderer.java",
+          "src/main/java/net/mcreator/glowroot/entity/GRPONEEntity.java",
+          "src/main/resources/assets/glowroot/models/item/grpone_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GRPONEplace",
+      "type": "procedure",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grpon_eplace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/procedures/GRPONEplaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GHROOMORHALLWAY",
+      "type": "livingentity",
+      "sortid": 587,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghroomorhallway",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/entity/GHROOMORHALLWAYEntity.java",
+          "src/main/java/net/mcreator/glowroot/client/renderer/GHROOMORHALLWAYRenderer.java",
+          "src/main/resources/assets/glowroot/models/item/ghroomorhallway_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GHROOM",
+      "type": "procedure",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghroom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/procedures/GHROOMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CattailGeneration",
+      "type": "feature",
+      "sortid": 589,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cattail_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowroot/forge/biome_modifier/cattail_generation_biome_modifier.json",
+          "src/main/resources/data/glowroot/worldgen/placed_feature/cattail_generation.json",
+          "src/main/java/net/mcreator/glowroot/world/features/CattailGenerationFeature.java",
+          "src/main/resources/data/glowroot/worldgen/configured_feature/cattail_generation.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11886,10 +11986,10 @@
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_blinding_flask": "Blinding Flask",
       "subtitles.salamanderroar": "Hybrid roars",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_raw_squid_tentacle2": "Raw Squid Tentacle",
-      "advancements.greenhouse.descr": "Obtain a Chrysoprase Crystal by supplying enough power to a Glowroot Node by using flora in the biome.",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_raw_squid_tentacle3": "Raw Squid Tentacle",
-      "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_raw_squid_tentacle1": "Raw Squid Tentacle",
+      "advancements.greenhouse.descr": "Obtain a Chrysoprase Crystal by supplying enough power to a Glowroot Node by using flora in the biome.",
       "gui.glowroot.glowroot_tools_gui_2.tooltip_glowroot_drill_head": "Glowroot Drill Head",
+      "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_raw_squid_tentacle1": "Raw Squid Tentacle",
       "block.glowroot.glowroot_spawner": "Glowroot Spawner",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_dazzling_flask": "Dazzling Flask",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_back": "Back",
@@ -11898,8 +11998,8 @@
       "block.glowroot.glow_emitter": "Glow Emitter",
       "gui.glowroot.glowroot_machine_gui_info_1.label_the_recipe_for_it": "the recipe for it.",
       "gui.glowroot.glowroot_keycard_gui_1.label_artificial_blocks": "Artificial Blocks.",
-      "block.glowroot.glowroot_grate": "Glowroot Grate",
       "gui.glowroot.glowroot_keycard_gui_2.tooltip_glowcard_3": "Glowcard - 3",
+      "block.glowroot.glowroot_grate": "Glowroot Grate",
       "subtitles.drillon": "Glowroot Drill worn",
       "item.glowroot.raw_glowfish": "Raw Glowfish",
       "subtitles.alarm": "Alarm dispatches",
@@ -11907,8 +12007,8 @@
       "gui.glowroot.glowroot_machine_gui_info_1.label_an_infuser_of_which": "an infuser of which",
       "gui.glowroot.glowroot_keycard_gui_1.label_glowcards_emitter_flasks": "Glowcards, Glowbangs,",
       "gui.glowroot.glowroot_machine_gui_info_1.label_with_artificial_properties": "with artificial power.",
-      "item.glowroot.glowlight": "Glowlight",
       "gui.glowroot.glowroot_machine_recipe_gui.tooltip_glowrooted_rune3": "Glowrooted Rune",
+      "item.glowroot.glowlight": "Glowlight",
       "gui.glowroot.glowroot_keycard_gui_1.label_combines_certain": "combines certain items",
       "item.glowroot.glowroot_drill": "Glowroot Drill",
       "gui.glowroot.glowroot_machine_recipe_gui.tooltip_glowrooted_rune1": "Glowrooted Rune",
@@ -11929,8 +12029,8 @@
       "block.glowroot.glowroot_lamp_11": "Glowroot Lamp",
       "block.glowroot.glowroot_tall_weeds": "Glowroot Tall Grass",
       "block.glowroot.glowroot_redstone_ore": "Glowroot Redstone Ore",
-      "block.glowroot.glowroot_lamp_12": "Glowroot Lamp",
       "item.glowroot.glowsquid_tentacle": "Raw Glow Squid Tentacle",
+      "block.glowroot.glowroot_lamp_12": "Glowroot Lamp",
       "block.glowroot.glowroot_lamp_13": "Glowroot Lamp",
       "block.glowroot.cut_glowroot_stairs": "Cut Glowroot Stairs",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_glowing_flask1": "Glowing Flask",
@@ -11963,6 +12063,7 @@
       "item.glowroot.glowroot_golem_drill_spawn_egg": "Glowroot Golem Spawn Egg",
       "item.glowroot.glowroot_sword": "Glowroot Sword",
       "block.glowroot.glowroot_rose": "Glowroot Rose",
+      "entity.glowroot.ghroomorhallway": "GHONE",
       "block.glowroot.grow_emitter": "Grow Emitter",
       "block.glowroot.glowroot_brick_stairs": "Glowroot Brick Stairs",
       "item.glowroot.emitter_flask": "Emitter Flask",
@@ -11994,8 +12095,8 @@
       "painting.glowroot.glowroot_painting.title": "Glowroot",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom": "Glowshroom",
       "block.glowroot.glow_bulb": "Glowroot Bulb",
-      "subtitles.robothurt": "Glowroot Robot hurt",
       "gamerule.dazzledopacity": "Dazzled Opacity",
+      "subtitles.robothurt": "Glowroot Robot hurt",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom3": "Glowshroom",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_chrysoprase_dust": "Chrysoprase Dust",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom1": "Glowshroom",
@@ -12005,8 +12106,8 @@
       "gui.glowroot.glowroot_tools_gui_1.tooltip_page_2": "Page 2",
       "gui.glowroot.glowroot_keycard_gui_1.label_respective_id_or": "respective ID, name",
       "advancements.power_with_light.title": "Night Light",
-      "block.glowroot.glowroot_bars": "Glowroot Bars",
       "gui.glowroot.glowroot_tools_gui_1.tooltip_glowroot_pickaxe": "Glowroot Pickaxe",
+      "block.glowroot.glowroot_bars": "Glowroot Bars",
       "block.glowroot.glowroot_emerald_ore": "Glowroot Emerald Ore",
       "block.glowroot.glowroot_allium": "Glowroot Allium",
       "painting.glowroot.glowroot_painting.author": "pexuls",
@@ -12020,7 +12121,6 @@
       "item.glowroot.hermit_claw": "Hermit Claw",
       "block.glowroot.glowroot_astilbes": "Glowroot Astilbes",
       "gui.glowroot.glowroot_machine_gui_info_1.label_will_provide_you_with": "will provide you with",
-      "block.glowroot.lab_generator_hallway_1": "Lab Generator Hallway 1",
       "block.glowroot.glowroot_pipe_2_way": "Glowroot Pipe 2-Way",
       "gui.glowroot.glowroot_machine_gui_info_1.label_different_levels_with_3": "different levels, with 3",
       "item.glowroot.glowroot_golem_spawn_egg": "Glowroot Golem Spawn Egg",
@@ -12028,6 +12128,7 @@
       "block.glowroot.large_chrysoprase_bud": "Large Chrysoprase Bud",
       "key.glowroot.drill_activate": "Golem Drill Use",
       "gui.glowroot.glowroot_machine_gui.tooltip_transform": "Transform",
+      "item.glowroot.ghroomorhallway_spawn_egg": "GHONE Spawn Egg",
       "gui.glowroot.glowroot_machine_gui_info_1.label_the_searchbar_above": "the searchbar above",
       "block.glowroot.redstone_glow_flashlight_light": "Flashlight Light",
       "gui.glowroot.glowroot_tools_gui_2.tooltip_glowroot_engine": "Glowroot Engine",
@@ -12041,8 +12142,8 @@
       "block.glowroot.glowroot_paeonia": "Glowroot Paeonia",
       "gui.glowroot.glowroot_keycard_gui_1.label_glowroot_machine": "Glowroot Machine",
       "advancements.stunning.title": "Stunning!",
-      "enchantment.glowroot.yellow_light": "Yellow Light",
       "block.glowroot.glowroot_vent_duct": "Glowroot Vent Duct",
+      "enchantment.glowroot.yellow_light": "Yellow Light",
       "gui.glowroot.glowroot_machine_gui.label_glowroot_machine": "Glowroot Machine",
       "gui.glowroot.glowroot_keycard_gui_1.label_artificial_power_has": "Artificial power has 3",
       "gui.glowroot.glowroot_keycard_gui_1.label_an_infuser_of_which": "an infuser of which",
@@ -12051,6 +12152,7 @@
       "advancements.power_with_light.descr": "Use Chrysoprase Dust onto an unactivated rune block to give it power.",
       "gui.glowroot.glowroot_machine_gui_info_1.label_recipe_via_searchbar": "recipe via searchbar.",
       "item.glowroot.mining_helmet_helmet": "Mining Helmet",
+      "entity.glowroot.grpone": "GHONE",
       "block.glowroot.glowroot_node": "Glowroot Node",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_chrysoprase_crystal2": "Chrysoprase Crystal",
       "gui.glowroot.glowroot_tools_gui_2.tooltip_page_1": "Page 1",
@@ -12246,6 +12348,7 @@
       "gui.glowroot.glowroot_keycard_gui_1.label_the_glowroot_machine": "The Glowroot Machine is",
       "item.glowroot.glowroot_music_disc": "Music Disc ",
       "gui.glowroot.glowroot_keycard_gui_1.label_will_provide_you_with": "will provide you with",
+      "item.glowroot.grpone_spawn_egg": "GHONE Spawn Egg",
       "subtitles.flashbang": "Flashbang Used",
       "block.glowroot.glowroot_tnt": "Glowroot TNT",
       "block.glowroot.glow_poppy": "Glowroot Poppy",

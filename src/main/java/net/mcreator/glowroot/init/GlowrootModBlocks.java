@@ -19,7 +19,6 @@ import net.mcreator.glowroot.block.PureChrysopraseBlock;
 import net.mcreator.glowroot.block.LockerAirBlock;
 import net.mcreator.glowroot.block.LightDetectorBlock;
 import net.mcreator.glowroot.block.LargeGlowFlowerBlock;
-import net.mcreator.glowroot.block.LabGeneratorHallway1Block;
 import net.mcreator.glowroot.block.InvisibleGlowrootBlockBlock;
 import net.mcreator.glowroot.block.InvisibleGlowrootBlock3Block;
 import net.mcreator.glowroot.block.InvisibleGlowrootBlock2Block;
@@ -265,5 +264,4 @@ public class GlowrootModBlocks {
 	public static final RegistryObject<Block> CHISELED_GLOWROOT_PILLAR = REGISTRY.register("chiseled_glowroot_pillar", () -> new ChiseledGlowrootPillarBlock());
 	public static final RegistryObject<Block> GLOWROOT_LASER_EMITTER = REGISTRY.register("glowroot_laser_emitter", () -> new GlowrootLaserEmitterBlock());
 	public static final RegistryObject<Block> LOCKER_AIR = REGISTRY.register("locker_air", () -> new LockerAirBlock());
-	public static final RegistryObject<Block> LAB_GENERATOR_HALLWAY_1 = REGISTRY.register("lab_generator_hallway_1", () -> new LabGeneratorHallway1Block());
 }

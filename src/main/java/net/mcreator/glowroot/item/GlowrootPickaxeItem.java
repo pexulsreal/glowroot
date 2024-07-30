@@ -63,4 +63,21 @@ public class GlowrootPickaxeItem extends PickaxeItem {
 	public boolean isFoil(ItemStack itemstack) {
 		return true;
 	}
+	// credits to Icey087!
+	@Override
+	public boolean isBarVisible(ItemStack stack) {
+		return stack.isDamaged();
+	}
+
+	@Override
+	public int getBarWidth(ItemStack stack) {
+		return Math.round(13.0F - (float) stack.getDamageValue() * 13.0F / (float) stack.getMaxDamage());
+	}
+
+	@Override
+	public int getBarColor(ItemStack stack) {
+		// For example, 0xFFAA00 is an orange color.
+		return 0x00FFAA;
+	}
+
 }

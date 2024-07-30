@@ -221,9 +221,10 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> LOCKER_AIR = block(GlowrootModBlocks.LOCKER_AIR);
 	public static final RegistryObject<Item> HERMIT_CLAW = REGISTRY.register("hermit_claw", () -> new HermitClawItem());
 	public static final RegistryObject<Item> FORCELOOKER = REGISTRY.register("forcelooker", () -> new ForcelookerItem());
-	public static final RegistryObject<Item> LAB_GENERATOR_HALLWAY_1 = block(GlowrootModBlocks.LAB_GENERATOR_HALLWAY_1);
 	public static final RegistryObject<Item> ISRAEL = REGISTRY.register("israel", () -> new ThetruthItem());
 	public static final RegistryObject<Item> GHONE_SPAWN_EGG = REGISTRY.register("ghone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHONE, -14348486, -15392431, new Item.Properties()));
+	public static final RegistryObject<Item> GRPONE_SPAWN_EGG = REGISTRY.register("grpone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GRPONE, -14348486, -15392431, new Item.Properties()));
+	public static final RegistryObject<Item> GHROOMORHALLWAY_SPAWN_EGG = REGISTRY.register("ghroomorhallway_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHROOMORHALLWAY, -14348486, -15392431, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

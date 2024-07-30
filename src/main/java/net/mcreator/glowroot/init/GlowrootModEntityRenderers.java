@@ -20,6 +20,8 @@ import net.mcreator.glowroot.client.renderer.GlowrootGolemDrillRenderer;
 import net.mcreator.glowroot.client.renderer.GlowrootBomberRenderer;
 import net.mcreator.glowroot.client.renderer.GlowfishRenderer;
 import net.mcreator.glowroot.client.renderer.GlowbangRenderer;
+import net.mcreator.glowroot.client.renderer.GRPONERenderer;
+import net.mcreator.glowroot.client.renderer.GHROOMORHALLWAYRenderer;
 import net.mcreator.glowroot.client.renderer.GHONERenderer;
 import net.mcreator.glowroot.client.renderer.BabyGlowSquidRenderer;
 
@@ -40,5 +42,7 @@ public class GlowrootModEntityRenderers {
 		event.registerEntityRenderer(GlowrootModEntities.GLOWROOT_HYBRID.get(), GlowrootHybridRenderer::new);
 		event.registerEntityRenderer(GlowrootModEntities.GLOWROOT_GOLEM_DRILL.get(), GlowrootGolemDrillRenderer::new);
 		event.registerEntityRenderer(GlowrootModEntities.GHONE.get(), GHONERenderer::new);
+		event.registerEntityRenderer(GlowrootModEntities.GRPONE.get(), GRPONERenderer::new);
+		event.registerEntityRenderer(GlowrootModEntities.GHROOMORHALLWAY.get(), GHROOMORHALLWAYRenderer::new);
 	}
 }
