@@ -40,15 +40,39 @@ public class GHROOMProcedure {
 				if (!entity.level().isClientSide())
 					entity.discard();
 			} else {
-				if (world instanceof ServerLevel _serverworld) {
-					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootstorage"));
-					if (template != null) {
-						template.placeInWorld(_serverworld, BlockPos.containing(x - 6, y - 1, z + 1), BlockPos.containing(x - 6, y - 1, z + 1), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-								_serverworld.random, 3);
+				if (Math.random() >= 0.5) {
+					if (world instanceof ServerLevel _serverworld) {
+						StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootlabroombrokentestroom1"));
+						if (template != null) {
+							template.placeInWorld(_serverworld, BlockPos.containing(x - 6, y - 1, z + 1), BlockPos.containing(x - 6, y - 1, z + 1),
+									new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
+						}
+					}
+					if (!entity.level().isClientSide())
+						entity.discard();
+				} else {
+					if (Math.random() >= 0.5) {
+						if (world instanceof ServerLevel _serverworld) {
+							StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootstoragenew2"));
+							if (template != null) {
+								template.placeInWorld(_serverworld, BlockPos.containing(x - 6, y - 1, z + 1), BlockPos.containing(x - 6, y - 1, z + 1),
+										new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
+							}
+						}
+						if (!entity.level().isClientSide())
+							entity.discard();
+					} else {
+						if (world instanceof ServerLevel _serverworld) {
+							StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("glowroot", "glowrootstoragenew"));
+							if (template != null) {
+								template.placeInWorld(_serverworld, BlockPos.containing(x - 6, y - 1, z + 1), BlockPos.containing(x - 6, y - 1, z + 1),
+										new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
+							}
+						}
+						if (!entity.level().isClientSide())
+							entity.discard();
 					}
 				}
-				if (!entity.level().isClientSide())
-					entity.discard();
 			}
 		}
 	}

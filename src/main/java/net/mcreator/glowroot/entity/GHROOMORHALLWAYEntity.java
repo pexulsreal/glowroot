@@ -10,11 +10,11 @@ import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
@@ -35,7 +35,7 @@ import net.mcreator.glowroot.init.GlowrootModEntities;
 
 import javax.annotation.Nullable;
 
-public class GHROOMORHALLWAYEntity extends Monster {
+public class GHROOMORHALLWAYEntity extends PathfinderMob {
 	public GHROOMORHALLWAYEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(GlowrootModEntities.GHROOMORHALLWAY.get(), world);
 	}
