@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/glowrootdustsplat",
+  "textures": {
+    "all": "glowroot:block/splattergr",
+    "particle": "glowroot:block/splattergr",
+    "0": "glowroot:block/splattergr"
+  },
+  "render_type": "cutout_mipped"
+}

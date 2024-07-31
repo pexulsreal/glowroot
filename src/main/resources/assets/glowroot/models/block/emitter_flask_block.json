@@ -1,0 +1,9 @@
+{
+  "parent": "glowroot:custom/emitterflask",
+  "textures": {
+    "all": "glowroot:block/emitterflask3d",
+    "particle": "glowroot:block/glowrootpanel",
+    "0": "glowroot:block/emitterflask3d"
+  },
+  "render_type": "cutout"
+}

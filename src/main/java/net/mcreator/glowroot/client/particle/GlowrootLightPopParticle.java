@@ -39,7 +39,7 @@ public class GlowrootLightPopParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.4f, 0.4f);
 		this.quadSize *= 2f;
-		this.lifetime = 34;
+		this.lifetime = (int) Math.max(1, 29 + (this.random.nextInt(10) - 5));
 		this.gravity = 0f;
 		this.hasPhysics = false;
 		this.xd = vx * 0.95;

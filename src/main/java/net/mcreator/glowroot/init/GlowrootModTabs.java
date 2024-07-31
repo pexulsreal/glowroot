@@ -133,5 +133,7 @@ public class GlowrootModTabs {
 				tabData.accept(GlowrootModItems.GHONE_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GRPONE_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GHROOMORHALLWAY_SPAWN_EGG.get());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_DUST_SPLAT.get().asItem());
+				tabData.accept(GlowrootModBlocks.EMITTER_FLASK_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

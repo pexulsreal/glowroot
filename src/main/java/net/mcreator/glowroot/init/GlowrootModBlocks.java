@@ -119,11 +119,13 @@ import net.mcreator.glowroot.block.GlowEmitterBlock;
 import net.mcreator.glowroot.block.GlowDetectorBlock;
 import net.mcreator.glowroot.block.GlowBulbBlock;
 import net.mcreator.glowroot.block.FlashlightLightBlock;
+import net.mcreator.glowroot.block.EmitterFlaskBlockBlock;
 import net.mcreator.glowroot.block.DazzlerBlock;
 import net.mcreator.glowroot.block.DarknessDetectorBlock;
 import net.mcreator.glowroot.block.CutGlowrootStairsBlock;
 import net.mcreator.glowroot.block.CutGlowrootSlabBlock;
 import net.mcreator.glowroot.block.CutGlowrootBlock;
+import net.mcreator.glowroot.block.ChrysopraseDustSplatBlock;
 import net.mcreator.glowroot.block.ChiseledGlowrootPillarBlock;
 import net.mcreator.glowroot.block.ChiseledGlowrootBricksBlock;
 import net.mcreator.glowroot.block.CavePainting1Block;
@@ -264,4 +266,6 @@ public class GlowrootModBlocks {
 	public static final RegistryObject<Block> CHISELED_GLOWROOT_PILLAR = REGISTRY.register("chiseled_glowroot_pillar", () -> new ChiseledGlowrootPillarBlock());
 	public static final RegistryObject<Block> GLOWROOT_LASER_EMITTER = REGISTRY.register("glowroot_laser_emitter", () -> new GlowrootLaserEmitterBlock());
 	public static final RegistryObject<Block> LOCKER_AIR = REGISTRY.register("locker_air", () -> new LockerAirBlock());
+	public static final RegistryObject<Block> CHRYSOPRASE_DUST_SPLAT = REGISTRY.register("chrysoprase_dust_splat", () -> new ChrysopraseDustSplatBlock());
+	public static final RegistryObject<Block> EMITTER_FLASK_BLOCK = REGISTRY.register("emitter_flask_block", () -> new EmitterFlaskBlockBlock());
 }

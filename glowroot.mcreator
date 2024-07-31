@@ -11746,6 +11746,38 @@
           "src/main/resources/data/glowroot/worldgen/configured_feature/cattail_generation.json"
         ]
       }
+    },
+    {
+      "name": "ChrysopraseDustSplat",
+      "type": "block",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_dust_splat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseDustSplatBlock.java",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_dust_splat.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_dust_splat.json",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_dust_splat.json"
+        ]
+      }
+    },
+    {
+      "name": "EmitterFlaskBlock",
+      "type": "block",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emitter_flask_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/block/EmitterFlaskBlockBlock.java",
+          "src/main/resources/assets/glowroot/models/block/emitter_flask_block.json",
+          "src/main/resources/assets/glowroot/blockstates/emitter_flask_block.json",
+          "src/main/resources/assets/glowroot/models/item/emitter_flask_block.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11993,6 +12025,7 @@
       "item.glowroot.glowroot_pickaxe": "Glowroot Pickaxe",
       "gui.glowroot.glowroot_machine_gui_info_1.label_an_infuser_of_which": "an infuser of which",
       "gui.glowroot.glowroot_keycard_gui_1.label_glowcards_emitter_flasks": "Glowcards, Glowbangs,",
+      "block.glowroot.chrysoprase_dust_splat": "Chrysoprase Dust Splat",
       "gui.glowroot.glowroot_machine_gui_info_1.label_with_artificial_properties": "with artificial power.",
       "item.glowroot.glowlight": "Glowlight",
       "gui.glowroot.glowroot_machine_recipe_gui.tooltip_glowrooted_rune3": "Glowrooted Rune",
@@ -12342,6 +12375,7 @@
       "gui.glowroot.glowroot_machine_recipe_gui.tooltip_glowroot_chip3": "Glowroot Chip",
       "gui.glowroot.glowroot_machine_recipe_gui.tooltip_glowroot_chip2": "Glowroot Chip",
       "gui.glowroot.glowroot_machine_recipe_gui.tooltip_glowroot_chip1": "Glowroot Chip",
+      "block.glowroot.emitter_flask_block": "Emitter Flask",
       "gui.glowroot.glowroot_keycard_gui_2.tooltip_glowroot_engine": "Glowroot Engine",
       "biome.glowroot.glowroot_caves": "Glowroot Caves",
       "gui.glowroot.glowroot_keycard_gui_1.label_the_recipe_for_it": "the recipe for it.",

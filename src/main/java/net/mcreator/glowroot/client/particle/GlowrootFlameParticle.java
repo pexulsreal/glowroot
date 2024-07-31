@@ -39,7 +39,7 @@ public class GlowrootFlameParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.5f, 0.5f);
 		this.quadSize *= 1.6f;
-		this.lifetime = 15;
+		this.lifetime = (int) Math.max(1, 12 + (this.random.nextInt(6) - 3));
 		this.gravity = -0.1f;
 		this.hasPhysics = false;
 		this.xd = vx * 0.1;

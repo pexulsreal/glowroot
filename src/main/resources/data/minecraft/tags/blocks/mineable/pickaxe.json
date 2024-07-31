@@ -97,6 +97,7 @@
     "glowroot:alarm_on",
     "glowroot:glowroot_spawner",
     "glowroot:chiseled_glowroot_pillar",
-    "glowroot:glowroot_laser_emitter"
+    "glowroot:glowroot_laser_emitter",
+    "glowroot:emitter_flask_block"
   ]
 }

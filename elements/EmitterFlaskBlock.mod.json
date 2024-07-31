@@ -2,81 +2,80 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "glowruneblockglowing",
-    "textureTop": "glowdetectorlight",
-    "textureLeft": "glowruneblock",
-    "textureFront": "glowruneblock",
-    "textureRight": "glowruneblock",
-    "textureBack": "glowruneblock",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 1,
+    "texture": "emitterflask3d",
+    "textureTop": "glowrootstonetop",
+    "textureLeft": "glowrootstoneside",
+    "textureFront": "glowrootstoneside",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "emitterflask:default",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "glowrootpanel",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
+    "hasTransparency": true,
+    "connectedSides": true,
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
+        "mx": 4.0,
+        "my": 3.0,
+        "mz": 4.0,
+        "Mx": 11.0,
         "My": 16.0,
-        "Mz": 16.0,
+        "Mz": 11.0,
         "subtract": false
       }
     ],
-    "name": "Light Detector",
+    "name": "Emitter Flask",
     "specialInfo": [],
-    "hardness": 7.0,
+    "hardness": 9.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:GlowrootTab"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:EmitterLiquid"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
-    "lightOpacity": 15,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
-    "tickRate": 1,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
-    "canProvidePower": true,
+    "canProvidePower": false,
     "emittedRedstonePower": {
-      "fixedValue": 10.0,
-      "name": "LightDetectorEmitterRedstone"
+      "fixedValue": 15.0
     },
     "colorOnMap": "WARPED_NYLIUM",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "BLOCKED",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "BLOCK",
+    "reactionToPushing": "DESTROY",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -97,17 +96,17 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 2,
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 0,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": false,
-    "inventoryComparatorPower": false,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -118,35 +117,13 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockAdded": {
-      "name": "LightDetectorUpdateTick"
-    },
-    "onNeighbourBlockChanges": {
-      "name": "LightDetectorUpdateTick"
-    },
-    "onTickUpdate": {
-      "name": "LightDetectorUpdateTick"
-    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      }
-    ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "blocksToReplace": [],
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 18,
+    "frequencyOnChunk": 26,
+    "minGenerateHeight": -50,
     "maxGenerateHeight": 64
   }
 }

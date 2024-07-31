@@ -39,7 +39,7 @@ public class SquidInkParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.6f, 0.6f);
 		this.quadSize *= 1.7f;
-		this.lifetime = (int) Math.max(1, 20 + (this.random.nextInt(4) - 2));
+		this.lifetime = (int) Math.max(1, 19 + (this.random.nextInt(6) - 3));
 		this.gravity = 0f;
 		this.hasPhysics = false;
 		this.xd = vx * 0.95;
