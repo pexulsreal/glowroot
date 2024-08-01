@@ -102,7 +102,7 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": true,
+    "enableMeleeDamage": false,
     "damageVsEntity": 1.0,
     "specialInfo": [],
     "hasGlow": false,

@@ -133,6 +133,7 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> GLOW_GLASS = block(GlowrootModBlocks.GLOW_GLASS);
 	public static final RegistryObject<Item> GLOW_GLASS_PANE = block(GlowrootModBlocks.GLOW_GLASS_PANE);
 	public static final RegistryObject<Item> GLOWROOT_TNT = block(GlowrootModBlocks.GLOWROOT_TNT);
+	public static final RegistryObject<Item> GLOWSHROOM_BLOCK = block(GlowrootModBlocks.GLOWSHROOM_BLOCK);
 	public static final RegistryObject<Item> SQUID_TENTACLE = REGISTRY.register("squid_tentacle", () -> new SquidTentacleItem());
 	public static final RegistryObject<Item> GLOWSQUID_TENTACLE = REGISTRY.register("glowsquid_tentacle", () -> new GlowsquidTentacleItem());
 	public static final RegistryObject<Item> COOKED_SQUID_TENTACLE = REGISTRY.register("cooked_squid_tentacle", () -> new CookedGlowSquidTentacleItem());
@@ -171,6 +172,11 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> GLOWROOT_HYBRID_SPAWN_EGG = REGISTRY.register("glowroot_hybrid_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOT_HYBRID, -14348486, -15392431, new Item.Properties()));
 	public static final RegistryObject<Item> MATTERWARPER = REGISTRY.register("matterwarper", () -> new MatterwarperItem());
 	public static final RegistryObject<Item> CAVE_PAINTING_1 = block(GlowrootModBlocks.CAVE_PAINTING_1);
+	public static final RegistryObject<Item> GHONE_SPAWN_EGG = REGISTRY.register("ghone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHONE, -14348486, -15392431, new Item.Properties()));
+	public static final RegistryObject<Item> GRPONE_SPAWN_EGG = REGISTRY.register("grpone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GRPONE, -14348486, -15392431, new Item.Properties()));
+	public static final RegistryObject<Item> GHROOMORHALLWAY_SPAWN_EGG = REGISTRY.register("ghroomorhallway_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHROOMORHALLWAY, -14348486, -15392431, new Item.Properties()));
+	public static final RegistryObject<Item> CHRYSOPRASE_DUST_SPLAT = block(GlowrootModBlocks.CHRYSOPRASE_DUST_SPLAT);
+	public static final RegistryObject<Item> EMITTER_FLASK_BLOCK = block(GlowrootModBlocks.EMITTER_FLASK_BLOCK);
 	public static final RegistryObject<Item> GLOW_ROOT_END = block(GlowrootModBlocks.GLOW_ROOT_END);
 	public static final RegistryObject<Item> GLOW_DETECTOR = block(GlowrootModBlocks.GLOW_DETECTOR);
 	public static final RegistryObject<Item> GLOWROOT_LAMP_1 = block(GlowrootModBlocks.GLOWROOT_LAMP_1);
@@ -222,11 +228,6 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> HERMIT_CLAW = REGISTRY.register("hermit_claw", () -> new HermitClawItem());
 	public static final RegistryObject<Item> FORCELOOKER = REGISTRY.register("forcelooker", () -> new ForcelookerItem());
 	public static final RegistryObject<Item> ISRAEL = REGISTRY.register("israel", () -> new ThetruthItem());
-	public static final RegistryObject<Item> GHONE_SPAWN_EGG = REGISTRY.register("ghone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHONE, -14348486, -15392431, new Item.Properties()));
-	public static final RegistryObject<Item> GRPONE_SPAWN_EGG = REGISTRY.register("grpone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GRPONE, -14348486, -15392431, new Item.Properties()));
-	public static final RegistryObject<Item> GHROOMORHALLWAY_SPAWN_EGG = REGISTRY.register("ghroomorhallway_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHROOMORHALLWAY, -14348486, -15392431, new Item.Properties()));
-	public static final RegistryObject<Item> CHRYSOPRASE_DUST_SPLAT = block(GlowrootModBlocks.CHRYSOPRASE_DUST_SPLAT);
-	public static final RegistryObject<Item> EMITTER_FLASK_BLOCK = block(GlowrootModBlocks.EMITTER_FLASK_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

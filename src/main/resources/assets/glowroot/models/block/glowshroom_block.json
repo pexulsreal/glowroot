@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/mushroomcap",
+    "up": "glowroot:block/mushroomcap",
+    "north": "glowroot:block/mushroomcap",
+    "east": "glowroot:block/mushroomcap",
+    "south": "glowroot:block/mushroomcap",
+    "west": "glowroot:block/mushroomcap",
+    "particle": "glowroot:block/mushroomcap"
+  },
+  "render_type": "solid"
+}

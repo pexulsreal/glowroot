@@ -62,6 +62,7 @@
     "glowroot:medium_chrysoprase_bud",
     "glowroot:small_chrysoprase_bud",
     "glowroot:glowroot_core",
+    "glowroot:emitter_flask_block",
     "glowroot:glow_detector",
     "glowroot:glowroot_lamp_1",
     "glowroot:glowroot_lamp_2",
@@ -97,7 +98,6 @@
     "glowroot:alarm_on",
     "glowroot:glowroot_spawner",
     "glowroot:chiseled_glowroot_pillar",
-    "glowroot:glowroot_laser_emitter",
-    "glowroot:emitter_flask_block"
+    "glowroot:glowroot_laser_emitter"
   ]
 }

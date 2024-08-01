@@ -3,7 +3,7 @@
     {
       "name": "GlowrootTab",
       "type": "tab",
-      "sortid": 116,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tab",
@@ -14,7 +14,7 @@
     {
       "name": "GlowrootCaves",
       "type": "biome",
-      "sortid": 117,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_caves",
@@ -84,7 +84,7 @@
     {
       "name": "GlowFungiBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_fungi_block_valid_placement_condition",
@@ -116,7 +116,7 @@
     {
       "name": "GlowRootEnd",
       "type": "block",
-      "sortid": 119,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_root_end",
@@ -132,7 +132,7 @@
     {
       "name": "GlowRootClientDisplayRandomTick",
       "type": "procedure",
-      "sortid": 120,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_root_client_display_random_tick",
@@ -164,7 +164,7 @@
     {
       "name": "Glowrootenddisplay",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootenddisplay",
@@ -195,7 +195,7 @@
     {
       "name": "Glowrootenddisplay2",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootenddisplay_2",
@@ -226,7 +226,7 @@
     {
       "name": "Glowrootsolidblockcheck",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootsolidblockcheck",
@@ -257,7 +257,7 @@
     {
       "name": "GlowRootBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_root_block_valid_placement_condition",
@@ -289,7 +289,7 @@
     {
       "name": "Blockbrokenglowroot",
       "type": "procedure",
-      "sortid": 125,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blockbrokenglowroot",
@@ -340,7 +340,7 @@
     {
       "name": "GlowFungiEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_fungi_entity_walks_on_the_block",
@@ -375,7 +375,7 @@
     {
       "name": "GlowGoggles",
       "type": "armor",
-      "sortid": 105,
+      "sortid": 106,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glow_goggles",
@@ -389,7 +389,7 @@
     {
       "name": "Glow1AdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_1_additional_generation_condition",
@@ -421,7 +421,7 @@
     {
       "name": "GlowGogglesAdvancement",
       "type": "achievement",
-      "sortid": 128,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_goggles_advancement",
@@ -434,7 +434,7 @@
     {
       "name": "Glowgogglesrecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowgogglesrecipe",
@@ -447,7 +447,7 @@
     {
       "name": "GlowRootLeaves",
       "type": "particle",
-      "sortid": 130,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_root_leaves",
@@ -461,7 +461,7 @@
     {
       "name": "GlowRootEndClientDisplayRandomTick",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_root_end_client_display_random_tick",
@@ -524,7 +524,7 @@
     {
       "name": "GlowRunesOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_runes_on_block_right_clicked",
@@ -559,7 +559,7 @@
     {
       "name": "GlowrootDust",
       "type": "item",
-      "sortid": 80,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chrysoprase_dust",
@@ -573,7 +573,7 @@
     {
       "name": "GlowingRunesEmittedRedstonePower",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_runes_emitted_redstone_power",
@@ -605,7 +605,7 @@
     {
       "name": "GlowDetector",
       "type": "block",
-      "sortid": 134,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_detector",
@@ -637,7 +637,7 @@
     {
       "name": "Lightlevelvalue",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightlevelvalue",
@@ -685,7 +685,7 @@
     {
       "name": "GlowrootLamp1",
       "type": "block",
-      "sortid": 136,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_1",
@@ -701,7 +701,7 @@
     {
       "name": "GlowrootLamp2",
       "type": "block",
-      "sortid": 137,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_2",
@@ -717,7 +717,7 @@
     {
       "name": "GlowrootLamp3",
       "type": "block",
-      "sortid": 138,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_3",
@@ -733,7 +733,7 @@
     {
       "name": "GlowrootLamp4",
       "type": "block",
-      "sortid": 139,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_4",
@@ -749,7 +749,7 @@
     {
       "name": "GlowrootLamp5",
       "type": "block",
-      "sortid": 140,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_5",
@@ -765,7 +765,7 @@
     {
       "name": "GlowrootLamp6",
       "type": "block",
-      "sortid": 141,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_6",
@@ -781,7 +781,7 @@
     {
       "name": "GlowrootLamp7",
       "type": "block",
-      "sortid": 142,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_7",
@@ -797,7 +797,7 @@
     {
       "name": "GlowrootLamp8",
       "type": "block",
-      "sortid": 143,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_8",
@@ -813,7 +813,7 @@
     {
       "name": "GlowrootLamp9",
       "type": "block",
-      "sortid": 144,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_9",
@@ -829,7 +829,7 @@
     {
       "name": "GlowrootLamp10",
       "type": "block",
-      "sortid": 145,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_10",
@@ -845,7 +845,7 @@
     {
       "name": "GlowrootLamp11",
       "type": "block",
-      "sortid": 146,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_11",
@@ -861,7 +861,7 @@
     {
       "name": "GlowrootLamp12",
       "type": "block",
-      "sortid": 147,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_12",
@@ -877,7 +877,7 @@
     {
       "name": "GlowrootLamp13",
       "type": "block",
-      "sortid": 148,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_13",
@@ -893,7 +893,7 @@
     {
       "name": "GlowrootLamp14",
       "type": "block",
-      "sortid": 149,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_14",
@@ -909,7 +909,7 @@
     {
       "name": "GlowrootLamp15",
       "type": "block",
-      "sortid": 150,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_15",
@@ -925,7 +925,7 @@
     {
       "name": "Lightchange",
       "type": "procedure",
-      "sortid": 151,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightchange",
@@ -956,7 +956,7 @@
     {
       "name": "GlowrootLampRecipe",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_lamp_recipe",
@@ -969,7 +969,7 @@
     {
       "name": "GlowRunesRecipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_runes_recipe",
@@ -982,7 +982,7 @@
     {
       "name": "GlowingRunesRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowing_runes_recipe",
@@ -1011,7 +1011,7 @@
     {
       "name": "GlowGlassRecipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_glass_recipe",
@@ -1024,7 +1024,7 @@
     {
       "name": "Glowbang",
       "type": "rangeditem",
-      "sortid": 97,
+      "sortid": 98,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glowbang",
@@ -1040,7 +1040,7 @@
     {
       "name": "GlowbangProjectileHitsBlock",
       "type": "procedure",
-      "sortid": 156,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowbang_projectile_hits_block",
@@ -1075,7 +1075,7 @@
     {
       "name": "GlowbangWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 157,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowbang_while_projectile_flying_tick",
@@ -1106,7 +1106,7 @@
     {
       "name": "GlowbangRangedItemUsed",
       "type": "procedure",
-      "sortid": 158,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowbang_ranged_item_used",
@@ -1129,7 +1129,7 @@
     {
       "name": "GlowbangRecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowbang_recipe",
@@ -1174,7 +1174,7 @@
     {
       "name": "GlowrootPillarRecipe",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_pillar_recipe",
@@ -1279,7 +1279,7 @@
     {
       "name": "GlowstoneTlesRecipe",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowstone_tles_recipe",
@@ -1292,7 +1292,7 @@
     {
       "name": "GlowstoneTilesStonecutt",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowstone_tiles_stonecutt",
@@ -1305,7 +1305,7 @@
     {
       "name": "GlowrootGolem",
       "type": "livingentity",
-      "sortid": 106,
+      "sortid": 107,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glowroot_golem",
@@ -1321,7 +1321,7 @@
     {
       "name": "GlowrootGolemOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 163,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_golem_on_entity_tick_update",
@@ -1356,7 +1356,7 @@
     {
       "name": "Speedupgolemprocedure",
       "type": "procedure",
-      "sortid": 164,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "speedupgolemprocedure",
@@ -1391,7 +1391,7 @@
     {
       "name": "GlowEmitterRedstoneOn",
       "type": "procedure",
-      "sortid": 165,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_emitter_redstone_on",
@@ -1422,7 +1422,7 @@
     {
       "name": "Glowinksacrecipe",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowinksacrecipe",
@@ -1435,7 +1435,7 @@
     {
       "name": "GlowrootEmitterRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_emitter_recipe",
@@ -1464,7 +1464,7 @@
     {
       "name": "GlowrootTilesRecipe",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tiles_recipe",
@@ -1477,7 +1477,7 @@
     {
       "name": "GlowrootTilesRecipee",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tiles_recipee",
@@ -1490,7 +1490,7 @@
     {
       "name": "GlowrootPillarRecipecraft",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_pillar_recipecraft",
@@ -1503,7 +1503,7 @@
     {
       "name": "GlowrootGratesRecipee",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_grates_recipee",
@@ -1516,7 +1516,7 @@
     {
       "name": "UndergroundLighting",
       "type": "achievement",
-      "sortid": 172,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "underground_lighting",
@@ -1529,7 +1529,7 @@
     {
       "name": "PowerWithLight",
       "type": "achievement",
-      "sortid": 173,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "power_with_light",
@@ -1542,7 +1542,7 @@
     {
       "name": "Lakesinbiomefeature",
       "type": "feature",
-      "sortid": 174,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lakesinbiomefeature",
@@ -1557,7 +1557,7 @@
     {
       "name": "Methamphetamine",
       "type": "achievement",
-      "sortid": 175,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "methamphetamine",
@@ -1570,7 +1570,7 @@
     {
       "name": "Stunning",
       "type": "achievement",
-      "sortid": 176,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stunning",
@@ -1583,7 +1583,7 @@
     {
       "name": "GlowGogglesHelmetTickEvent",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_goggles_helmet_tick_event",
@@ -1602,7 +1602,7 @@
     {
       "name": "GlowrootBomberOnInitialEntitySpawn",
       "type": "procedure",
-      "sortid": 178,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bomber_on_initial_entity_spawn",
@@ -1621,7 +1621,7 @@
     {
       "name": "GlowrootBomber",
       "type": "livingentity",
-      "sortid": 107,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bomber",
@@ -1637,7 +1637,7 @@
     {
       "name": "GlowrootBomberOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bomber_on_entity_tick_update",
@@ -1672,7 +1672,7 @@
     {
       "name": "Lookprocedurebomber",
       "type": "procedure",
-      "sortid": 180,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lookprocedurebomber",
@@ -1704,7 +1704,7 @@
     {
       "name": "GlowrootStoneRecipe",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_recipe",
@@ -1717,7 +1717,7 @@
     {
       "name": "GlowrootStoneExtraGenerate",
       "type": "feature",
-      "sortid": 182,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_extra_generate",
@@ -1749,7 +1749,7 @@
     {
       "name": "LightDetectorEmitterRedstone",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_detector_emitter_redstone",
@@ -1781,7 +1781,7 @@
     {
       "name": "Glowrootchargeblock",
       "type": "tag",
-      "sortid": 184,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootchargeblock",
@@ -1794,7 +1794,7 @@
     {
       "name": "Effectlevelprocedure",
       "type": "procedure",
-      "sortid": 185,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "effectlevelprocedure",
@@ -1813,7 +1813,7 @@
     {
       "name": "Effectlevel",
       "type": "command",
-      "sortid": 186,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "effectlevel",
@@ -1826,7 +1826,7 @@
     {
       "name": "GlowDetectorEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 187,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_detector_entity_walks_on_the_block",
@@ -1857,7 +1857,7 @@
     {
       "name": "GlowDetectorUpdateTick",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_detector_update_tick",
@@ -1888,7 +1888,7 @@
     {
       "name": "LightDetectorRecipe",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_detector_recipe",
@@ -1901,7 +1901,7 @@
     {
       "name": "TruePowerOfLight",
       "type": "achievement",
-      "sortid": 190,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "true_power_of_light",
@@ -1914,7 +1914,7 @@
     {
       "name": "GlowDetectorUpdateTickk",
       "type": "procedure",
-      "sortid": 191,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_detector_update_tickk",
@@ -1961,7 +1961,7 @@
     {
       "name": "GrowEmitterUpdateTick",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grow_emitter_update_tick",
@@ -1992,7 +1992,7 @@
     {
       "name": "GrowEmitterRecipe",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grow_emitter_recipe",
@@ -2005,7 +2005,7 @@
     {
       "name": "FlashbangedOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashbanged_on_effect_active_tick",
@@ -2028,7 +2028,7 @@
     {
       "name": "FlashbangedEffectStartedapplied",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashbanged_effect_startedapplied",
@@ -2051,7 +2051,7 @@
     {
       "name": "LightDetectorUpdateTick",
       "type": "procedure",
-      "sortid": 196,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_detector_update_tick",
@@ -2082,7 +2082,7 @@
     {
       "name": "FlashbangedEffectExpires",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashbanged_effect_expires",
@@ -2101,7 +2101,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
-      "sortid": 198,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -2114,7 +2114,7 @@
     {
       "name": "TallFlowerBlocks",
       "type": "tag",
-      "sortid": 199,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_flower_blocks",
@@ -2127,7 +2127,7 @@
     {
       "name": "ClimbableBlocks",
       "type": "tag",
-      "sortid": 200,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "climbable_blocks",
@@ -2140,7 +2140,7 @@
     {
       "name": "FlowerItems",
       "type": "tag",
-      "sortid": 201,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_items",
@@ -2153,7 +2153,7 @@
     {
       "name": "SmallFlowerItems",
       "type": "tag",
-      "sortid": 202,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_items",
@@ -2166,7 +2166,7 @@
     {
       "name": "IsOverworldBiomes",
       "type": "tag",
-      "sortid": 203,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_overworld_biomes",
@@ -2179,7 +2179,7 @@
     {
       "name": "GlowrootPickaxe",
       "type": "tool",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glowroot_pickaxe",
@@ -2193,7 +2193,7 @@
     {
       "name": "Glowrooted",
       "type": "enchantment",
-      "sortid": 204,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted",
@@ -2206,7 +2206,7 @@
     {
       "name": "GlowrootPickaxeToolInInventoryTick",
       "type": "procedure",
-      "sortid": 205,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_pickaxe_tool_in_inventory_tick",
@@ -2245,7 +2245,7 @@
     {
       "name": "GlowrootPickaxeItemIsCraftedsmelted",
       "type": "procedure",
-      "sortid": 206,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_pickaxe_item_is_craftedsmelted",
@@ -2264,7 +2264,7 @@
     {
       "name": "Glowrootquadcopterenemy",
       "type": "tag",
-      "sortid": 207,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootquadcopterenemy",
@@ -2277,7 +2277,7 @@
     {
       "name": "BabyGlowSquid",
       "type": "livingentity",
-      "sortid": 111,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baby_glow_squid",
@@ -2291,7 +2291,7 @@
     {
       "name": "BabyGlowSquidEntityIsHurt",
       "type": "procedure",
-      "sortid": 208,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baby_glow_squid_entity_is_hurt",
@@ -2314,7 +2314,7 @@
     {
       "name": "BabyGlowSquidOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 209,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baby_glow_squid_on_entity_tick_update",
@@ -2337,7 +2337,7 @@
     {
       "name": "BabyGlowSquidBucketRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 210,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baby_glow_squid_bucket_rightclicked_on_block",
@@ -2376,7 +2376,7 @@
     {
       "name": "BabyGlowSquidBucket",
       "type": "item",
-      "sortid": 211,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baby_glow_squid_bucket",
@@ -2390,7 +2390,7 @@
     {
       "name": "Test",
       "type": "procedure",
-      "sortid": 212,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -2445,7 +2445,7 @@
     {
       "name": "InvisibleGlowrootBlock",
       "type": "block",
-      "sortid": 213,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_glowroot_block_1",
@@ -2461,7 +2461,7 @@
     {
       "name": "ArtificalGlowrootedBlock",
       "type": "block",
-      "sortid": 214,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artifical_glowrooted_block_1",
@@ -2477,7 +2477,7 @@
     {
       "name": "InvisibleGlowrootBlockUpdateTick",
       "type": "procedure",
-      "sortid": 215,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_glowroot_block_update_tick",
@@ -2508,7 +2508,7 @@
     {
       "name": "ArtificalGlowrootBlockOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 216,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artifical_glowroot_block_on_block_right_clicked",
@@ -2543,7 +2543,7 @@
     {
       "name": "ArtificalGlowrootedBlockUpdateTick",
       "type": "procedure",
-      "sortid": 217,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artifical_glowrooted_block_update_tick",
@@ -2590,7 +2590,7 @@
     {
       "name": "ArtificalGlowrootedBlock3",
       "type": "block",
-      "sortid": 218,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artifical_glowrooted_block_3",
@@ -2606,7 +2606,7 @@
     {
       "name": "InvisibleGlowrootBlock3",
       "type": "block",
-      "sortid": 219,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_glowroot_block_3",
@@ -2622,7 +2622,7 @@
     {
       "name": "InivisbleGlowrootBlock3",
       "type": "procedure",
-      "sortid": 220,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inivisble_glowroot_block_3",
@@ -2653,7 +2653,7 @@
     {
       "name": "ArtificialGlowrootBlockRIGHTCLICKED3",
       "type": "procedure",
-      "sortid": 221,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artificial_glowroot_block_rightclicked_3",
@@ -2688,7 +2688,7 @@
     {
       "name": "AritificalGlowrootedBlock3",
       "type": "procedure",
-      "sortid": 222,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aritifical_glowrooted_block_3",
@@ -2735,7 +2735,7 @@
     {
       "name": "ArtificialGlowrootedBlock2",
       "type": "block",
-      "sortid": 223,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artificial_glowrooted_block_2",
@@ -2751,7 +2751,7 @@
     {
       "name": "InvisibleGlowrootBlock2",
       "type": "block",
-      "sortid": 224,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_glowroot_block_2",
@@ -2767,7 +2767,7 @@
     {
       "name": "InvisibleGlowrootBlock2aa",
       "type": "procedure",
-      "sortid": 225,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_glowroot_block_2aa",
@@ -2798,7 +2798,7 @@
     {
       "name": "ArtificialGlowrootBlockRIGHTCLICKED2",
       "type": "procedure",
-      "sortid": 226,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artificial_glowroot_block_rightclicked_2",
@@ -2833,7 +2833,7 @@
     {
       "name": "ArtificialGlowrootedBlock2a",
       "type": "procedure",
-      "sortid": 227,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artificial_glowrooted_block_2a",
@@ -2864,7 +2864,7 @@
     {
       "name": "GlowrootKeycard",
       "type": "item",
-      "sortid": 94,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowcard",
@@ -2881,7 +2881,7 @@
     {
       "name": "GlowrootSword",
       "type": "tool",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glowroot_sword",
@@ -2895,7 +2895,7 @@
     {
       "name": "GlowrootKeycardPropertyValueProvider",
       "type": "procedure",
-      "sortid": 228,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_keycard_property_value_provider",
@@ -2931,7 +2931,7 @@
     {
       "name": "GlowrootKeycardRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_keycard_rightclicked_on_block",
@@ -2982,7 +2982,7 @@
     {
       "name": "GlowrootChip",
       "type": "item",
-      "sortid": 90,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_chip",
@@ -2996,7 +2996,7 @@
     {
       "name": "Keycardrecipe",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "keycardrecipe",
@@ -3009,7 +3009,7 @@
     {
       "name": "GlowrootGolemEntityDies",
       "type": "procedure",
-      "sortid": 231,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_golem_entity_dies",
@@ -3040,7 +3040,7 @@
     {
       "name": "Dazzler",
       "type": "block",
-      "sortid": 232,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzler",
@@ -3056,7 +3056,7 @@
     {
       "name": "DazzlerUpdateTick",
       "type": "procedure",
-      "sortid": 233,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzler_update_tick",
@@ -3087,7 +3087,7 @@
     {
       "name": "GlowrootPainting",
       "type": "painting",
-      "sortid": 234,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_painting",
@@ -3098,7 +3098,7 @@
     {
       "name": "GlowrootItemsTrade",
       "type": "villagertrade",
-      "sortid": 235,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_items_trade",
@@ -3109,7 +3109,7 @@
     {
       "name": "GlowrootFurnace",
       "type": "block",
-      "sortid": 236,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_furnace",
@@ -3126,7 +3126,7 @@
     {
       "name": "GlowrootFurnaceOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_furnace_on_block_right_clicked",
@@ -3161,7 +3161,7 @@
     {
       "name": "GlowrootFurnaceUpdateTick",
       "type": "procedure",
-      "sortid": 238,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_furnace_update_tick",
@@ -3213,7 +3213,7 @@
     {
       "name": "EmitterLiquid",
       "type": "item",
-      "sortid": 96,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emitter_flask",
@@ -3247,7 +3247,7 @@
     {
       "name": "GlowrootCattailBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 239,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cattail_block_valid_placement_condition",
@@ -3279,7 +3279,7 @@
     {
       "name": "Playertickprocedureoverlay",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "playertickprocedureoverlay",
@@ -3302,7 +3302,7 @@
     {
       "name": "GlowrootedZombie",
       "type": "livingentity",
-      "sortid": 109,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_zombie",
@@ -3386,7 +3386,7 @@
     {
       "name": "ChiseledGlowrootBrickRecipe",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_glowroot_brick_recipe",
@@ -3399,7 +3399,7 @@
     {
       "name": "ChiseledGlowrootRecipeStonecutter",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_glowroot_recipe_stonecutter",
@@ -3412,7 +3412,7 @@
     {
       "name": "GlowrootSlabsRecipe",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_slabs_recipe",
@@ -3425,7 +3425,7 @@
     {
       "name": "GlowrootSlabsRecipestone",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_slabs_recipestone",
@@ -3474,7 +3474,7 @@
     {
       "name": "GlowrootBrickStairsRecipe",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_brick_stairs_recipe",
@@ -3487,7 +3487,7 @@
     {
       "name": "GlowrootBrickStoneStairsRecipe",
       "type": "recipe",
-      "sortid": 246,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_brick_stone_stairs_recipe",
@@ -3500,7 +3500,7 @@
     {
       "name": "GlowrootStoneStairsRecipeStonecuter",
       "type": "recipe",
-      "sortid": 247,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_stairs_recipe_stonecuter",
@@ -3513,7 +3513,7 @@
     {
       "name": "GlowrootStoneStairsRecipeSTONECUTTER",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_stairs_recipe_stonecutter",
@@ -3564,7 +3564,7 @@
     {
       "name": "GlowrootBrickWallRecipe",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_brick_wall_recipe",
@@ -3577,7 +3577,7 @@
     {
       "name": "GlowrootStoneWallRecipe",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_wall_recipe",
@@ -3590,7 +3590,7 @@
     {
       "name": "GlowrootBrickWallRecipeStonecutter",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_brick_wall_recipe_stonecutter",
@@ -3603,7 +3603,7 @@
     {
       "name": "GlowrootStoneWallCutterRecipe",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_wall_cutter_recipe",
@@ -3688,7 +3688,7 @@
     {
       "name": "GlowrootLockerOpen",
       "type": "block",
-      "sortid": 253,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_locker_open",
@@ -3705,7 +3705,7 @@
     {
       "name": "GlowrootLockerOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 254,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_locker_on_block_right_clicked",
@@ -3736,7 +3736,7 @@
     {
       "name": "GlowrootLockerClose",
       "type": "procedure",
-      "sortid": 255,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_locker_close",
@@ -3784,7 +3784,7 @@
     {
       "name": "GlowrootCartGUI",
       "type": "gui",
-      "sortid": 256,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cart_gui",
@@ -3798,7 +3798,7 @@
     {
       "name": "GlowrootCartLootTable",
       "type": "loottable",
-      "sortid": 257,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cart_loot_table",
@@ -3811,7 +3811,7 @@
     {
       "name": "GlowrootShovel",
       "type": "tool",
-      "sortid": 102,
+      "sortid": 103,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glowroot_shovel",
@@ -3825,7 +3825,7 @@
     {
       "name": "GlowrootPipe1Way",
       "type": "block",
-      "sortid": 258,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_pipe_1_way",
@@ -3842,7 +3842,7 @@
     {
       "name": "GlowrootPipe2Way",
       "type": "block",
-      "sortid": 259,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_pipe_2_way",
@@ -3859,7 +3859,7 @@
     {
       "name": "GlowrootPipe4Way",
       "type": "block",
-      "sortid": 260,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_pipe_4_way",
@@ -3893,7 +3893,7 @@
     {
       "name": "Seekerprocedure",
       "type": "procedure",
-      "sortid": 261,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seekerprocedure",
@@ -3925,7 +3925,7 @@
     {
       "name": "Seekerprocedruetick",
       "type": "procedure",
-      "sortid": 262,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seekerprocedruetick",
@@ -3976,7 +3976,7 @@
     {
       "name": "FlashbangedOverlay",
       "type": "overlay",
-      "sortid": 263,
+      "sortid": 269,
       "compiles": true,
       "locked_code": true,
       "registry_name": "flashbanged_overlay",
@@ -3989,7 +3989,7 @@
     {
       "name": "FlashbangedOverlayDisplayOverlayIngame",
       "type": "procedure",
-      "sortid": 264,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashbanged_overlay_display_overlay_ingame",
@@ -4009,7 +4009,7 @@
     {
       "name": "GlowrootToolsEnchantmentForce",
       "type": "procedure",
-      "sortid": 265,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tools_enchantment_force",
@@ -4028,7 +4028,7 @@
     {
       "name": "GlowrootQuadcopterdies",
       "type": "procedure",
-      "sortid": 266,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_quadcopterdies",
@@ -4059,7 +4059,7 @@
     {
       "name": "WallBlocks",
       "type": "tag",
-      "sortid": 267,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_blocks",
@@ -4072,7 +4072,7 @@
     {
       "name": "GlowrootedZombieOnInitialEntitySpawn",
       "type": "procedure",
-      "sortid": 268,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_zombie_on_initial_entity_spawn",
@@ -4107,7 +4107,7 @@
     {
       "name": "GlowrootZombieDies",
       "type": "procedure",
-      "sortid": 269,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_zombie_dies",
@@ -4138,7 +4138,7 @@
     {
       "name": "GlowrootZombieAttacks",
       "type": "procedure",
-      "sortid": 270,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_zombie_attacks",
@@ -4177,7 +4177,7 @@
     {
       "name": "GlowrootedZombieOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 271,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_zombie_on_entity_tick_update",
@@ -4212,7 +4212,7 @@
     {
       "name": "GlowrootHermit",
       "type": "livingentity",
-      "sortid": 108,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_hermit",
@@ -4248,7 +4248,7 @@
     {
       "name": "GlowrootBarsRecipe",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bars_recipe",
@@ -4291,7 +4291,7 @@
     {
       "name": "TorchFloor",
       "type": "block",
-      "sortid": 273,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_floor",
@@ -4307,7 +4307,7 @@
     {
       "name": "TorchWall",
       "type": "block",
-      "sortid": 274,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_wall",
@@ -4323,7 +4323,7 @@
     {
       "name": "TorchFloorNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 275,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_floor_neighbour_block_changes",
@@ -4354,7 +4354,7 @@
     {
       "name": "TorchFloorUpdateTick",
       "type": "procedure",
-      "sortid": 276,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_floor_update_tick",
@@ -4385,7 +4385,7 @@
     {
       "name": "TorchRightClickOnBlock",
       "type": "procedure",
-      "sortid": 277,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_right_click_on_block",
@@ -4424,7 +4424,7 @@
     {
       "name": "FlashlightOnRightclicked",
       "type": "procedure",
-      "sortid": 278,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashlight_on_rightclicked",
@@ -4463,7 +4463,7 @@
     {
       "name": "FlashlightLight",
       "type": "block",
-      "sortid": 279,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashlight_light",
@@ -4480,7 +4480,7 @@
     {
       "name": "FlashlightOnItemInHandTick",
       "type": "procedure",
-      "sortid": 280,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashlight_on_item_in_hand_tick",
@@ -4507,7 +4507,7 @@
     {
       "name": "FlashlightLightBlockAdded",
       "type": "procedure",
-      "sortid": 281,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashlight_light_block_added",
@@ -4538,7 +4538,7 @@
     {
       "name": "FlashlightLightUpdateTick",
       "type": "procedure",
-      "sortid": 282,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashlight_light_update_tick",
@@ -4569,7 +4569,7 @@
     {
       "name": "Air",
       "type": "tag",
-      "sortid": 283,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "air",
@@ -4582,7 +4582,7 @@
     {
       "name": "FlashlightOnOff",
       "type": "procedure",
-      "sortid": 284,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashlight_on_off",
@@ -4602,7 +4602,7 @@
     {
       "name": "AirTorch",
       "type": "tag",
-      "sortid": 285,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "air_torch",
@@ -4615,7 +4615,7 @@
     {
       "name": "PrimedGlowrootTNT",
       "type": "livingentity",
-      "sortid": 112,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "primed_glowroot_tnt",
@@ -4629,7 +4629,7 @@
     {
       "name": "PrimedGlowrootTNTOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 286,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "primed_glowroot_tnt_on_entity_tick_update",
@@ -4664,7 +4664,7 @@
     {
       "name": "GlowrootTNTRedstoneOn",
       "type": "procedure",
-      "sortid": 287,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tnt_redstone_on",
@@ -4695,7 +4695,7 @@
     {
       "name": "PrimedGlowrootTNTEntityShakingCondition",
       "type": "procedure",
-      "sortid": 288,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "primed_glowroot_tnt_entity_shaking_condition",
@@ -4710,7 +4710,7 @@
     {
       "name": "PrimedGlowrootTNTOnInitialEntitySpawn",
       "type": "procedure",
-      "sortid": 289,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "primed_glowroot_tnt_on_initial_entity_spawn",
@@ -4729,7 +4729,7 @@
     {
       "name": "GlowrootTNTExplodes",
       "type": "procedure",
-      "sortid": 290,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tnt_explodes",
@@ -4760,7 +4760,7 @@
     {
       "name": "GlowrootTNTProcedure",
       "type": "procedure",
-      "sortid": 291,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tnt_procedure",
@@ -4791,7 +4791,7 @@
     {
       "name": "GlowVisorOverlayDisplayOverlayIngame",
       "type": "procedure",
-      "sortid": 292,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_visor_overlay_display_overlay_ingame",
@@ -4811,7 +4811,7 @@
     {
       "name": "GlowVisorOverlay",
       "type": "overlay",
-      "sortid": 293,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_visor_overlay",
@@ -4824,7 +4824,7 @@
     {
       "name": "RedstoneFlashlightLight",
       "type": "block",
-      "sortid": 294,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_flashlight_light",
@@ -4841,7 +4841,7 @@
     {
       "name": "RedLight",
       "type": "enchantment",
-      "sortid": 295,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_light",
@@ -4854,7 +4854,7 @@
     {
       "name": "YellowLight",
       "type": "enchantment",
-      "sortid": 296,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_light",
@@ -4867,7 +4867,7 @@
     {
       "name": "Glowlight",
       "type": "item",
-      "sortid": 95,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowlight",
@@ -4883,7 +4883,7 @@
     {
       "name": "GlowFlashlightLight",
       "type": "block",
-      "sortid": 297,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_flashlight_light",
@@ -4900,7 +4900,7 @@
     {
       "name": "RedstoneGlowFlashlightLight",
       "type": "block",
-      "sortid": 298,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_glow_flashlight_light",
@@ -4917,7 +4917,7 @@
     {
       "name": "GlowFlashlightLightUpdateTick",
       "type": "procedure",
-      "sortid": 299,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_flashlight_light_update_tick",
@@ -4948,7 +4948,7 @@
     {
       "name": "GlowrootTNTBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 300,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tnt_block_destroyed_by_player",
@@ -4983,7 +4983,7 @@
     {
       "name": "GlowrootDrillEntityPreventDamage",
       "type": "procedure",
-      "sortid": 301,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_drill_entity_prevent_damage",
@@ -5026,7 +5026,7 @@
     {
       "name": "GlowrootTNTCancelDamage",
       "type": "procedure",
-      "sortid": 302,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tnt_cancel_damage",
@@ -5062,7 +5062,7 @@
     {
       "name": "GlowrootMachineGUI",
       "type": "gui",
-      "sortid": 303,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_machine_gui",
@@ -5077,7 +5077,7 @@
     {
       "name": "GlowrootButtonprocedure",
       "type": "procedure",
-      "sortid": 304,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_buttonprocedure",
@@ -5112,7 +5112,7 @@
     {
       "name": "GlowrootMachineGUIInfo1",
       "type": "gui",
-      "sortid": 305,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_machine_gui_info_1",
@@ -5127,7 +5127,7 @@
     {
       "name": "GlowrootInfoProcedure",
       "type": "procedure",
-      "sortid": 306,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_info_procedure",
@@ -5162,7 +5162,7 @@
     {
       "name": "GlowrootBackButton",
       "type": "procedure",
-      "sortid": 307,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_back_button",
@@ -5197,7 +5197,7 @@
     {
       "name": "GlowrootKeycardGUI1",
       "type": "gui",
-      "sortid": 308,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_keycard_gui_1",
@@ -5212,7 +5212,7 @@
     {
       "name": "GlowrootKeycardGUI2",
       "type": "gui",
-      "sortid": 309,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_keycard_gui_2",
@@ -5227,7 +5227,7 @@
     {
       "name": "GlowrootInfoTextboxButton",
       "type": "procedure",
-      "sortid": 310,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_info_textbox_button",
@@ -5266,7 +5266,7 @@
     {
       "name": "GlowrootGUI2Button",
       "type": "procedure",
-      "sortid": 311,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_gui_2_button",
@@ -5301,7 +5301,7 @@
     {
       "name": "GlowrootKeycardGUI1Button",
       "type": "procedure",
-      "sortid": 312,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_keycard_gui_1_button",
@@ -5336,7 +5336,7 @@
     {
       "name": "GlowsquidTentacle",
       "type": "item",
-      "sortid": 76,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowsquid_tentacle",
@@ -5350,7 +5350,7 @@
     {
       "name": "GlowsquidTentaclePlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 313,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowsquid_tentacle_player_finishes_using_item",
@@ -5385,7 +5385,7 @@
     {
       "name": "Glowsquiddiesloot",
       "type": "procedure",
-      "sortid": 314,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowsquiddiesloot",
@@ -5428,7 +5428,7 @@
     {
       "name": "CookedGlowSquidTentacle",
       "type": "item",
-      "sortid": 77,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_squid_tentacle",
@@ -5442,7 +5442,7 @@
     {
       "name": "CookedSquidtentacleeat",
       "type": "procedure",
-      "sortid": 315,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_squidtentacleeat",
@@ -5477,7 +5477,7 @@
     {
       "name": "CookedSquidRecipe",
       "type": "recipe",
-      "sortid": 316,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_squid_recipe",
@@ -5490,7 +5490,7 @@
     {
       "name": "SmokeRecipesquid",
       "type": "recipe",
-      "sortid": 317,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smoke_recipesquid",
@@ -5503,7 +5503,7 @@
     {
       "name": "Campfirerecipesquid",
       "type": "recipe",
-      "sortid": 318,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "campfirerecipesquid",
@@ -5516,7 +5516,7 @@
     {
       "name": "Glowfish",
       "type": "livingentity",
-      "sortid": 110,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowfish",
@@ -5530,7 +5530,7 @@
     {
       "name": "RawGlowfish",
       "type": "item",
-      "sortid": 319,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_glowfish",
@@ -5544,7 +5544,7 @@
     {
       "name": "CookedGlowfish",
       "type": "item",
-      "sortid": 320,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_glowfish",
@@ -5558,7 +5558,7 @@
     {
       "name": "Glowfishcookedeat",
       "type": "procedure",
-      "sortid": 321,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowfishcookedeat",
@@ -5593,7 +5593,7 @@
     {
       "name": "CookGlowfishRecipe",
       "type": "recipe",
-      "sortid": 322,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cook_glowfish_recipe",
@@ -5606,7 +5606,7 @@
     {
       "name": "SmokeRecipeFish",
       "type": "recipe",
-      "sortid": 323,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smoke_recipe_fish",
@@ -5619,7 +5619,7 @@
     {
       "name": "SmokeRecipecAmfire",
       "type": "recipe",
-      "sortid": 324,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smoke_recipec_amfire",
@@ -5632,7 +5632,7 @@
     {
       "name": "Glowfishdiesloot",
       "type": "procedure",
-      "sortid": 325,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowfishdiesloot",
@@ -5691,7 +5691,7 @@
     {
       "name": "GlowrootBushes",
       "type": "feature",
-      "sortid": 326,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bushes",
@@ -5707,7 +5707,7 @@
     {
       "name": "LeavesRecipe",
       "type": "recipe",
-      "sortid": 327,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaves_recipe",
@@ -5720,7 +5720,7 @@
     {
       "name": "LeavesRecipeReverse",
       "type": "recipe",
-      "sortid": 328,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leaves_recipe_reverse",
@@ -5733,7 +5733,7 @@
     {
       "name": "GlowrootBushesAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 329,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bushes_additional_generation_condition",
@@ -5765,7 +5765,7 @@
     {
       "name": "GlowrootLeavesbROKEN",
       "type": "procedure",
-      "sortid": 330,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_leavesb_roken",
@@ -5800,7 +5800,7 @@
     {
       "name": "Dazzledoverlay",
       "type": "procedure",
-      "sortid": 331,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzledoverlay",
@@ -5836,7 +5836,7 @@
     {
       "name": "GlowrootChainRecipe",
       "type": "recipe",
-      "sortid": 332,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_chain_recipe",
@@ -5849,7 +5849,7 @@
     {
       "name": "Stonecutterchainrecipe",
       "type": "recipe",
-      "sortid": 333,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutterchainrecipe",
@@ -5862,7 +5862,7 @@
     {
       "name": "GlowrootBricksRecipe",
       "type": "recipe",
-      "sortid": 334,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bricks_recipe",
@@ -5875,7 +5875,7 @@
     {
       "name": "GlowrootVinesFeatureAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 335,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_vines_feature_additional_generation_condition",
@@ -5907,7 +5907,7 @@
     {
       "name": "GlowrootVinesFeature",
       "type": "feature",
-      "sortid": 336,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_vines_feature",
@@ -5922,7 +5922,7 @@
     {
       "name": "MiningHelmet",
       "type": "armor",
-      "sortid": 337,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mining_helmet",
@@ -5936,7 +5936,7 @@
     {
       "name": "HelmetOnHeadTick",
       "type": "procedure",
-      "sortid": 338,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "helmet_on_head_tick",
@@ -5959,7 +5959,7 @@
     {
       "name": "GlowRootUpdateTick",
       "type": "procedure",
-      "sortid": 339,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_root_update_tick",
@@ -5990,7 +5990,7 @@
     {
       "name": "GlowrootStoneExtraABOVEDEEPSLATE",
       "type": "feature",
-      "sortid": 340,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_extra_abovedeepslate",
@@ -6005,7 +6005,7 @@
     {
       "name": "GlowrootCrystal",
       "type": "item",
-      "sortid": 81,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chrysoprase_crystal",
@@ -6036,7 +6036,7 @@
     {
       "name": "Nodeitem",
       "type": "tag",
-      "sortid": 341,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nodeitem",
@@ -6049,7 +6049,7 @@
     {
       "name": "Nodeone",
       "type": "tag",
-      "sortid": 342,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nodeone",
@@ -6062,7 +6062,7 @@
     {
       "name": "Nodetwo",
       "type": "tag",
-      "sortid": 343,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nodetwo",
@@ -6075,7 +6075,7 @@
     {
       "name": "Nodethree",
       "type": "tag",
-      "sortid": 344,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nodethree",
@@ -6088,7 +6088,7 @@
     {
       "name": "GlowrootNodeOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 345,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_node_on_block_right_clicked",
@@ -6123,7 +6123,7 @@
     {
       "name": "GlowrootNodeUpdateTick",
       "type": "procedure",
-      "sortid": 346,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_node_update_tick",
@@ -6154,7 +6154,7 @@
     {
       "name": "NodeStructureAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 347,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "node_structure_additional_generation_condition",
@@ -6186,7 +6186,7 @@
     {
       "name": "NodeStructure",
       "type": "structure",
-      "sortid": 348,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "node_structure",
@@ -6202,7 +6202,7 @@
     {
       "name": "GlowrootCrystalToDustconverter",
       "type": "recipe",
-      "sortid": 349,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_crystal_to_dustconverter",
@@ -6215,7 +6215,7 @@
     {
       "name": "GlowlightRecipe",
       "type": "recipe",
-      "sortid": 350,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowlight_recipe",
@@ -6228,7 +6228,7 @@
     {
       "name": "GlowrootTorchRecipe",
       "type": "recipe",
-      "sortid": 351,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_torch_recipe",
@@ -6241,7 +6241,7 @@
     {
       "name": "GlowrootTntrecipe",
       "type": "recipe",
-      "sortid": 352,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tntrecipe",
@@ -6254,7 +6254,7 @@
     {
       "name": "GlowrootMachineRecipe",
       "type": "recipe",
-      "sortid": 353,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_machine_recipe",
@@ -6267,7 +6267,7 @@
     {
       "name": "NodeRecipe",
       "type": "recipe",
-      "sortid": 354,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "node_recipe",
@@ -6280,7 +6280,7 @@
     {
       "name": "Greenhouse",
       "type": "achievement",
-      "sortid": 355,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "greenhouse",
@@ -6293,7 +6293,7 @@
     {
       "name": "DazzledCancelAttackProcedure",
       "type": "procedure",
-      "sortid": 356,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzled_cancel_attack_procedure",
@@ -6312,7 +6312,7 @@
     {
       "name": "Dazzled",
       "type": "potioneffect",
-      "sortid": 357,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzled",
@@ -6325,7 +6325,7 @@
     {
       "name": "DirtBlocks",
       "type": "tag",
-      "sortid": 358,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirt_blocks",
@@ -6338,7 +6338,7 @@
     {
       "name": "AnimalsSpawnableOnBlocks",
       "type": "tag",
-      "sortid": 359,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animals_spawnable_on_blocks",
@@ -6351,7 +6351,7 @@
     {
       "name": "PreventMobSpawningInsideBlocks",
       "type": "tag",
-      "sortid": 360,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prevent_mob_spawning_inside_blocks",
@@ -6364,7 +6364,7 @@
     {
       "name": "ImpactProjectileEntities",
       "type": "tag",
-      "sortid": 361,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impact_projectile_entities",
@@ -6377,7 +6377,7 @@
     {
       "name": "AirBubbleProcedure",
       "type": "procedure",
-      "sortid": 362,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "air_bubble_procedure",
@@ -6408,7 +6408,7 @@
     {
       "name": "GlowrootedStoneCanBoneMealBeUsedOnThisBlock",
       "type": "procedure",
-      "sortid": 363,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_stone_can_bone_meal_be_used_on_this_block",
@@ -6440,7 +6440,7 @@
     {
       "name": "Vine",
       "type": "tag",
-      "sortid": 364,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vine",
@@ -6453,7 +6453,7 @@
     {
       "name": "Vines",
       "type": "tag",
-      "sortid": 365,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vines",
@@ -6466,7 +6466,7 @@
     {
       "name": "Vineblock",
       "type": "tag",
-      "sortid": 366,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vineblock",
@@ -6479,7 +6479,7 @@
     {
       "name": "Vinesblock",
       "type": "tag",
-      "sortid": 367,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vinesblock",
@@ -6492,7 +6492,7 @@
     {
       "name": "Stone",
       "type": "tag",
-      "sortid": 369,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone",
@@ -6505,7 +6505,7 @@
     {
       "name": "Stoneitem",
       "type": "tag",
-      "sortid": 370,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stoneitem",
@@ -6518,7 +6518,7 @@
     {
       "name": "Glowrootflower",
       "type": "tag",
-      "sortid": 371,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootflower",
@@ -6531,7 +6531,7 @@
     {
       "name": "Glowrootenddispplay2",
       "type": "procedure",
-      "sortid": 372,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootenddispplay_2",
@@ -6562,7 +6562,7 @@
     {
       "name": "Dazzledeffect",
       "type": "procedure",
-      "sortid": 373,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzledeffect",
@@ -6581,7 +6581,7 @@
     {
       "name": "Dazzledeffect2",
       "type": "procedure",
-      "sortid": 374,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzledeffect_2",
@@ -6600,7 +6600,7 @@
     {
       "name": "Glowrootflowertall",
       "type": "tag",
-      "sortid": 375,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootflowertall",
@@ -6613,7 +6613,7 @@
     {
       "name": "GlowrootedStoneOnBoneMealSuccess",
       "type": "procedure",
-      "sortid": 376,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_stone_on_bone_meal_success",
@@ -6644,7 +6644,7 @@
     {
       "name": "Glowrootstonecondition",
       "type": "procedure",
-      "sortid": 377,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootstonecondition",
@@ -6675,7 +6675,7 @@
     {
       "name": "Glowrootflowerblock",
       "type": "tag",
-      "sortid": 378,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootflowerblock",
@@ -6688,7 +6688,7 @@
     {
       "name": "Glowrootflowertallblock",
       "type": "tag",
-      "sortid": 379,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootflowertallblock",
@@ -6741,7 +6741,7 @@
     {
       "name": "Glowrootplantplaceable",
       "type": "tag",
-      "sortid": 380,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootplantplaceable",
@@ -6754,7 +6754,7 @@
     {
       "name": "Glowrootplantblock",
       "type": "tag",
-      "sortid": 381,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootplantblock",
@@ -6767,7 +6767,7 @@
     {
       "name": "SquidDazzle",
       "type": "procedure",
-      "sortid": 382,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "squid_dazzle",
@@ -6790,7 +6790,7 @@
     {
       "name": "GlowrootedCalcite",
       "type": "block",
-      "sortid": 383,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_calcite",
@@ -6806,7 +6806,7 @@
     {
       "name": "GlowrootedSmoothBasalt",
       "type": "block",
-      "sortid": 384,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_smooth_basalt",
@@ -6822,7 +6822,7 @@
     {
       "name": "GlowrootCrystalizedBlock",
       "type": "block",
-      "sortid": 84,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_chrysoprase",
@@ -6838,7 +6838,7 @@
     {
       "name": "GlowrootedCrystalizedBlock",
       "type": "block",
-      "sortid": 85,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "budded_block_of_chrysoprase",
@@ -6855,7 +6855,7 @@
     {
       "name": "GlowrootedCluster",
       "type": "block",
-      "sortid": 86,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chrysoprase_cluster",
@@ -6871,7 +6871,7 @@
     {
       "name": "Crcombatpickaxe",
       "type": "tag",
-      "sortid": 385,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crcombatpickaxe",
@@ -6884,7 +6884,7 @@
     {
       "name": "Crcombatshovel",
       "type": "tag",
-      "sortid": 386,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crcombatshovel",
@@ -6897,7 +6897,7 @@
     {
       "name": "Swords",
       "type": "tag",
-      "sortid": 387,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "swords",
@@ -6910,7 +6910,7 @@
     {
       "name": "Shovels",
       "type": "tag",
-      "sortid": 388,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shovels",
@@ -6923,7 +6923,7 @@
     {
       "name": "Pickaxes",
       "type": "tag",
-      "sortid": 389,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pickaxes",
@@ -6936,7 +6936,7 @@
     {
       "name": "GlowrootedSmallBud",
       "type": "block",
-      "sortid": 89,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_chrysoprase_bud",
@@ -6952,7 +6952,7 @@
     {
       "name": "GlowrootedMediumBud",
       "type": "block",
-      "sortid": 88,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "medium_chrysoprase_bud",
@@ -6968,7 +6968,7 @@
     {
       "name": "GlowrootedLargeBud",
       "type": "block",
-      "sortid": 87,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_chrysoprase_bud",
@@ -6984,7 +6984,7 @@
     {
       "name": "Chrysoprasecluster",
       "type": "loottable",
-      "sortid": 390,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chrysoprasecluster",
@@ -6997,7 +6997,7 @@
     {
       "name": "Smallchrysoprasebud",
       "type": "loottable",
-      "sortid": 391,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smallchrysoprasebud",
@@ -7010,7 +7010,7 @@
     {
       "name": "Mediumchrysoprasebud",
       "type": "loottable",
-      "sortid": 392,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mediumchrysoprasebud",
@@ -7023,7 +7023,7 @@
     {
       "name": "Largechrysoprasebud",
       "type": "loottable",
-      "sortid": 393,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "largechrysoprasebud",
@@ -7036,7 +7036,7 @@
     {
       "name": "Sound",
       "type": "procedure",
-      "sortid": 394,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sound",
@@ -7067,7 +7067,7 @@
     {
       "name": "AdvancementCompleteGlowroot",
       "type": "function",
-      "sortid": 395,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "registry_name": "advancement_complete_glowroot",
@@ -7080,7 +7080,7 @@
     {
       "name": "Dazzlingmob",
       "type": "tag",
-      "sortid": 396,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzlingmob",
@@ -7093,7 +7093,7 @@
     {
       "name": "Prism",
       "type": "tool",
-      "sortid": 104,
+      "sortid": 105,
       "compiles": true,
       "locked_code": true,
       "registry_name": "prism",
@@ -7107,7 +7107,7 @@
     {
       "name": "PrismRightclicked",
       "type": "procedure",
-      "sortid": 397,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prism_rightclicked",
@@ -7146,7 +7146,7 @@
     {
       "name": "Prismontick",
       "type": "procedure",
-      "sortid": 398,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prismontick",
@@ -7185,7 +7185,7 @@
     {
       "name": "Light1",
       "type": "procedure",
-      "sortid": 399,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_1",
@@ -7217,7 +7217,7 @@
     {
       "name": "Light0",
       "type": "procedure",
-      "sortid": 400,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_0",
@@ -7249,7 +7249,7 @@
     {
       "name": "Light2",
       "type": "procedure",
-      "sortid": 401,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_2",
@@ -7281,7 +7281,7 @@
     {
       "name": "Light3",
       "type": "procedure",
-      "sortid": 402,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_3",
@@ -7313,7 +7313,7 @@
     {
       "name": "Light4",
       "type": "procedure",
-      "sortid": 403,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_4",
@@ -7345,7 +7345,7 @@
     {
       "name": "Light6",
       "type": "procedure",
-      "sortid": 404,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_6",
@@ -7377,7 +7377,7 @@
     {
       "name": "Light5",
       "type": "procedure",
-      "sortid": 405,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_5",
@@ -7409,7 +7409,7 @@
     {
       "name": "Light7",
       "type": "procedure",
-      "sortid": 406,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_7",
@@ -7441,7 +7441,7 @@
     {
       "name": "Light8",
       "type": "procedure",
-      "sortid": 407,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_8",
@@ -7473,7 +7473,7 @@
     {
       "name": "Light9",
       "type": "procedure",
-      "sortid": 408,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_9",
@@ -7505,7 +7505,7 @@
     {
       "name": "Light10",
       "type": "procedure",
-      "sortid": 409,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_10",
@@ -7537,7 +7537,7 @@
     {
       "name": "Light11",
       "type": "procedure",
-      "sortid": 410,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_11",
@@ -7569,7 +7569,7 @@
     {
       "name": "Light12",
       "type": "procedure",
-      "sortid": 411,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_12",
@@ -7601,7 +7601,7 @@
     {
       "name": "Light13",
       "type": "procedure",
-      "sortid": 412,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_13",
@@ -7633,7 +7633,7 @@
     {
       "name": "Light14",
       "type": "procedure",
-      "sortid": 413,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_14",
@@ -7665,7 +7665,7 @@
     {
       "name": "Light15",
       "type": "procedure",
-      "sortid": 414,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_15",
@@ -7697,7 +7697,7 @@
     {
       "name": "Below5",
       "type": "procedure",
-      "sortid": 415,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "registry_name": "below_5",
@@ -7733,7 +7733,7 @@
     {
       "name": "Below3",
       "type": "procedure",
-      "sortid": 416,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "registry_name": "below_3",
@@ -7769,7 +7769,7 @@
     {
       "name": "Below1",
       "type": "procedure",
-      "sortid": 417,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "registry_name": "below_1",
@@ -7805,7 +7805,7 @@
     {
       "name": "Above10",
       "type": "procedure",
-      "sortid": 418,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "registry_name": "above_10",
@@ -7841,7 +7841,7 @@
     {
       "name": "Above13",
       "type": "procedure",
-      "sortid": 419,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "registry_name": "above_13",
@@ -7877,7 +7877,7 @@
     {
       "name": "Above15",
       "type": "procedure",
-      "sortid": 420,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "registry_name": "above_15",
@@ -7913,7 +7913,7 @@
     {
       "name": "Bar",
       "type": "procedure",
-      "sortid": 421,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bar",
@@ -7933,7 +7933,7 @@
     {
       "name": "FlashlightOffHand",
       "type": "procedure",
-      "sortid": 422,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flashlight_off_hand",
@@ -7956,7 +7956,7 @@
     {
       "name": "Glowrootartificialchargeblock",
       "type": "tag",
-      "sortid": 423,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootartificialchargeblock",
@@ -7969,7 +7969,7 @@
     {
       "name": "Conditionrage",
       "type": "procedure",
-      "sortid": 424,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "registry_name": "conditionrage",
@@ -8029,7 +8029,7 @@
     {
       "name": "MinersSaddle",
       "type": "item",
-      "sortid": 91,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_drill_head",
@@ -8043,7 +8043,7 @@
     {
       "name": "GlowrootGolemDrill",
       "type": "livingentity",
-      "sortid": 425,
+      "sortid": 430,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glowroot_golem_drill",
@@ -8058,7 +8058,7 @@
     {
       "name": "BetterThanHorses",
       "type": "achievement",
-      "sortid": 426,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "registry_name": "better_than_horses",
@@ -8071,7 +8071,7 @@
     {
       "name": "RightClickGolemIntoDrill",
       "type": "procedure",
-      "sortid": 427,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "registry_name": "right_click_golem_into_drill",
@@ -8098,7 +8098,7 @@
     {
       "name": "GlowrootGolemDrillEntityTickUpdate",
       "type": "procedure",
-      "sortid": 428,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_golem_drill_entity_tick_update",
@@ -8133,7 +8133,7 @@
     {
       "name": "DrillMineable",
       "type": "tag",
-      "sortid": 429,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drill_mineable",
@@ -8146,7 +8146,7 @@
     {
       "name": "DrillActivate",
       "type": "keybind",
-      "sortid": 430,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drill_activate",
@@ -8159,7 +8159,7 @@
     {
       "name": "DrillActivateOnKeyPressed",
       "type": "procedure",
-      "sortid": 431,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drill_activate_on_key_pressed",
@@ -8194,7 +8194,7 @@
     {
       "name": "DrillActivateKeyReleased",
       "type": "procedure",
-      "sortid": 432,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drill_activate_key_released",
@@ -8229,7 +8229,7 @@
     {
       "name": "GlowrootGolemDrilLDies",
       "type": "procedure",
-      "sortid": 433,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_golem_dril_l_dies",
@@ -8260,7 +8260,7 @@
     {
       "name": "Awgfawg",
       "type": "procedure",
-      "sortid": 434,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "registry_name": "awgfawg",
@@ -8280,7 +8280,7 @@
     {
       "name": "Drillmineableforge",
       "type": "tag",
-      "sortid": 435,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drillmineableforge",
@@ -8293,7 +8293,7 @@
     {
       "name": "GlowrootEngine",
       "type": "item",
-      "sortid": 92,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_engine",
@@ -8307,7 +8307,7 @@
     {
       "name": "GlowrootGolemDrillOnInitialEntitySpawn",
       "type": "procedure",
-      "sortid": 436,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_golem_drill_on_initial_entity_spawn",
@@ -8338,7 +8338,7 @@
     {
       "name": "GlowrooticonRightclicked",
       "type": "procedure",
-      "sortid": 437,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooticon_rightclicked",
@@ -8357,7 +8357,7 @@
     {
       "name": "Glowrooticon",
       "type": "item",
-      "sortid": 438,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooticon",
@@ -8371,7 +8371,7 @@
     {
       "name": "GlowrootDrill",
       "type": "tool",
-      "sortid": 103,
+      "sortid": 104,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glowroot_drill",
@@ -8385,7 +8385,7 @@
     {
       "name": "GlowrootDrillBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 439,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_drill_block_destroyed_with_tool",
@@ -8420,7 +8420,7 @@
     {
       "name": "Nodeblockreplaceable",
       "type": "tag",
-      "sortid": 440,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nodeblockreplaceable",
@@ -8433,7 +8433,7 @@
     {
       "name": "AlarmOn",
       "type": "block",
-      "sortid": 441,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarm_on",
@@ -8467,7 +8467,7 @@
     {
       "name": "AlarmoffUpdateTick",
       "type": "procedure",
-      "sortid": 442,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarmoff_update_tick",
@@ -8498,7 +8498,7 @@
     {
       "name": "PureChrysoprase",
       "type": "block",
-      "sortid": 82,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unpure_chrysoprase",
@@ -8514,7 +8514,7 @@
     {
       "name": "ChyrosphrasePureRecipe",
       "type": "recipe",
-      "sortid": 443,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chyrosphrase_pure_recipe",
@@ -8527,7 +8527,7 @@
     {
       "name": "ChrysophseCrystalBlockRecipe",
       "type": "recipe",
-      "sortid": 444,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chrysophse_crystal_block_recipe",
@@ -8540,7 +8540,7 @@
     {
       "name": "Chryrosprasetodustrecipe",
       "type": "recipe",
-      "sortid": 445,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chryrosprasetodustrecipe",
@@ -8553,7 +8553,7 @@
     {
       "name": "AlarmOnUpdateTick",
       "type": "procedure",
-      "sortid": 446,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarm_on_update_tick",
@@ -8584,7 +8584,7 @@
     {
       "name": "AlarmBlockRecipe",
       "type": "recipe",
-      "sortid": 447,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alarm_block_recipe",
@@ -8597,7 +8597,7 @@
     {
       "name": "GlowrootedClusterBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 448,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_cluster_block_valid_placement_condition",
@@ -8611,7 +8611,7 @@
     {
       "name": "ClusterNeighborBlockChanges",
       "type": "procedure",
-      "sortid": 449,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cluster_neighbor_block_changes",
@@ -8642,7 +8642,7 @@
     {
       "name": "GlowrootSpawner",
       "type": "block",
-      "sortid": 450,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_spawner",
@@ -8658,7 +8658,7 @@
     {
       "name": "ChiseledGlowrootPillar",
       "type": "block",
-      "sortid": 451,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_glowroot_pillar",
@@ -8674,7 +8674,7 @@
     {
       "name": "Cantexplode",
       "type": "tag",
-      "sortid": 452,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cantexplode",
@@ -8687,7 +8687,7 @@
     {
       "name": "GogglesGlowrootedProcedure",
       "type": "procedure",
-      "sortid": 453,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "registry_name": "goggles_glowrooted_procedure",
@@ -8701,7 +8701,7 @@
     {
       "name": "HardenedChysoprase",
       "type": "block",
-      "sortid": 83,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_chysoprase",
@@ -8717,7 +8717,7 @@
     {
       "name": "PureChyrophraseRecipe",
       "type": "recipe",
-      "sortid": 454,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_chyrophrase_recipe",
@@ -8730,7 +8730,7 @@
     {
       "name": "Chyrophrasebacktocrystal",
       "type": "recipe",
-      "sortid": 455,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chyrophrasebacktocrystal",
@@ -8743,7 +8743,7 @@
     {
       "name": "GlowrootedClusterBlockValidPlacementCoandition",
       "type": "procedure",
-      "sortid": 456,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_cluster_block_valid_placement_coandition",
@@ -8757,7 +8757,7 @@
     {
       "name": "GlowrootedCrystalizedBlockUpdateTick",
       "type": "procedure",
-      "sortid": 457,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrooted_crystalized_block_update_tick",
@@ -8844,7 +8844,7 @@
     {
       "name": "Doors",
       "type": "tag",
-      "sortid": 458,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "registry_name": "doors",
@@ -8873,7 +8873,7 @@
     {
       "name": "GlowrootLightPop",
       "type": "particle",
-      "sortid": 459,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_light_pop",
@@ -8887,7 +8887,7 @@
     {
       "name": "GlowInkBalloon",
       "type": "rangeditem",
-      "sortid": 79,
+      "sortid": 80,
       "compiles": true,
       "locked_code": true,
       "registry_name": "glow_ink_balloon",
@@ -8902,7 +8902,7 @@
     {
       "name": "GlowInKSacballoonitemused",
       "type": "procedure",
-      "sortid": 460,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_in_k_sacballoonitemused",
@@ -8925,7 +8925,7 @@
     {
       "name": "Balloonglowflying",
       "type": "procedure",
-      "sortid": 461,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloonglowflying",
@@ -8956,7 +8956,7 @@
     {
       "name": "Balloonhitblocks",
       "type": "procedure",
-      "sortid": 462,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "registry_name": "balloonhitblocks",
@@ -8991,7 +8991,7 @@
     {
       "name": "GlowrootInk",
       "type": "particle",
-      "sortid": 463,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_ink",
@@ -9005,7 +9005,7 @@
     {
       "name": "InkBalloon",
       "type": "rangeditem",
-      "sortid": 78,
+      "sortid": 79,
       "compiles": true,
       "locked_code": true,
       "registry_name": "ink_balloon",
@@ -9020,7 +9020,7 @@
     {
       "name": "Inkballoonflying",
       "type": "procedure",
-      "sortid": 464,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inkballoonflying",
@@ -9051,7 +9051,7 @@
     {
       "name": "Inkballooonhitblock",
       "type": "procedure",
-      "sortid": 465,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inkballooonhitblock",
@@ -9086,7 +9086,7 @@
     {
       "name": "SquidInk",
       "type": "particle",
-      "sortid": 466,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "registry_name": "squid_ink",
@@ -9100,7 +9100,7 @@
     {
       "name": "SquidTentacle",
       "type": "item",
-      "sortid": 75,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "squid_tentacle",
@@ -9114,7 +9114,7 @@
     {
       "name": "Cookedsquidrecipe2",
       "type": "recipe",
-      "sortid": 467,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cookedsquidrecipe_2",
@@ -9127,7 +9127,7 @@
     {
       "name": "Smokerecipesquid2",
       "type": "recipe",
-      "sortid": 468,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smokerecipesquid_2",
@@ -9140,7 +9140,7 @@
     {
       "name": "Campfirerecipesquid2",
       "type": "recipe",
-      "sortid": 469,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "registry_name": "campfirerecipesquid_2",
@@ -9153,7 +9153,7 @@
     {
       "name": "Squiddiesloot",
       "type": "procedure",
-      "sortid": 470,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "registry_name": "squiddiesloot",
@@ -9196,7 +9196,7 @@
     {
       "name": "SquidTentaclePlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 471,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "registry_name": "squid_tentacle_player_finishes_using_item",
@@ -9231,7 +9231,7 @@
     {
       "name": "GlowInkBalloonRecipe",
       "type": "recipe",
-      "sortid": 472,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_ink_balloon_recipe",
@@ -9244,7 +9244,7 @@
     {
       "name": "InkBalloonRecipe",
       "type": "recipe",
-      "sortid": 473,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ink_balloon_recipe",
@@ -9257,7 +9257,7 @@
     {
       "name": "EmitterLiquidPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 474,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emitter_liquid_player_finishes_using_item",
@@ -9296,7 +9296,7 @@
     {
       "name": "Cancelemitterifnothing",
       "type": "procedure",
-      "sortid": 475,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cancelemitterifnothing",
@@ -9319,7 +9319,7 @@
     {
       "name": "GlowrootBasicEmptyInfo",
       "type": "gui",
-      "sortid": 476,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_basic_empty_info",
@@ -9333,7 +9333,7 @@
     {
       "name": "GlowrootEmitterFlask1gui",
       "type": "gui",
-      "sortid": 477,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_emitter_flask_1gui",
@@ -9348,7 +9348,7 @@
     {
       "name": "GlowrootEmitterFlaskgui2",
       "type": "gui",
-      "sortid": 478,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_emitter_flaskgui_2",
@@ -9363,7 +9363,7 @@
     {
       "name": "GlowrootEmitterFlask1open",
       "type": "procedure",
-      "sortid": 479,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_emitter_flask_1open",
@@ -9398,7 +9398,7 @@
     {
       "name": "Glowrootemitterflask2open",
       "type": "procedure",
-      "sortid": 480,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootemitterflask_2open",
@@ -9433,7 +9433,7 @@
     {
       "name": "Closegui",
       "type": "procedure",
-      "sortid": 481,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "registry_name": "closegui",
@@ -9452,7 +9452,7 @@
     {
       "name": "GlowrootHermitOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 482,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_hermit_on_entity_tick_update",
@@ -9487,7 +9487,7 @@
     {
       "name": "Lookpropcedure",
       "type": "procedure",
-      "sortid": 483,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lookpropcedure",
@@ -9507,7 +9507,7 @@
     {
       "name": "Attackcondition",
       "type": "procedure",
-      "sortid": 484,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "registry_name": "attackcondition",
@@ -9530,7 +9530,7 @@
     {
       "name": "GlowWeedsCanBoneMealBeUsedOnThisBlock",
       "type": "procedure",
-      "sortid": 485,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_weeds_can_bone_meal_be_used_on_this_block",
@@ -9562,7 +9562,7 @@
     {
       "name": "GlowWeedsOnBoneMealSuccess",
       "type": "procedure",
-      "sortid": 486,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_weeds_on_bone_meal_success",
@@ -9661,7 +9661,7 @@
     {
       "name": "Darknessdetcectorupdatetick",
       "type": "procedure",
-      "sortid": 487,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darknessdetcectorupdatetick",
@@ -9692,7 +9692,7 @@
     {
       "name": "Darknessdetectorrecipe",
       "type": "recipe",
-      "sortid": 488,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darknessdetectorrecipe",
@@ -9705,7 +9705,7 @@
     {
       "name": "GlowrootLaserEmitter",
       "type": "block",
-      "sortid": 489,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_laser_emitter",
@@ -9722,7 +9722,7 @@
     {
       "name": "GlowrootLaserEmitterUpdateTick",
       "type": "procedure",
-      "sortid": 490,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_laser_emitter_update_tick",
@@ -9753,7 +9753,7 @@
     {
       "name": "GlowrootMusicDisc",
       "type": "musicdisc",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_music_disc",
@@ -9767,7 +9767,7 @@
     {
       "name": "Zombietransform",
       "type": "procedure",
-      "sortid": 491,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zombietransform",
@@ -9802,7 +9802,7 @@
     {
       "name": "GlowGlassPanesRecipe",
       "type": "recipe",
-      "sortid": 492,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glow_glass_panes_recipe",
@@ -9815,7 +9815,7 @@
     {
       "name": "GlowrootCore",
       "type": "block",
-      "sortid": 93,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_core",
@@ -9831,7 +9831,7 @@
     {
       "name": "LockerAir",
       "type": "block",
-      "sortid": 493,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "registry_name": "locker_air",
@@ -9848,7 +9848,7 @@
     {
       "name": "LockerAirNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 494,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "registry_name": "locker_air_neighbour_block_changes",
@@ -9879,7 +9879,7 @@
     {
       "name": "GlowrootLockerBlockAdded",
       "type": "procedure",
-      "sortid": 495,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_locker_block_added",
@@ -9910,7 +9910,7 @@
     {
       "name": "GlowrootRecipeBaseGUI",
       "type": "gui",
-      "sortid": 496,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_recipe_base_gui",
@@ -9925,7 +9925,7 @@
     {
       "name": "GlowrootToolsGUI1",
       "type": "gui",
-      "sortid": 497,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tools_gui_1",
@@ -9940,7 +9940,7 @@
     {
       "name": "GlowrootToolsGUI2",
       "type": "gui",
-      "sortid": 498,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_tools_gui_2",
@@ -9955,7 +9955,7 @@
     {
       "name": "ToolsGUI1",
       "type": "procedure",
-      "sortid": 499,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tools_gui_1",
@@ -9990,7 +9990,7 @@
     {
       "name": "ToolsGUI2",
       "type": "procedure",
-      "sortid": 500,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tools_gui_2",
@@ -10025,7 +10025,7 @@
     {
       "name": "GlowrootMachineRecipeGUI",
       "type": "gui",
-      "sortid": 501,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_machine_recipe_gui",
@@ -10040,7 +10040,7 @@
     {
       "name": "GlowrootHybrid",
       "type": "livingentity",
-      "sortid": 113,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_hybrid",
@@ -10055,7 +10055,7 @@
     {
       "name": "LightDetectorRecip",
       "type": "recipe",
-      "sortid": 502,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "registry_name": "light_detector_recip",
@@ -10068,7 +10068,7 @@
     {
       "name": "GlowrootFlame",
       "type": "particle",
-      "sortid": 503,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_flame",
@@ -10082,7 +10082,7 @@
     {
       "name": "TorchWallClientDisplayRandomTick",
       "type": "procedure",
-      "sortid": 504,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_wall_client_display_random_tick",
@@ -10113,7 +10113,7 @@
     {
       "name": "Drillrevertprocedure",
       "type": "procedure",
-      "sortid": 505,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drillrevertprocedure",
@@ -10132,7 +10132,7 @@
     {
       "name": "Drillproc",
       "type": "procedure",
-      "sortid": 506,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drillproc",
@@ -10155,7 +10155,7 @@
     {
       "name": "Crystal1",
       "type": "structure",
-      "sortid": 507,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_1",
@@ -10171,7 +10171,7 @@
     {
       "name": "Crystal2",
       "type": "structure",
-      "sortid": 508,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_2",
@@ -10187,7 +10187,7 @@
     {
       "name": "Crystal3",
       "type": "structure",
-      "sortid": 509,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_3",
@@ -10203,7 +10203,7 @@
     {
       "name": "Dazzledopacity",
       "type": "gamerule",
-      "sortid": 510,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dazzledopacity",
@@ -10215,7 +10215,7 @@
     {
       "name": "NodeStructure1",
       "type": "structure",
-      "sortid": 511,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "registry_name": "node_structure_1",
@@ -10231,7 +10231,7 @@
     {
       "name": "Crystal11",
       "type": "structure",
-      "sortid": 512,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_11",
@@ -10247,7 +10247,7 @@
     {
       "name": "Crystal22",
       "type": "structure",
-      "sortid": 513,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_22",
@@ -10263,7 +10263,7 @@
     {
       "name": "Crystal33",
       "type": "structure",
-      "sortid": 514,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_33",
@@ -10279,7 +10279,7 @@
     {
       "name": "Crystal111",
       "type": "structure",
-      "sortid": 515,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_111",
@@ -10295,7 +10295,7 @@
     {
       "name": "Crystal222",
       "type": "structure",
-      "sortid": 516,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_222",
@@ -10311,7 +10311,7 @@
     {
       "name": "Crystal333",
       "type": "structure",
-      "sortid": 517,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_333",
@@ -10327,7 +10327,7 @@
     {
       "name": "NodeStructure11",
       "type": "structure",
-      "sortid": 518,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "registry_name": "node_structure_11",
@@ -10343,7 +10343,7 @@
     {
       "name": "NodeStructure111",
       "type": "structure",
-      "sortid": 519,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "registry_name": "node_structure_111",
@@ -10359,7 +10359,7 @@
     {
       "name": "Crystal3333",
       "type": "structure",
-      "sortid": 520,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_3333",
@@ -10375,7 +10375,7 @@
     {
       "name": "Crystal1111",
       "type": "structure",
-      "sortid": 521,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_1111",
@@ -10391,7 +10391,7 @@
     {
       "name": "Crystal2222",
       "type": "structure",
-      "sortid": 522,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_2222",
@@ -10567,7 +10567,7 @@
     {
       "name": "CoreRecipeTemp",
       "type": "recipe",
-      "sortid": 523,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "registry_name": "core_recipe_temp",
@@ -10580,7 +10580,7 @@
     {
       "name": "PrismRecipe",
       "type": "recipe",
-      "sortid": 524,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "registry_name": "prism_recipe",
@@ -10593,7 +10593,7 @@
     {
       "name": "LootBug",
       "type": "achievement",
-      "sortid": 525,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "loot_bug",
@@ -10606,7 +10606,7 @@
     {
       "name": "HermitClaw",
       "type": "item",
-      "sortid": 526,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hermit_claw",
@@ -10620,7 +10620,7 @@
     {
       "name": "IntoTheCore",
       "type": "painting",
-      "sortid": 527,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "registry_name": "into_the_core",
@@ -10631,7 +10631,7 @@
     {
       "name": "DrillHeadRecipe",
       "type": "recipe",
-      "sortid": 528,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drill_head_recipe",
@@ -10644,7 +10644,7 @@
     {
       "name": "PanelRecipe",
       "type": "recipe",
-      "sortid": 529,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panel_recipe",
@@ -10657,7 +10657,7 @@
     {
       "name": "VentGlowRecipe",
       "type": "recipe",
-      "sortid": 530,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vent_glow_recipe",
@@ -10670,7 +10670,7 @@
     {
       "name": "PanlRecipeREAL",
       "type": "recipe",
-      "sortid": 531,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "registry_name": "panl_recipe_real",
@@ -10683,7 +10683,7 @@
     {
       "name": "DoorRecipe",
       "type": "recipe",
-      "sortid": 532,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "registry_name": "door_recipe",
@@ -10696,7 +10696,7 @@
     {
       "name": "GlowrootCartRecipe",
       "type": "recipe",
-      "sortid": 533,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cart_recipe",
@@ -10709,7 +10709,7 @@
     {
       "name": "GlowrootLockerRecipe",
       "type": "recipe",
-      "sortid": 534,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_locker_recipe",
@@ -10722,7 +10722,7 @@
     {
       "name": "GlowrootLadderRecipe",
       "type": "recipe",
-      "sortid": 535,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_ladder_recipe",
@@ -10735,7 +10735,7 @@
     {
       "name": "GlowrootCutRecipe",
       "type": "recipe",
-      "sortid": 536,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cut_recipe",
@@ -10748,7 +10748,7 @@
     {
       "name": "GlowrootCutStairsRecipe",
       "type": "recipe",
-      "sortid": 537,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cut_stairs_recipe",
@@ -10761,7 +10761,7 @@
     {
       "name": "GlowrootCutStairsStonecutter",
       "type": "recipe",
-      "sortid": 538,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cut_stairs_stonecutter",
@@ -10774,7 +10774,7 @@
     {
       "name": "GlowrootCutSlabsRecipe",
       "type": "recipe",
-      "sortid": 539,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cut_slabs_recipe",
@@ -10787,7 +10787,7 @@
     {
       "name": "GlowrootCutSlabRecipeStONECUTTER",
       "type": "recipe",
-      "sortid": 540,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_cut_slab_recipe_st_onecutter",
@@ -10800,7 +10800,7 @@
     {
       "name": "GlowrootStoneSlabRecipeStonecutter",
       "type": "recipe",
-      "sortid": 541,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_stone_slab_recipe_stonecutter",
@@ -10813,7 +10813,7 @@
     {
       "name": "GlowrootBricksSlabRecipeStonecutter",
       "type": "recipe",
-      "sortid": 542,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_bricks_slab_recipe_stonecutter",
@@ -10826,7 +10826,7 @@
     {
       "name": "VentRecipeGlowroot",
       "type": "recipe",
-      "sortid": 543,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vent_recipe_glowroot",
@@ -10839,7 +10839,7 @@
     {
       "name": "SeekerRecipe",
       "type": "recipe",
-      "sortid": 544,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seeker_recipe",
@@ -10852,7 +10852,7 @@
     {
       "name": "ChipRecipe",
       "type": "recipe",
-      "sortid": 545,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chip_recipe",
@@ -10865,7 +10865,7 @@
     {
       "name": "EmitterFlaskRecipe",
       "type": "recipe",
-      "sortid": 546,
+      "sortid": 551,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emitter_flask_recipe",
@@ -10878,7 +10878,7 @@
     {
       "name": "Glowrootinfo",
       "type": "command",
-      "sortid": 547,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootinfo",
@@ -10891,7 +10891,7 @@
     {
       "name": "Infotext",
       "type": "procedure",
-      "sortid": 548,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infotext",
@@ -10910,7 +10910,7 @@
     {
       "name": "Infotextsendadvancementcomplete",
       "type": "procedure",
-      "sortid": 549,
+      "sortid": 554,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infotextsendadvancementcomplete",
@@ -10929,7 +10929,7 @@
     {
       "name": "Artificial1Blocks",
       "type": "recipe",
-      "sortid": 550,
+      "sortid": 555,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artificial_1_blocks",
@@ -10942,7 +10942,7 @@
     {
       "name": "Artificial2Blocks",
       "type": "recipe",
-      "sortid": 551,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artificial_2_blocks",
@@ -10955,7 +10955,7 @@
     {
       "name": "Artificial3blocks",
       "type": "recipe",
-      "sortid": 552,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artificial_3blocks",
@@ -10968,7 +10968,7 @@
     {
       "name": "Glowtentaclerecipe",
       "type": "recipe",
-      "sortid": 553,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowtentaclerecipe",
@@ -10981,7 +10981,7 @@
     {
       "name": "Glowrootcoaloreloot",
       "type": "loottable",
-      "sortid": 554,
+      "sortid": 559,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootcoaloreloot",
@@ -10994,7 +10994,7 @@
     {
       "name": "Glowrootemeraldoreloot",
       "type": "loottable",
-      "sortid": 555,
+      "sortid": 560,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootemeraldoreloot",
@@ -11007,7 +11007,7 @@
     {
       "name": "Glowrootironoreloot",
       "type": "loottable",
-      "sortid": 556,
+      "sortid": 561,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootironoreloot",
@@ -11020,7 +11020,7 @@
     {
       "name": "Glowrootlapisoreloot",
       "type": "loottable",
-      "sortid": 557,
+      "sortid": 562,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootlapisoreloot",
@@ -11033,7 +11033,7 @@
     {
       "name": "Glowrootredstoneoreloot",
       "type": "loottable",
-      "sortid": 558,
+      "sortid": 563,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootredstoneoreloot",
@@ -11046,7 +11046,7 @@
     {
       "name": "Glowrootdiamondoreloot",
       "type": "loottable",
-      "sortid": 559,
+      "sortid": 564,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootdiamondoreloot",
@@ -11059,7 +11059,7 @@
     {
       "name": "Glowrootgoldoreloot",
       "type": "loottable",
-      "sortid": 560,
+      "sortid": 565,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootgoldoreloot",
@@ -11072,7 +11072,7 @@
     {
       "name": "Glowrootcoppeoreloot",
       "type": "loottable",
-      "sortid": 561,
+      "sortid": 566,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowrootcoppeoreloot",
@@ -11085,7 +11085,7 @@
     {
       "name": "ForcelookerItemInHandTick",
       "type": "procedure",
-      "sortid": 562,
+      "sortid": 567,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forcelooker_item_in_hand_tick",
@@ -11120,7 +11120,7 @@
     {
       "name": "Forcelooker",
       "type": "item",
-      "sortid": 563,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "registry_name": "forcelooker",
@@ -11134,7 +11134,7 @@
     {
       "name": "GlowrootLabratory",
       "type": "structure",
-      "sortid": 564,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_labratory",
@@ -11150,7 +11150,7 @@
     {
       "name": "LabGeneratorHallway1NeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 565,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_generator_hallway_1_neighbour_block_changes",
@@ -11185,7 +11185,7 @@
     {
       "name": "GlowrootSpore",
       "type": "particle",
-      "sortid": 567,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_spore",
@@ -11199,7 +11199,7 @@
     {
       "name": "Glowflowerspores",
       "type": "procedure",
-      "sortid": 568,
+      "sortid": 572,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowflowerspores",
@@ -11230,7 +11230,7 @@
     {
       "name": "Sporesregular",
       "type": "procedure",
-      "sortid": 569,
+      "sortid": 573,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sporesregular",
@@ -11261,7 +11261,7 @@
     {
       "name": "Matterwarper",
       "type": "item",
-      "sortid": 114,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "matterwarper",
@@ -11280,7 +11280,7 @@
     {
       "name": "MatterwarperItemInInventoryTick",
       "type": "procedure",
-      "sortid": 570,
+      "sortid": 574,
       "compiles": true,
       "locked_code": false,
       "registry_name": "matterwarper_item_in_inventory_tick",
@@ -11307,7 +11307,7 @@
     {
       "name": "MatterWarperTooltip",
       "type": "procedure",
-      "sortid": 571,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "registry_name": "matter_warper_tooltip",
@@ -11330,7 +11330,7 @@
     {
       "name": "MatterwarperRightclicked",
       "type": "procedure",
-      "sortid": 572,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "registry_name": "matterwarper_rightclicked",
@@ -11369,7 +11369,7 @@
     {
       "name": "MatterwarperRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 573,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "registry_name": "matterwarper_rightclicked_on_block",
@@ -11408,7 +11408,7 @@
     {
       "name": "MatterwarperItemInHandTick",
       "type": "procedure",
-      "sortid": 574,
+      "sortid": 578,
       "compiles": true,
       "locked_code": false,
       "registry_name": "matterwarper_item_in_hand_tick",
@@ -11435,7 +11435,7 @@
     {
       "name": "AnvilReductionMatterWarperLightHands",
       "type": "procedure",
-      "sortid": 575,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anvil_reduction_matter_warper_light_hands",
@@ -11449,7 +11449,7 @@
     {
       "name": "Coalores",
       "type": "tag",
-      "sortid": 576,
+      "sortid": 580,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coalores",
@@ -11462,7 +11462,7 @@
     {
       "name": "GlowrootVest",
       "type": "armor",
-      "sortid": 98,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_vest",
@@ -11476,7 +11476,7 @@
     {
       "name": "GlowrootVestChestplateTickEvent",
       "type": "procedure",
-      "sortid": 577,
+      "sortid": 581,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glowroot_vest_chestplate_tick_event",
@@ -11490,7 +11490,7 @@
     {
       "name": "CavePainting1",
       "type": "block",
-      "sortid": 115,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cave_painting_1",
@@ -11506,7 +11506,7 @@
     {
       "name": "BeckPainting",
       "type": "painting",
-      "sortid": 578,
+      "sortid": 582,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beck_painting",
@@ -11517,7 +11517,7 @@
     {
       "name": "BeaconBaseBlockBlocks",
       "type": "tag",
-      "sortid": 579,
+      "sortid": 583,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beacon_base_block_blocks",
@@ -11546,7 +11546,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 580,
+      "sortid": 584,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_blocks",
@@ -11559,7 +11559,7 @@
     {
       "name": "DragonImmuneBlocks",
       "type": "tag",
-      "sortid": 581,
+      "sortid": 585,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_immune_blocks",
@@ -11572,7 +11572,7 @@
     {
       "name": "WitherImmuneBlocks",
       "type": "tag",
-      "sortid": 582,
+      "sortid": 586,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wither_immune_blocks",
@@ -11585,7 +11585,7 @@
     {
       "name": "Thetruth",
       "type": "item",
-      "sortid": 583,
+      "sortid": 587,
       "compiles": true,
       "locked_code": false,
       "registry_name": "israel",
@@ -11619,7 +11619,7 @@
     {
       "name": "GHONE",
       "type": "livingentity",
-      "sortid": 584,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ghone",
@@ -11634,7 +11634,7 @@
     {
       "name": "GRPONE",
       "type": "livingentity",
-      "sortid": 585,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grpone",
@@ -11649,7 +11649,7 @@
     {
       "name": "GRPONEplace",
       "type": "procedure",
-      "sortid": 586,
+      "sortid": 588,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grpon_eplace",
@@ -11684,7 +11684,7 @@
     {
       "name": "GHROOMORHALLWAY",
       "type": "livingentity",
-      "sortid": 587,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ghroomorhallway",
@@ -11699,7 +11699,7 @@
     {
       "name": "GHROOM",
       "type": "procedure",
-      "sortid": 588,
+      "sortid": 589,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ghroom",
@@ -11734,7 +11734,7 @@
     {
       "name": "CattailGeneration",
       "type": "feature",
-      "sortid": 589,
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cattail_generation",
@@ -11750,7 +11750,7 @@
     {
       "name": "ChrysopraseDustSplat",
       "type": "block",
-      "sortid": 591,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chrysoprase_dust_splat",
@@ -11766,7 +11766,7 @@
     {
       "name": "EmitterFlaskBlock",
       "type": "block",
-      "sortid": 592,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "emitter_flask_block",
@@ -11776,6 +11776,103 @@
           "src/main/resources/assets/glowroot/models/block/emitter_flask_block.json",
           "src/main/resources/assets/glowroot/blockstates/emitter_flask_block.json",
           "src/main/resources/assets/glowroot/models/item/emitter_flask_block.json"
+        ]
+      }
+    },
+    {
+      "name": "EmitterFlaskBlockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 591,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emitter_flask_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/procedures/EmitterFlaskBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmitterFlaskBlockBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emitter_flask_block_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/glowroot/procedures/EmitterFlaskBlockBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseDustSplatNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_dust_splat_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/procedures/ChrysopraseDustSplatNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "GlowshroomBlock",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowshroom_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/models/item/glowshroom_block.json",
+          "src/main/resources/assets/glowroot/blockstates/glowshroom_block.json",
+          "src/main/resources/assets/glowroot/models/block/glowshroom_block.json",
+          "src/main/java/net/mcreator/glowroot/block/GlowshroomBlockBlock.java"
         ]
       }
     }
@@ -12397,6 +12494,7 @@
       "block.glowroot.glowroot_bricks": "Glowroot Bricks",
       "gui.glowroot.glowroot_tools_gui_2.tooltip_glowroot_core": "Glowroot Core",
       "block.glowroot.block_of_chrysoprase": "Block of Chrysoprase",
+      "block.glowroot.glowshroom_block": "Glowshroom Block",
       "advancements.true_power_of_light.title": "Light to Power",
       "item.glowroot.glowcard": "Glowcard"
     }

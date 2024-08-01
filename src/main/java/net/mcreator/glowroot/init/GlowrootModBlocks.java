@@ -24,6 +24,7 @@ import net.mcreator.glowroot.block.InvisibleGlowrootBlock3Block;
 import net.mcreator.glowroot.block.InvisibleGlowrootBlock2Block;
 import net.mcreator.glowroot.block.HardenedChysopraseBlock;
 import net.mcreator.glowroot.block.GrowEmitterBlock;
+import net.mcreator.glowroot.block.GlowshroomBlockBlock;
 import net.mcreator.glowroot.block.GlowrootsBlock;
 import net.mcreator.glowroot.block.GlowrootedStoneBlock;
 import net.mcreator.glowroot.block.GlowrootedSmoothBasaltBlock;
@@ -214,6 +215,7 @@ public class GlowrootModBlocks {
 	public static final RegistryObject<Block> GLOW_GLASS = REGISTRY.register("glow_glass", () -> new GlowGlassBlock());
 	public static final RegistryObject<Block> GLOW_GLASS_PANE = REGISTRY.register("glow_glass_pane", () -> new GlowGlassPaneBlock());
 	public static final RegistryObject<Block> GLOWROOT_TNT = REGISTRY.register("glowroot_tnt", () -> new GlowrootTNTBlock());
+	public static final RegistryObject<Block> GLOWSHROOM_BLOCK = REGISTRY.register("glowshroom_block", () -> new GlowshroomBlockBlock());
 	public static final RegistryObject<Block> UNPURE_CHRYSOPRASE = REGISTRY.register("unpure_chrysoprase", () -> new PureChrysopraseBlock());
 	public static final RegistryObject<Block> PURE_CHYSOPRASE = REGISTRY.register("pure_chysoprase", () -> new HardenedChysopraseBlock());
 	public static final RegistryObject<Block> BLOCK_OF_CHRYSOPRASE = REGISTRY.register("block_of_chrysoprase", () -> new GlowrootCrystalizedBlockBlock());
@@ -224,6 +226,8 @@ public class GlowrootModBlocks {
 	public static final RegistryObject<Block> SMALL_CHRYSOPRASE_BUD = REGISTRY.register("small_chrysoprase_bud", () -> new GlowrootedSmallBudBlock());
 	public static final RegistryObject<Block> GLOWROOT_CORE = REGISTRY.register("glowroot_core", () -> new GlowrootCoreBlock());
 	public static final RegistryObject<Block> CAVE_PAINTING_1 = REGISTRY.register("cave_painting_1", () -> new CavePainting1Block());
+	public static final RegistryObject<Block> CHRYSOPRASE_DUST_SPLAT = REGISTRY.register("chrysoprase_dust_splat", () -> new ChrysopraseDustSplatBlock());
+	public static final RegistryObject<Block> EMITTER_FLASK_BLOCK = REGISTRY.register("emitter_flask_block", () -> new EmitterFlaskBlockBlock());
 	public static final RegistryObject<Block> GLOW_ROOT_END = REGISTRY.register("glow_root_end", () -> new GlowRootEndBlock());
 	public static final RegistryObject<Block> GLOW_DETECTOR = REGISTRY.register("glow_detector", () -> new GlowDetectorBlock());
 	public static final RegistryObject<Block> GLOWROOT_LAMP_1 = REGISTRY.register("glowroot_lamp_1", () -> new GlowrootLamp1Block());
@@ -266,6 +270,4 @@ public class GlowrootModBlocks {
 	public static final RegistryObject<Block> CHISELED_GLOWROOT_PILLAR = REGISTRY.register("chiseled_glowroot_pillar", () -> new ChiseledGlowrootPillarBlock());
 	public static final RegistryObject<Block> GLOWROOT_LASER_EMITTER = REGISTRY.register("glowroot_laser_emitter", () -> new GlowrootLaserEmitterBlock());
 	public static final RegistryObject<Block> LOCKER_AIR = REGISTRY.register("locker_air", () -> new LockerAirBlock());
-	public static final RegistryObject<Block> CHRYSOPRASE_DUST_SPLAT = REGISTRY.register("chrysoprase_dust_splat", () -> new ChrysopraseDustSplatBlock());
-	public static final RegistryObject<Block> EMITTER_FLASK_BLOCK = REGISTRY.register("emitter_flask_block", () -> new EmitterFlaskBlockBlock());
 }

@@ -40,9 +40,9 @@ public class GlowrootModEntityRenderers {
 		event.registerEntityRenderer(GlowrootModEntities.BABY_GLOW_SQUID.get(), BabyGlowSquidRenderer::new);
 		event.registerEntityRenderer(GlowrootModEntities.PRIMED_GLOWROOT_TNT.get(), PrimedGlowrootTNTRenderer::new);
 		event.registerEntityRenderer(GlowrootModEntities.GLOWROOT_HYBRID.get(), GlowrootHybridRenderer::new);
-		event.registerEntityRenderer(GlowrootModEntities.GLOWROOT_GOLEM_DRILL.get(), GlowrootGolemDrillRenderer::new);
 		event.registerEntityRenderer(GlowrootModEntities.GHONE.get(), GHONERenderer::new);
 		event.registerEntityRenderer(GlowrootModEntities.GRPONE.get(), GRPONERenderer::new);
 		event.registerEntityRenderer(GlowrootModEntities.GHROOMORHALLWAY.get(), GHROOMORHALLWAYRenderer::new);
+		event.registerEntityRenderer(GlowrootModEntities.GLOWROOT_GOLEM_DRILL.get(), GlowrootGolemDrillRenderer::new);
 	}
 }

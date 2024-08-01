@@ -92,6 +92,7 @@ public class GlowrootModTabs {
 				tabData.accept(GlowrootModBlocks.GLOW_GLASS.get().asItem());
 				tabData.accept(GlowrootModBlocks.GLOW_GLASS_PANE.get().asItem());
 				tabData.accept(GlowrootModBlocks.GLOWROOT_TNT.get().asItem());
+				tabData.accept(GlowrootModBlocks.GLOWSHROOM_BLOCK.get().asItem());
 				tabData.accept(GlowrootModItems.SQUID_TENTACLE.get());
 				tabData.accept(GlowrootModItems.GLOWSQUID_TENTACLE.get());
 				tabData.accept(GlowrootModItems.COOKED_SQUID_TENTACLE.get());

@@ -22,6 +22,7 @@ import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.FaceAttachedHorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
@@ -29,6 +30,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.glowroot.procedures.ChrysopraseDustSplatNeighbourBlockChangesProcedure;
 import net.mcreator.glowroot.init.GlowrootModItems;
 
 import java.util.List;
@@ -121,5 +123,11 @@ public class ChrysopraseDustSplatBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(GlowrootModItems.CHRYSOPRASE_DUST.get()));
+	}
+
+	@Override
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
+		ChrysopraseDustSplatNeighbourBlockChangesProcedure.execute();
 	}
 }

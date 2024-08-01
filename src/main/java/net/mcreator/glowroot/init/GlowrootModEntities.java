@@ -62,14 +62,14 @@ public class GlowrootModEntities {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PrimedGlowrootTNTEntity::new).fireImmune().sized(1f, 1f));
 	public static final RegistryObject<EntityType<GlowrootHybridEntity>> GLOWROOT_HYBRID = register("glowroot_hybrid", EntityType.Builder.<GlowrootHybridEntity>of(GlowrootHybridEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GlowrootHybridEntity::new).fireImmune().sized(1.5f, 3.8f));
-	public static final RegistryObject<EntityType<GlowrootGolemDrillEntity>> GLOWROOT_GOLEM_DRILL = register("glowroot_golem_drill", EntityType.Builder.<GlowrootGolemDrillEntity>of(GlowrootGolemDrillEntity::new, MobCategory.AMBIENT)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(GlowrootGolemDrillEntity::new).fireImmune().sized(1.9f, 1.9f));
 	public static final RegistryObject<EntityType<GHONEEntity>> GHONE = register("ghone",
 			EntityType.Builder.<GHONEEntity>of(GHONEEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GHONEEntity::new).fireImmune().sized(1.5f, 3.8f));
 	public static final RegistryObject<EntityType<GRPONEEntity>> GRPONE = register("grpone",
 			EntityType.Builder.<GRPONEEntity>of(GRPONEEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GRPONEEntity::new).fireImmune().sized(0.8f, 0.8f));
 	public static final RegistryObject<EntityType<GHROOMORHALLWAYEntity>> GHROOMORHALLWAY = register("ghroomorhallway", EntityType.Builder.<GHROOMORHALLWAYEntity>of(GHROOMORHALLWAYEntity::new, MobCategory.AMBIENT)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GHROOMORHALLWAYEntity::new).fireImmune().sized(0.8f, 0.8f));
+	public static final RegistryObject<EntityType<GlowrootGolemDrillEntity>> GLOWROOT_GOLEM_DRILL = register("glowroot_golem_drill", EntityType.Builder.<GlowrootGolemDrillEntity>of(GlowrootGolemDrillEntity::new, MobCategory.AMBIENT)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(GlowrootGolemDrillEntity::new).fireImmune().sized(1.9f, 1.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -86,10 +86,10 @@ public class GlowrootModEntities {
 			BabyGlowSquidEntity.init();
 			PrimedGlowrootTNTEntity.init();
 			GlowrootHybridEntity.init();
-			GlowrootGolemDrillEntity.init();
 			GHONEEntity.init();
 			GRPONEEntity.init();
 			GHROOMORHALLWAYEntity.init();
+			GlowrootGolemDrillEntity.init();
 		});
 	}
 
@@ -103,9 +103,9 @@ public class GlowrootModEntities {
 		event.put(BABY_GLOW_SQUID.get(), BabyGlowSquidEntity.createAttributes().build());
 		event.put(PRIMED_GLOWROOT_TNT.get(), PrimedGlowrootTNTEntity.createAttributes().build());
 		event.put(GLOWROOT_HYBRID.get(), GlowrootHybridEntity.createAttributes().build());
-		event.put(GLOWROOT_GOLEM_DRILL.get(), GlowrootGolemDrillEntity.createAttributes().build());
 		event.put(GHONE.get(), GHONEEntity.createAttributes().build());
 		event.put(GRPONE.get(), GRPONEEntity.createAttributes().build());
 		event.put(GHROOMORHALLWAY.get(), GHROOMORHALLWAYEntity.createAttributes().build());
+		event.put(GLOWROOT_GOLEM_DRILL.get(), GlowrootGolemDrillEntity.createAttributes().build());
 	}
 }
