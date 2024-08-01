@@ -99,9 +99,6 @@
     "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 2,
-    "placingCondition": {
-      "name": "EmitterFlaskBlockBlockValidPlacementCondition"
-    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

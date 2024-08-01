@@ -68,10 +68,10 @@ public class GlowrootEmitterFlaskgui2Screen extends AbstractContainerScreen<Glow
 			guiGraphics.renderTooltip(font, Component.translatable("gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_empty_emitter_flask1"), mouseX, mouseY);
 		if (mouseX > leftPos + -103 && mouseX < leftPos + -79 && mouseY > topPos + 57 && mouseY < topPos + 81)
 			guiGraphics.renderTooltip(font, Component.translatable("gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom"), mouseX, mouseY);
-		if (mouseX > leftPos + -85 && mouseX < leftPos + -61 && mouseY > topPos + 39 && mouseY < topPos + 63)
-			guiGraphics.renderTooltip(font, Component.translatable("gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom1"), mouseX, mouseY);
 		if (mouseX > leftPos + -67 && mouseX < leftPos + -43 && mouseY > topPos + 57 && mouseY < topPos + 81)
 			guiGraphics.renderTooltip(font, Component.translatable("gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom2"), mouseX, mouseY);
+		if (mouseX > leftPos + -85 && mouseX < leftPos + -61 && mouseY > topPos + 39 && mouseY < topPos + 63)
+			guiGraphics.renderTooltip(font, Component.translatable("gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom1"), mouseX, mouseY);
 		if (mouseX > leftPos + -85 && mouseX < leftPos + -61 && mouseY > topPos + 76 && mouseY < topPos + 100)
 			guiGraphics.renderTooltip(font, Component.translatable("gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_glowshroom3"), mouseX, mouseY);
 		if (mouseX > leftPos + -67 && mouseX < leftPos + -43 && mouseY > topPos + 75 && mouseY < topPos + 99)
@@ -123,14 +123,6 @@ public class GlowrootEmitterFlaskgui2Screen extends AbstractContainerScreen<Glow
 
 		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/growfilledflask.png"), this.leftPos + -81, this.topPos + 124, 0, 0, 16, 16, 16, 16);
 
-		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/glowmushrroom.png"), this.leftPos + -63, this.topPos + 61, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/glowmushrroom.png"), this.leftPos + -99, this.topPos + 61, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/glowmushrroom.png"), this.leftPos + -81, this.topPos + 79, 0, 0, 16, 16, 16, 16);
-
-		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/glowmushrroom.png"), this.leftPos + -81, this.topPos + 43, 0, 0, 16, 16, 16, 16);
-
 		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/bmeal.png"), this.leftPos + -99, this.topPos + 43, 0, 0, 16, 16, 16, 16);
 
 		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/bmeal.png"), this.leftPos + -63, this.topPos + 43, 0, 0, 16, 16, 16, 16);
@@ -180,6 +172,14 @@ public class GlowrootEmitterFlaskgui2Screen extends AbstractContainerScreen<Glow
 		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/regularsquidtentacle.png"), this.leftPos + 62, this.topPos + 43, 0, 0, 16, 16, 16, 16);
 
 		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/regularsquidtentacle.png"), this.leftPos + 44, this.topPos + 61, 0, 0, 16, 16, 16, 16);
+
+		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/thing.png"), this.leftPos + -99, this.topPos + 61, 0, 0, 16, 16, 16, 16);
+
+		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/thing.png"), this.leftPos + -81, this.topPos + 43, 0, 0, 16, 16, 16, 16);
+
+		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/thing.png"), this.leftPos + -63, this.topPos + 61, 0, 0, 16, 16, 16, 16);
+
+		guiGraphics.blit(new ResourceLocation("glowroot:textures/screens/thing.png"), this.leftPos + -81, this.topPos + 79, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}

@@ -90,7 +90,9 @@
       "glowroot:glowroot_cut_slab_recipe_st_onecutter",
       "glowroot:glowroot_stone_slab_recipe_stonecutter",
       "glowroot:glowroot_bricks_slab_recipe_stonecutter",
-      "glowroot:vent_recipe_glowroot"
+      "glowroot:vent_recipe_glowroot",
+      "glowroot:glowtentaclerecipe",
+      "glowroot:glowshroom_block_recipe"
     ]
   }
 }

@@ -938,7 +938,7 @@ public class GlowrootButtonprocedureProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == GlowrootModBlocks.GLOWSHROOM.get().asItem() && (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem() == GlowrootModBlocks.GLOWSHROOM_BLOCK.get().asItem() && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -954,7 +954,7 @@ public class GlowrootButtonprocedureProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, BlockPos.containing(x, y, z), 3)).getItem() == GlowrootModBlocks.GLOWSHROOM.get().asItem() && (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 3)).getItem() == GlowrootModBlocks.GLOWSHROOM_BLOCK.get().asItem() && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -970,7 +970,7 @@ public class GlowrootButtonprocedureProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, BlockPos.containing(x, y, z), 5)).getItem() == GlowrootModBlocks.GLOWSHROOM.get().asItem() && (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 5)).getItem() == GlowrootModBlocks.GLOWSHROOM_BLOCK.get().asItem() && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -986,7 +986,7 @@ public class GlowrootButtonprocedureProcedure {
 					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, BlockPos.containing(x, y, z), 7)).getItem() == GlowrootModBlocks.GLOWSHROOM.get().asItem() && (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 7)).getItem() == GlowrootModBlocks.GLOWSHROOM_BLOCK.get().asItem() && (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);

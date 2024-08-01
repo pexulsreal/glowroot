@@ -161,42 +161,6 @@
       {
         "type": "image",
         "data": {
-          "image": "glowmushrroom.png",
-          "use1Xscale": false,
-          "x": 150,
-          "y": 98
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "glowmushrroom.png",
-          "use1Xscale": false,
-          "x": 114,
-          "y": 98
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "glowmushrroom.png",
-          "use1Xscale": false,
-          "x": 132,
-          "y": 116
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "glowmushrroom.png",
-          "use1Xscale": false,
-          "x": 132,
-          "y": 80
-        }
-      },
-      {
-        "type": "image",
-        "data": {
           "image": "bmeal.png",
           "use1Xscale": false,
           "x": 114,
@@ -580,7 +544,7 @@
         "data": {
           "name": "tooltip_glowshroom",
           "text": {
-            "fixedValue": "Glowshroom"
+            "fixedValue": "Glowshroom Block"
           },
           "width": 24,
           "height": 24,
@@ -591,22 +555,9 @@
       {
         "type": "tooltip",
         "data": {
-          "name": "tooltip_glowshroom1",
-          "text": {
-            "fixedValue": "Glowshroom"
-          },
-          "width": 24,
-          "height": 24,
-          "x": 128,
-          "y": 76
-        }
-      },
-      {
-        "type": "tooltip",
-        "data": {
           "name": "tooltip_glowshroom2",
           "text": {
-            "fixedValue": "Glowshroom"
+            "fixedValue": "Glowshroom Block"
           },
           "width": 24,
           "height": 24,
@@ -617,9 +568,22 @@
       {
         "type": "tooltip",
         "data": {
+          "name": "tooltip_glowshroom1",
+          "text": {
+            "fixedValue": "Glowshroom Block"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 128,
+          "y": 76
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
           "name": "tooltip_glowshroom3",
           "text": {
-            "fixedValue": "Glowshroom"
+            "fixedValue": "Glowshroom Block"
           },
           "width": 24,
           "height": 24,
@@ -691,6 +655,42 @@
           "x": 75,
           "y": 40
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thing.png",
+          "use1Xscale": true,
+          "x": 114,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thing.png",
+          "use1Xscale": true,
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thing.png",
+          "use1Xscale": true,
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thing.png",
+          "use1Xscale": true,
+          "x": 132,
+          "y": 116
+        }
       }
     ],
     "gridSettings": {
@@ -698,7 +698,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }

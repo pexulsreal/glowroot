@@ -67,7 +67,9 @@
       "GlowrootCutSlabRecipeStONECUTTER",
       "GlowrootStoneSlabRecipeStonecutter",
       "GlowrootBricksSlabRecipeStonecutter",
-      "VentRecipeGlowroot"
+      "VentRecipeGlowroot",
+      "Glowtentaclerecipe",
+      "GlowshroomBlockRecipe"
     ],
     "rewardFunction": "AdvancementCompleteGlowroot",
     "rewardXP": 5,
