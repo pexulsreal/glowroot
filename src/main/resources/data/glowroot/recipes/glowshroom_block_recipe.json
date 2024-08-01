@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    },
+    {
+      "item": "glowroot:glowshroom"
+    }
+  ],
+  "result": {
+    "item": "glowroot:glowshroom_block",
+    "count": 1
+  }
+}

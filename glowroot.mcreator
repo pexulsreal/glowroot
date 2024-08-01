@@ -11875,6 +11875,19 @@
           "src/main/java/net/mcreator/glowroot/block/GlowshroomBlockBlock.java"
         ]
       }
+    },
+    {
+      "name": "GlowshroomBlockRecipe",
+      "type": "recipe",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowshroom_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/glowroot/recipes/glowshroom_block_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
