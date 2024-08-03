@@ -128,13 +128,11 @@ public class GlowrootModTabs {
 				tabData.accept(GlowrootModItems.GLOWROOT_BOMBER_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GLOWROOT_HERMIT_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GLOWROOTED_ZOMBIE_SPAWN_EGG.get());
-				tabData.accept(GlowrootModItems.GLOWROOT_HYBRID_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.MATTERWARPER.get());
 				tabData.accept(GlowrootModBlocks.CAVE_PAINTING_1.get().asItem());
 				tabData.accept(GlowrootModItems.GHONE_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GRPONE_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GHROOMORHALLWAY_SPAWN_EGG.get());
-				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_DUST_SPLAT.get().asItem());
-				tabData.accept(GlowrootModBlocks.EMITTER_FLASK_BLOCK.get().asItem());
+				tabData.accept(GlowrootModItems.GLOWROOT_BATTERY.get());
 			}).withSearchBar().build());
 }

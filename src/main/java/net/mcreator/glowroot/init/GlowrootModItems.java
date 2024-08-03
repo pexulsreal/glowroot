@@ -45,6 +45,7 @@ import net.mcreator.glowroot.item.GlowrootDustItem;
 import net.mcreator.glowroot.item.GlowrootDrillItem;
 import net.mcreator.glowroot.item.GlowrootCrystalItem;
 import net.mcreator.glowroot.item.GlowrootChipItem;
+import net.mcreator.glowroot.item.GlowrootBatteryItem;
 import net.mcreator.glowroot.item.GlowlightItem;
 import net.mcreator.glowroot.item.GlowbangItem;
 import net.mcreator.glowroot.item.GlowInkBalloonItem;
@@ -228,6 +229,7 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> HERMIT_CLAW = REGISTRY.register("hermit_claw", () -> new HermitClawItem());
 	public static final RegistryObject<Item> FORCELOOKER = REGISTRY.register("forcelooker", () -> new ForcelookerItem());
 	public static final RegistryObject<Item> ISRAEL = REGISTRY.register("israel", () -> new ThetruthItem());
+	public static final RegistryObject<Item> GLOWROOT_BATTERY = REGISTRY.register("glowroot_battery", () -> new GlowrootBatteryItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
@@ -259,6 +261,8 @@ public class GlowrootModItems {
 			ItemProperties.register(MATTERWARPER.get(), new ResourceLocation("glowroot:matterwarper_rootrepair"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(MATTERWARPER.get(), new ResourceLocation("glowroot:matterwarper_lighthands"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
+			ItemProperties.register(GLOWROOT_BATTERY.get(), new ResourceLocation("glowroot:glowroot_battery_thing"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
 		});
 	}

@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "glowroot:item/batterynewempty"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "glowroot:glowroot_battery_thing": 1
+      },
+      "model": "glowroot:item/glowroot_battery_0"
+    }
+  ]
+}

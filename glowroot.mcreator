@@ -11870,6 +11870,21 @@
           "src/main/resources/data/glowroot/recipes/glowshroom_block_recipe.json"
         ]
       }
+    },
+    {
+      "name": "GlowrootBattery",
+      "type": "item",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowroot_battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/models/item/glowroot_battery_0.json",
+          "src/main/resources/assets/glowroot/models/item/glowroot_battery.json",
+          "src/main/java/net/mcreator/glowroot/item/GlowrootBatteryItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12104,6 +12119,7 @@
       "block.glowroot.glowroot_spawner": "Glowroot Spawner",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_dazzling_flask": "Dazzling Flask",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_back": "Back",
+      "item.glowroot.glowroot_battery": "Glowroot Battery",
       "subtitles.glowrootcavesbiomemusic": "",
       "advancements.loot_bug.descr": "Get hooked by the claws of a Glowroot Hermit.",
       "block.glowroot.glow_emitter": "Glow Emitter",
