@@ -13,6 +13,7 @@ import net.mcreator.glowroot.client.model.Modelzombieglowrootedhands;
 import net.mcreator.glowroot.client.model.Modelzombieglowrooted;
 import net.mcreator.glowroot.client.model.Modelprimedglowroottnt;
 import net.mcreator.glowroot.client.model.Modelminerhelmet;
+import net.mcreator.glowroot.client.model.Modeljetpackearly;
 import net.mcreator.glowroot.client.model.Modelhybrid;
 import net.mcreator.glowroot.client.model.Modelglowroothybridfinal;
 import net.mcreator.glowroot.client.model.Modelglowroothermit;
@@ -31,6 +32,7 @@ import net.mcreator.glowroot.client.model.Modelbabyglowsquid;
 public class GlowrootModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modeljetpackearly.LAYER_LOCATION, Modeljetpackearly::createBodyLayer);
 		event.registerLayerDefinition(Modelhybrid.LAYER_LOCATION, Modelhybrid::createBodyLayer);
 		event.registerLayerDefinition(Modelglowfly.LAYER_LOCATION, Modelglowfly::createBodyLayer);
 		event.registerLayerDefinition(Modelzombieglowrooted.LAYER_LOCATION, Modelzombieglowrooted::createBodyLayer);

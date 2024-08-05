@@ -41,7 +41,10 @@
       "ChipRecipe",
       "Artificial1Blocks",
       "Artificial2Blocks",
-      "Artificial3blocks"
+      "Artificial3blocks",
+      "GlowshroomBlockRecipe",
+      "Jetpackrecipetemp",
+      "Batteryrecipe"
     ],
     "rewardFunction": "AdvancementCompleteGlowroot",
     "rewardXP": 10,

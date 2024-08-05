@@ -29,16 +29,10 @@ public class GlowrootModKeyMappings {
 			if (isDownOld != isDown && isDown) {
 				GlowrootMod.PACKET_HANDLER.sendToServer(new DrillActivateMessage(0, 0));
 				DrillActivateMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-				DRILL_ACTIVATE_LASTPRESS = System.currentTimeMillis();
-			} else if (isDownOld != isDown && !isDown) {
-				int dt = (int) (System.currentTimeMillis() - DRILL_ACTIVATE_LASTPRESS);
-				GlowrootMod.PACKET_HANDLER.sendToServer(new DrillActivateMessage(1, dt));
-				DrillActivateMessage.pressAction(Minecraft.getInstance().player, 1, dt);
 			}
 			isDownOld = isDown;
 		}
 	};
-	private static long DRILL_ACTIVATE_LASTPRESS = 0;
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {

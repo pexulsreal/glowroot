@@ -40,6 +40,7 @@ import net.mcreator.glowroot.item.GlowrootShovelItem;
 import net.mcreator.glowroot.item.GlowrootPickaxeItem;
 import net.mcreator.glowroot.item.GlowrootMusicDiscItem;
 import net.mcreator.glowroot.item.GlowrootKeycardItem;
+import net.mcreator.glowroot.item.GlowrootJetpackItem;
 import net.mcreator.glowroot.item.GlowrootEngineItem;
 import net.mcreator.glowroot.item.GlowrootDustItem;
 import net.mcreator.glowroot.item.GlowrootDrillItem;
@@ -152,6 +153,7 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> SMALL_CHRYSOPRASE_BUD = block(GlowrootModBlocks.SMALL_CHRYSOPRASE_BUD);
 	public static final RegistryObject<Item> GLOWROOT_CHIP = REGISTRY.register("glowroot_chip", () -> new GlowrootChipItem());
 	public static final RegistryObject<Item> GLOWROOT_DRILL_HEAD = REGISTRY.register("glowroot_drill_head", () -> new MinersSaddleItem());
+	public static final RegistryObject<Item> GLOWROOT_BATTERY = REGISTRY.register("glowroot_battery", () -> new GlowrootBatteryItem());
 	public static final RegistryObject<Item> GLOWROOT_ENGINE = REGISTRY.register("glowroot_engine", () -> new GlowrootEngineItem());
 	public static final RegistryObject<Item> GLOWROOT_CORE = block(GlowrootModBlocks.GLOWROOT_CORE);
 	public static final RegistryObject<Item> GLOWCARD = REGISTRY.register("glowcard", () -> new GlowrootKeycardItem());
@@ -170,14 +172,12 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> GLOWROOT_BOMBER_SPAWN_EGG = REGISTRY.register("glowroot_bomber_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOT_BOMBER, -14936782, -12739710, new Item.Properties()));
 	public static final RegistryObject<Item> GLOWROOT_HERMIT_SPAWN_EGG = REGISTRY.register("glowroot_hermit_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOT_HERMIT, -14476739, -13476759, new Item.Properties()));
 	public static final RegistryObject<Item> GLOWROOTED_ZOMBIE_SPAWN_EGG = REGISTRY.register("glowrooted_zombie_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOTED_ZOMBIE, -14607552, -13269072, new Item.Properties()));
-	public static final RegistryObject<Item> GLOWROOT_HYBRID_SPAWN_EGG = REGISTRY.register("glowroot_hybrid_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOT_HYBRID, -14348486, -15392431, new Item.Properties()));
-	public static final RegistryObject<Item> MATTERWARPER = REGISTRY.register("matterwarper", () -> new MatterwarperItem());
 	public static final RegistryObject<Item> CAVE_PAINTING_1 = block(GlowrootModBlocks.CAVE_PAINTING_1);
 	public static final RegistryObject<Item> GHONE_SPAWN_EGG = REGISTRY.register("ghone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHONE, -14348486, -15392431, new Item.Properties()));
 	public static final RegistryObject<Item> GRPONE_SPAWN_EGG = REGISTRY.register("grpone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GRPONE, -14348486, -15392431, new Item.Properties()));
 	public static final RegistryObject<Item> GHROOMORHALLWAY_SPAWN_EGG = REGISTRY.register("ghroomorhallway_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHROOMORHALLWAY, -14348486, -15392431, new Item.Properties()));
-	public static final RegistryObject<Item> CHRYSOPRASE_DUST_SPLAT = block(GlowrootModBlocks.CHRYSOPRASE_DUST_SPLAT);
-	public static final RegistryObject<Item> EMITTER_FLASK_BLOCK = block(GlowrootModBlocks.EMITTER_FLASK_BLOCK);
+	public static final RegistryObject<Item> GLOWROOT_JETPACK_CHESTPLATE = REGISTRY.register("glowroot_jetpack_chestplate", () -> new GlowrootJetpackItem.Chestplate());
+	public static final RegistryObject<Item> MATTERWARPER = REGISTRY.register("matterwarper", () -> new MatterwarperItem());
 	public static final RegistryObject<Item> GLOW_ROOT_END = block(GlowrootModBlocks.GLOW_ROOT_END);
 	public static final RegistryObject<Item> GLOW_DETECTOR = block(GlowrootModBlocks.GLOW_DETECTOR);
 	public static final RegistryObject<Item> GLOWROOT_LAMP_1 = block(GlowrootModBlocks.GLOWROOT_LAMP_1);
@@ -211,9 +211,6 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> TORCH_FLOOR = block(GlowrootModBlocks.TORCH_FLOOR);
 	public static final RegistryObject<Item> TORCH_WALL = block(GlowrootModBlocks.TORCH_WALL);
 	public static final RegistryObject<Item> FLASHLIGHT_LIGHT = block(GlowrootModBlocks.FLASHLIGHT_LIGHT);
-	public static final RegistryObject<Item> REDSTONE_FLASHLIGHT_LIGHT = block(GlowrootModBlocks.REDSTONE_FLASHLIGHT_LIGHT);
-	public static final RegistryObject<Item> GLOW_FLASHLIGHT_LIGHT = block(GlowrootModBlocks.GLOW_FLASHLIGHT_LIGHT);
-	public static final RegistryObject<Item> REDSTONE_GLOW_FLASHLIGHT_LIGHT = block(GlowrootModBlocks.REDSTONE_GLOW_FLASHLIGHT_LIGHT);
 	public static final RegistryObject<Item> RAW_GLOWFISH = REGISTRY.register("raw_glowfish", () -> new RawGlowfishItem());
 	public static final RegistryObject<Item> COOKED_GLOWFISH = REGISTRY.register("cooked_glowfish", () -> new CookedGlowfishItem());
 	public static final RegistryObject<Item> MINING_HELMET_HELMET = REGISTRY.register("mining_helmet_helmet", () -> new MiningHelmetItem.Helmet());
@@ -226,10 +223,12 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> CHISELED_GLOWROOT_PILLAR = block(GlowrootModBlocks.CHISELED_GLOWROOT_PILLAR);
 	public static final RegistryObject<Item> GLOWROOT_LASER_EMITTER = block(GlowrootModBlocks.GLOWROOT_LASER_EMITTER);
 	public static final RegistryObject<Item> LOCKER_AIR = block(GlowrootModBlocks.LOCKER_AIR);
+	public static final RegistryObject<Item> GLOWROOT_HYBRID_SPAWN_EGG = REGISTRY.register("glowroot_hybrid_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOT_HYBRID, -14348486, -15392431, new Item.Properties()));
 	public static final RegistryObject<Item> HERMIT_CLAW = REGISTRY.register("hermit_claw", () -> new HermitClawItem());
 	public static final RegistryObject<Item> FORCELOOKER = REGISTRY.register("forcelooker", () -> new ForcelookerItem());
 	public static final RegistryObject<Item> ISRAEL = REGISTRY.register("israel", () -> new ThetruthItem());
-	public static final RegistryObject<Item> GLOWROOT_BATTERY = REGISTRY.register("glowroot_battery", () -> new GlowrootBatteryItem());
+	public static final RegistryObject<Item> CHRYSOPRASE_DUST_SPLAT = block(GlowrootModBlocks.CHRYSOPRASE_DUST_SPLAT);
+	public static final RegistryObject<Item> EMITTER_FLASK_BLOCK = block(GlowrootModBlocks.EMITTER_FLASK_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
@@ -242,6 +241,8 @@ public class GlowrootModItems {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
+			ItemProperties.register(GLOWROOT_BATTERY.get(), new ResourceLocation("glowroot:glowroot_battery_thing"),
+					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(GLOWCARD.get(), new ResourceLocation("glowroot:glowcard_levelcard1"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(GLOWCARD.get(), new ResourceLocation("glowroot:glowcard_levelcard2"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(GLOWCARD.get(), new ResourceLocation("glowroot:glowcard_levelcard3"), (itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
@@ -261,8 +262,6 @@ public class GlowrootModItems {
 			ItemProperties.register(MATTERWARPER.get(), new ResourceLocation("glowroot:matterwarper_rootrepair"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
 			ItemProperties.register(MATTERWARPER.get(), new ResourceLocation("glowroot:matterwarper_lighthands"),
-					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
-			ItemProperties.register(GLOWROOT_BATTERY.get(), new ResourceLocation("glowroot:glowroot_battery_thing"),
 					(itemStackToRender, clientWorld, entity, itemEntityId) -> (float) GlowrootKeycardPropertyValueProviderProcedure.execute(itemStackToRender));
 		});
 	}

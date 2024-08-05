@@ -11,8 +11,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.glowroot.block.entity.RedstoneGlowFlashlightLightBlockEntity;
-import net.mcreator.glowroot.block.entity.RedstoneFlashlightLightBlockEntity;
 import net.mcreator.glowroot.block.entity.LockerAirBlockEntity;
 import net.mcreator.glowroot.block.entity.LightDetectorBlockEntity;
 import net.mcreator.glowroot.block.entity.GlowrootedCrystalizedBlockBlockEntity;
@@ -27,7 +25,6 @@ import net.mcreator.glowroot.block.entity.GlowrootLockerBlockEntity;
 import net.mcreator.glowroot.block.entity.GlowrootLaserEmitterBlockEntity;
 import net.mcreator.glowroot.block.entity.GlowrootFurnaceBlockEntity;
 import net.mcreator.glowroot.block.entity.GlowrootCartBlockEntity;
-import net.mcreator.glowroot.block.entity.GlowFlashlightLightBlockEntity;
 import net.mcreator.glowroot.block.entity.FlashlightLightBlockEntity;
 import net.mcreator.glowroot.block.entity.DarknessDetectorBlockEntity;
 import net.mcreator.glowroot.block.entity.AlarmoffBlockEntity;
@@ -51,9 +48,6 @@ public class GlowrootModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> GLOWROOT_PIPE_2_WAY = register("glowroot_pipe_2_way", GlowrootModBlocks.GLOWROOT_PIPE_2_WAY, GlowrootPipe2WayBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> GLOWROOT_PIPE_4_WAY = register("glowroot_pipe_4_way", GlowrootModBlocks.GLOWROOT_PIPE_4_WAY, GlowrootPipe4WayBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> FLASHLIGHT_LIGHT = register("flashlight_light", GlowrootModBlocks.FLASHLIGHT_LIGHT, FlashlightLightBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> REDSTONE_FLASHLIGHT_LIGHT = register("redstone_flashlight_light", GlowrootModBlocks.REDSTONE_FLASHLIGHT_LIGHT, RedstoneFlashlightLightBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> GLOW_FLASHLIGHT_LIGHT = register("glow_flashlight_light", GlowrootModBlocks.GLOW_FLASHLIGHT_LIGHT, GlowFlashlightLightBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> REDSTONE_GLOW_FLASHLIGHT_LIGHT = register("redstone_glow_flashlight_light", GlowrootModBlocks.REDSTONE_GLOW_FLASHLIGHT_LIGHT, RedstoneGlowFlashlightLightBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> ALARM_ON = register("alarm_on", GlowrootModBlocks.ALARM_ON, AlarmOnBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> GLOWROOT_LASER_EMITTER = register("glowroot_laser_emitter", GlowrootModBlocks.GLOWROOT_LASER_EMITTER, GlowrootLaserEmitterBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> LOCKER_AIR = register("locker_air", GlowrootModBlocks.LOCKER_AIR, LockerAirBlockEntity::new);

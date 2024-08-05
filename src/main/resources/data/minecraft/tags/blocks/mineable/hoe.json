@@ -5,7 +5,7 @@
     "glowroot:glowroot_cattail",
     "glowroot:glowshroom_block",
     "glowroot:cave_painting_1",
-    "glowroot:chrysoprase_dust_splat",
-    "glowroot:glow_root_end"
+    "glowroot:glow_root_end",
+    "glowroot:chrysoprase_dust_splat"
   ]
 }

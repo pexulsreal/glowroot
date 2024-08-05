@@ -3,12 +3,9 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "R",
-    "keyBindingName": "Golem Drill Use",
+    "keyBindingName": "Glowroot Activation",
     "keyBindingCategoryKey": "gameplay",
     "onKeyPressed": {
-      "name": "DrillActivateOnKeyPressed"
-    },
-    "onKeyReleased": {
       "name": "DrillActivateOnKeyPressed"
     }
   }

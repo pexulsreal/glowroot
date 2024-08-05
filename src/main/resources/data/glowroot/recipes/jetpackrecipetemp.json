@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "1": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "2": {
+      "item": "glowroot:glowroot_chip"
+    },
+    "3": {
+      "item": "glowroot:pure_chysoprase"
+    },
+    "4": {
+      "item": "glowroot:glowroot_battery"
+    },
+    "5": {
+      "item": "glowroot:pure_chysoprase"
+    },
+    "7": {
+      "item": "glowroot:glowroot_chip"
+    }
+  },
+  "result": {
+    "item": "glowroot:glowroot_jetpack_chestplate",
+    "count": 1
+  }
+}

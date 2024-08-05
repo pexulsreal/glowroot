@@ -50,7 +50,10 @@
       "glowroot:chip_recipe",
       "glowroot:artificial_1_blocks",
       "glowroot:artificial_2_blocks",
-      "glowroot:artificial_3blocks"
+      "glowroot:artificial_3blocks",
+      "glowroot:glowshroom_block_recipe",
+      "glowroot:jetpackrecipetemp",
+      "glowroot:batteryrecipe"
     ]
   },
   "parent": "glowroot:underground_lighting"

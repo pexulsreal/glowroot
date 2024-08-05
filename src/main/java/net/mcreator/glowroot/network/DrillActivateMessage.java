@@ -54,10 +54,6 @@ public class DrillActivateMessage {
 
 			DrillActivateOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
-		if (type == 1) {
-
-			DrillActivateOnKeyPressedProcedure.execute(world, x, y, z, entity);
-		}
 	}
 
 	@SubscribeEvent

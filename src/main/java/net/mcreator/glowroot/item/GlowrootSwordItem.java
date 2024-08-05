@@ -78,6 +78,6 @@ public class GlowrootSwordItem extends SwordItem {
 	@Override
 	public int getBarColor(ItemStack stack) {
 		// For example, 0xFFAA00 is an orange color.
-		return 0x00FFAA;
+		return 0x3BE9CC;
 	}
 }
