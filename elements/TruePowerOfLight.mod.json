@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Light to Power",
-    "achievementDescription": "Use a Glow Emitter and Glow Detector in a loop, creating a sensing machine",
+    "achievementName": "§bLight to Power",
+    "achievementDescription": "§3Use a Glow Emitter and Glow Detector in a loop, creating a sensing machine",
     "achievementIcon": {
       "value": "CUSTOM:GlowEmitter"
     },

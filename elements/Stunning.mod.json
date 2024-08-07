@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Stunning!",
-    "achievementDescription": "Get hit by a projectile or item that emits the dazzling effect.",
+    "achievementName": "§bStunning!",
+    "achievementDescription": "§3Get hit by a projectile or item that emits the dazzling effect.",
     "achievementIcon": {
       "value": "CUSTOM:Glowbang"
     },

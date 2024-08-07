@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "glowroot:block/chrysoprase_tiled_slab"
+    },
+    "type=top": {
+      "model": "glowroot:block/chrysoprase_tiled_slab_top"
+    },
+    "type=double": {
+      "model": "glowroot:block/chrysoprase_tiled_slab_full"
+    }
+  }
+}

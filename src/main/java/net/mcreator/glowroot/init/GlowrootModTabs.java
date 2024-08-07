@@ -117,7 +117,6 @@ public class GlowrootModTabs {
 				tabData.accept(GlowrootModItems.GLOWLIGHT.get());
 				tabData.accept(GlowrootModItems.EMITTER_FLASK.get());
 				tabData.accept(GlowrootModItems.GLOWBANG.get());
-				tabData.accept(GlowrootModItems.GLOWROOT_VEST_CHESTPLATE.get());
 				tabData.accept(GlowrootModItems.GLOWROOT_MUSIC_DISC.get());
 				tabData.accept(GlowrootModItems.GLOWROOT_SWORD.get());
 				tabData.accept(GlowrootModItems.GLOWROOT_PICKAXE.get());
@@ -129,11 +128,21 @@ public class GlowrootModTabs {
 				tabData.accept(GlowrootModItems.GLOWROOT_BOMBER_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GLOWROOT_HERMIT_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GLOWROOTED_ZOMBIE_SPAWN_EGG.get());
-				tabData.accept(GlowrootModBlocks.CAVE_PAINTING_1.get().asItem());
 				tabData.accept(GlowrootModItems.GHONE_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GRPONE_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GHROOMORHALLWAY_SPAWN_EGG.get());
 				tabData.accept(GlowrootModItems.GLOWROOT_JETPACK_CHESTPLATE.get());
 				tabData.accept(GlowrootModItems.MATTERWARPER.get());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_BRICKS.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHISELED_CHRYSOPRASE_BRICKS.get().asItem());
+				tabData.accept(GlowrootModBlocks.POLISHED_CHRYSOPRASE.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_PILLAR.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_TILES.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_BRICK_SLAB.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_BRICK_STAIRS.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_BRICK_WALL.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_TILED_SLAB.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_TILED_STAIRS.get().asItem());
+				tabData.accept(GlowrootModBlocks.CHRYSOPRASE_TILED_WALL.get().asItem());
 			}).withSearchBar().build());
 }

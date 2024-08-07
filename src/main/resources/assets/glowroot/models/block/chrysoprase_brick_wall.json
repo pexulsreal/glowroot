@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "glowroot:block/chyroprasebricks",
+    "particle": "glowroot:block/chyroprasebricks"
+  },
+  "render_type": "solid"
+}

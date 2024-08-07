@@ -33,7 +33,6 @@ import net.mcreator.glowroot.item.InkBalloonItem;
 import net.mcreator.glowroot.item.HermitClawItem;
 import net.mcreator.glowroot.item.GlowsquidTentacleItem;
 import net.mcreator.glowroot.item.GlowrooticonItem;
-import net.mcreator.glowroot.item.GlowrootVestItem;
 import net.mcreator.glowroot.item.GlowrootTorchItem;
 import net.mcreator.glowroot.item.GlowrootSwordItem;
 import net.mcreator.glowroot.item.GlowrootShovelItem;
@@ -160,7 +159,6 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> GLOWLIGHT = REGISTRY.register("glowlight", () -> new GlowlightItem());
 	public static final RegistryObject<Item> EMITTER_FLASK = REGISTRY.register("emitter_flask", () -> new EmitterLiquidItem());
 	public static final RegistryObject<Item> GLOWBANG = REGISTRY.register("glowbang", () -> new GlowbangItem());
-	public static final RegistryObject<Item> GLOWROOT_VEST_CHESTPLATE = REGISTRY.register("glowroot_vest_chestplate", () -> new GlowrootVestItem.Chestplate());
 	public static final RegistryObject<Item> GLOWROOT_MUSIC_DISC = REGISTRY.register("glowroot_music_disc", () -> new GlowrootMusicDiscItem());
 	public static final RegistryObject<Item> GLOWROOT_SWORD = REGISTRY.register("glowroot_sword", () -> new GlowrootSwordItem());
 	public static final RegistryObject<Item> GLOWROOT_PICKAXE = REGISTRY.register("glowroot_pickaxe", () -> new GlowrootPickaxeItem());
@@ -172,7 +170,6 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> GLOWROOT_BOMBER_SPAWN_EGG = REGISTRY.register("glowroot_bomber_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOT_BOMBER, -14936782, -12739710, new Item.Properties()));
 	public static final RegistryObject<Item> GLOWROOT_HERMIT_SPAWN_EGG = REGISTRY.register("glowroot_hermit_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOT_HERMIT, -14476739, -13476759, new Item.Properties()));
 	public static final RegistryObject<Item> GLOWROOTED_ZOMBIE_SPAWN_EGG = REGISTRY.register("glowrooted_zombie_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GLOWROOTED_ZOMBIE, -14607552, -13269072, new Item.Properties()));
-	public static final RegistryObject<Item> CAVE_PAINTING_1 = block(GlowrootModBlocks.CAVE_PAINTING_1);
 	public static final RegistryObject<Item> GHONE_SPAWN_EGG = REGISTRY.register("ghone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHONE, -14348486, -15392431, new Item.Properties()));
 	public static final RegistryObject<Item> GRPONE_SPAWN_EGG = REGISTRY.register("grpone_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GRPONE, -14348486, -15392431, new Item.Properties()));
 	public static final RegistryObject<Item> GHROOMORHALLWAY_SPAWN_EGG = REGISTRY.register("ghroomorhallway_spawn_egg", () -> new ForgeSpawnEggItem(GlowrootModEntities.GHROOMORHALLWAY, -14348486, -15392431, new Item.Properties()));
@@ -229,6 +226,17 @@ public class GlowrootModItems {
 	public static final RegistryObject<Item> ISRAEL = REGISTRY.register("israel", () -> new ThetruthItem());
 	public static final RegistryObject<Item> CHRYSOPRASE_DUST_SPLAT = block(GlowrootModBlocks.CHRYSOPRASE_DUST_SPLAT);
 	public static final RegistryObject<Item> EMITTER_FLASK_BLOCK = block(GlowrootModBlocks.EMITTER_FLASK_BLOCK);
+	public static final RegistryObject<Item> CHRYSOPRASE_BRICKS = block(GlowrootModBlocks.CHRYSOPRASE_BRICKS);
+	public static final RegistryObject<Item> CHISELED_CHRYSOPRASE_BRICKS = block(GlowrootModBlocks.CHISELED_CHRYSOPRASE_BRICKS);
+	public static final RegistryObject<Item> POLISHED_CHRYSOPRASE = block(GlowrootModBlocks.POLISHED_CHRYSOPRASE);
+	public static final RegistryObject<Item> CHRYSOPRASE_PILLAR = block(GlowrootModBlocks.CHRYSOPRASE_PILLAR);
+	public static final RegistryObject<Item> CHRYSOPRASE_TILES = block(GlowrootModBlocks.CHRYSOPRASE_TILES);
+	public static final RegistryObject<Item> CHRYSOPRASE_BRICK_SLAB = block(GlowrootModBlocks.CHRYSOPRASE_BRICK_SLAB);
+	public static final RegistryObject<Item> CHRYSOPRASE_BRICK_STAIRS = block(GlowrootModBlocks.CHRYSOPRASE_BRICK_STAIRS);
+	public static final RegistryObject<Item> CHRYSOPRASE_BRICK_WALL = block(GlowrootModBlocks.CHRYSOPRASE_BRICK_WALL);
+	public static final RegistryObject<Item> CHRYSOPRASE_TILED_SLAB = block(GlowrootModBlocks.CHRYSOPRASE_TILED_SLAB);
+	public static final RegistryObject<Item> CHRYSOPRASE_TILED_STAIRS = block(GlowrootModBlocks.CHRYSOPRASE_TILED_STAIRS);
+	public static final RegistryObject<Item> CHRYSOPRASE_TILED_WALL = block(GlowrootModBlocks.CHRYSOPRASE_TILED_WALL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

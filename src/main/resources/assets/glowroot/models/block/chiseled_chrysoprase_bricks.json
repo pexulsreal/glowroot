@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/chiseledchyroprasebrick",
+    "up": "glowroot:block/chiseledchyroprasebrick",
+    "north": "glowroot:block/chiseledchyroprasebrick",
+    "east": "glowroot:block/chiseledchyroprasebrick",
+    "south": "glowroot:block/chiseledchyroprasebrick",
+    "west": "glowroot:block/chiseledchyroprasebrick",
+    "particle": "glowroot:block/chiseledchyroprasebrick"
+  },
+  "render_type": "solid"
+}

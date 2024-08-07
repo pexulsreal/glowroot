@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Protein",
-    "achievementDescription": "Give a Glowroot Golem some Chrysoprase Dust while riding it to increase it's power and speed.",
+    "achievementName": "§bProtein",
+    "achievementDescription": "§3Give a Glowroot Golem some Chrysoprase Dust while riding it to increase it's power and speed.",
     "achievementIcon": {
       "value": "CUSTOM:GlowrootDust"
     },

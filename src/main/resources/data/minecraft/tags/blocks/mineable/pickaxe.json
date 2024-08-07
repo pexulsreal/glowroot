@@ -98,6 +98,17 @@
     "glowroot:glowroot_spawner",
     "glowroot:chiseled_glowroot_pillar",
     "glowroot:glowroot_laser_emitter",
-    "glowroot:emitter_flask_block"
+    "glowroot:emitter_flask_block",
+    "glowroot:chrysoprase_bricks",
+    "glowroot:chiseled_chrysoprase_bricks",
+    "glowroot:polished_chrysoprase",
+    "glowroot:chrysoprase_pillar",
+    "glowroot:chrysoprase_tiles",
+    "glowroot:chrysoprase_brick_slab",
+    "glowroot:chrysoprase_brick_stairs",
+    "glowroot:chrysoprase_brick_wall",
+    "glowroot:chrysoprase_tiled_slab",
+    "glowroot:chrysoprase_tiled_stairs",
+    "glowroot:chrysoprase_tiled_wall"
   ]
 }

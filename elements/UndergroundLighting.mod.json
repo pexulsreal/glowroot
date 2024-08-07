@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Glowroot",
-    "achievementDescription": "Discover a Glowroot Cave. Use /glowrootinfo for information.",
+    "achievementName": "§bGlowroot",
+    "achievementDescription": "§3Discover a Glowroot Cave. Use /glowrootinfo for information.",
     "achievementIcon": {
       "value": "CUSTOM:Glowrooticon"
     },

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/chyroprasebricks",
+    "up": "glowroot:block/chyroprasebricks",
+    "north": "glowroot:block/chyroprasebricks",
+    "east": "glowroot:block/chyroprasebricks",
+    "south": "glowroot:block/chyroprasebricks",
+    "west": "glowroot:block/chyroprasebricks",
+    "particle": "glowroot:block/chyroprasebricks"
+  },
+  "render_type": "solid"
+}

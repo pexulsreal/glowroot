@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Loot Bug",
-    "achievementDescription": "Get hooked by the claws of a Glowroot Hermit.",
+    "achievementName": "§bLoot Bug",
+    "achievementDescription": "§3Get hooked by the claws of a Glowroot Hermit.",
     "achievementIcon": {
       "value": "CUSTOM:HermitClaw"
     },

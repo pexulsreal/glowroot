@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "glowroot:block/chyroprasebricks",
+    "top": "glowroot:block/chyroprasebricks",
+    "side": "glowroot:block/chyroprasebricks"
+  },
+  "render_type": "solid"
+}

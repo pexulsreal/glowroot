@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/pillarchyropraseupdown",
+    "up": "glowroot:block/pillarchyropraseupdown",
+    "north": "glowroot:block/pillarchyropraseside",
+    "east": "glowroot:block/pillarchyropraseside",
+    "south": "glowroot:block/pillarchyropraseside",
+    "west": "glowroot:block/pillarchyropraseside",
+    "particle": "glowroot:block/pillarchyropraseupdown"
+  },
+  "render_type": "solid"
+}

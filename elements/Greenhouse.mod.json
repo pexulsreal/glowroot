@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Greenhouse",
-    "achievementDescription": "Obtain a Chrysoprase Crystal by supplying enough power to a Glowroot Node by using flora in the biome.",
+    "achievementName": "§bGreenhouse",
+    "achievementDescription": "§3Obtain a Chrysoprase Crystal by supplying enough power to a Glowroot Node by using flora in the biome.",
     "achievementIcon": {
       "value": "CUSTOM:GlowrootCrystal"
     },

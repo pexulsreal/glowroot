@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Better Than Horses",
-    "achievementDescription": "Equip a Glowroot Drill Head onto a Glowroot Golem, allowing it to mine blocks when using the custom keybind.",
+    "achievementName": "§bBetter Than Horses",
+    "achievementDescription": "§3Equip a Glowroot Drill Head onto a Glowroot Golem, allowing it to mine blocks when using the custom keybind.",
     "achievementIcon": {
       "value": "CUSTOM:MinersSaddle"
     },

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "glowroot:block/tiledchryoprase",
+    "top": "glowroot:block/tiledchryoprase",
+    "side": "glowroot:block/tiledchryoprase"
+  },
+  "render_type": "solid"
+}

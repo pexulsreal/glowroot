@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Night Light",
-    "achievementDescription": "Use Chrysoprase Dust onto an unactivated rune block to give it power.",
+    "achievementName": "§bNight Light",
+    "achievementDescription": "§3Use Chrysoprase Dust onto an unactivated rune block to give it power.",
     "achievementIcon": {
       "value": "CUSTOM:GlowingRunes"
     },

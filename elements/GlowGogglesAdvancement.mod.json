@@ -2,8 +2,8 @@
   "_fv": 47,
   "_type": "achievement",
   "definition": {
-    "achievementName": "J.A.R.V.I.S",
-    "achievementDescription": "Put on a pair of Glowroot Visors to disable all dazzling effects, and read the amount of light.",
+    "achievementName": "§bJ.A.R.V.I.S",
+    "achievementDescription": "§3Put on a pair of Glowroot Visors to disable all dazzling effects, and read the amount of light.",
     "achievementIcon": {
       "value": "CUSTOM:GlowGoggles.helmet"
     },

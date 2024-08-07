@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glowroot:block/tiledchryoprase",
+    "up": "glowroot:block/tiledchryoprase",
+    "north": "glowroot:block/tiledchryoprase",
+    "east": "glowroot:block/tiledchryoprase",
+    "south": "glowroot:block/tiledchryoprase",
+    "west": "glowroot:block/tiledchryoprase",
+    "particle": "glowroot:block/tiledchryoprase"
+  },
+  "render_type": "solid"
+}

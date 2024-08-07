@@ -104,26 +104,18 @@ public abstract class GlowrootJetpackItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			GlowrootJetpackChestplateTickEventProcedure.execute(world, entity);
+			GlowrootJetpackChestplateTickEventProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		}
 	}
 
 	@Override
 	public boolean canElytraFly(ItemStack stack, net.minecraft.world.entity.LivingEntity entity) {
-		return true;
+		return entity.getPersistentData().getBoolean("jetpackon");
 	}
 
 	@Override
 	public boolean elytraFlightTick(ItemStack stack, net.minecraft.world.entity.LivingEntity entity, int flightTicks) {
-		if (!entity.level().isClientSide) {
-			int nextFlightTick = flightTicks + 1;
-			if (nextFlightTick % 10 == 0) {
-				if (nextFlightTick % 20 == 0) {
-					stack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(net.minecraft.world.entity.EquipmentSlot.CHEST));
-				}
-				entity.gameEvent(net.minecraft.world.level.gameevent.GameEvent.ELYTRA_GLIDE);
-			}
-		}
+		entity.gameEvent(net.minecraft.world.level.gameevent.GameEvent.ELYTRA_GLIDE);
 		return true;
 	}
 

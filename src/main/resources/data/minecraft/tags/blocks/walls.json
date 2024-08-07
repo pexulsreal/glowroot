@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "glowroot:glowroot_brick_wall",
-    "glowroot:glowroot_stone_wall"
+    "glowroot:glowroot_stone_wall",
+    "glowroot:chrysoprase_tiled_wall",
+    "glowroot:chrysoprase_brick_wall"
   ]
 }

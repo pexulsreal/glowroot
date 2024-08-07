@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "glowroot:block/tiledchryoprase",
+    "particle": "glowroot:block/tiledchryoprase"
+  },
+  "render_type": "solid"
+}

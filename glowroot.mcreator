@@ -11352,50 +11352,6 @@
       }
     },
     {
-      "name": "GlowrootVest",
-      "type": "armor",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "glowroot_vest",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/glowroot/item/GlowrootVestItem.java",
-          "src/main/resources/assets/glowroot/models/item/glowroot_vest_chestplate.json"
-        ]
-      }
-    },
-    {
-      "name": "GlowrootVestChestplateTickEvent",
-      "type": "procedure",
-      "sortid": 575,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "glowroot_vest_chestplate_tick_event",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/glowroot/procedures/GlowrootVestChestplateTickEventProcedure.java"
-        ],
-        "dependencies": []
-      }
-    },
-    {
-      "name": "CavePainting1",
-      "type": "block",
-      "sortid": 115,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cave_painting_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/glowroot/models/block/cave_painting_1.json",
-          "src/main/resources/assets/glowroot/models/item/cave_painting_1.json",
-          "src/main/java/net/mcreator/glowroot/block/CavePainting1Block.java",
-          "src/main/resources/assets/glowroot/blockstates/cave_painting_1.json"
-        ]
-      }
-    },
-    {
       "name": "BeckPainting",
       "type": "painting",
       "sortid": 576,
@@ -11809,6 +11765,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -11948,6 +11916,234 @@
       "metadata": {
         "files": [
           "src/main/resources/data/glowroot/recipes/batteryrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseBricks",
+      "type": "block",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_bricks.json",
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseBricksBlock.java",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_bricks.json",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledChrysopraseBricks",
+      "type": "block",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_chrysoprase_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/block/ChiseledChrysopraseBricksBlock.java",
+          "src/main/resources/assets/glowroot/blockstates/chiseled_chrysoprase_bricks.json",
+          "src/main/resources/assets/glowroot/models/item/chiseled_chrysoprase_bricks.json",
+          "src/main/resources/assets/glowroot/models/block/chiseled_chrysoprase_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedChrysoprase",
+      "type": "block",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_chrysoprase",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/block/PolishedChrysopraseBlock.java",
+          "src/main/resources/assets/glowroot/blockstates/polished_chrysoprase.json",
+          "src/main/resources/assets/glowroot/models/block/polished_chrysoprase.json",
+          "src/main/resources/assets/glowroot/models/item/polished_chrysoprase.json"
+        ]
+      }
+    },
+    {
+      "name": "ChrysoprasePillar",
+      "type": "block",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_pillar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/block/ChrysoprasePillarBlock.java",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_pillar.json",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_pillar.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_pillar.json"
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseTiles",
+      "type": "block",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseTilesBlock.java",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_tiles.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiles.json",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "Leavegamejetpack",
+      "type": "procedure",
+      "sortid": 603,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leavegamejetpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/procedures/LeavegamejetpackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Joingamejetpack",
+      "type": "procedure",
+      "sortid": 604,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joingamejetpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/procedures/JoingamejetpackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseBrickSlabs",
+      "type": "block",
+      "sortid": 605,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseBrickSlabsBlock.java",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_brick_slab.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_slab.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_slab_top.json",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_brick_slab.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_slab_full.json"
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseBrickStair",
+      "type": "block",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_stairs.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_stairs_inner.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_stairs_outer.json",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_brick_stairs.json",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_brick_stairs.json",
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseBrickStairBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseBrickWall",
+      "type": "block",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_wall.json",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_brick_wall.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_wall_side_tall.json",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_brick_wall.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_wall_post.json",
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseBrickWallBlock.java",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_brick_wall_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseTiledSlab",
+      "type": "block",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_tiled_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_slab_top.json",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_tiled_slab.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_slab_full.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_slab.json",
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseTiledSlabBlock.java",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_tiled_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseTiledStairs",
+      "type": "block",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_tiled_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_tiled_stairs.json",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_tiled_stairs.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_stairs_inner.json",
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseTiledStairsBlock.java",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_stairs.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "ChrysopraseTiledWall",
+      "type": "block",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chrysoprase_tiled_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_wall_side_tall.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_wall_inventory.json",
+          "src/main/java/net/mcreator/glowroot/block/ChrysopraseTiledWallBlock.java",
+          "src/main/resources/assets/glowroot/models/item/chrysoprase_tiled_wall.json",
+          "src/main/resources/assets/glowroot/blockstates/chrysoprase_tiled_wall.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_wall.json",
+          "src/main/resources/assets/glowroot/models/block/chrysoprase_tiled_wall_post.json"
         ]
       }
     }
@@ -12178,7 +12374,7 @@
       "subtitles.salamanderroar": "Hybrid roars",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_raw_squid_tentacle2": "Raw Squid Tentacle",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_raw_squid_tentacle3": "Raw Squid Tentacle",
-      "advancements.greenhouse.descr": "Obtain a Chrysoprase Crystal by supplying enough power to a Glowroot Node by using flora in the biome.",
+      "advancements.greenhouse.descr": "§3Obtain a Chrysoprase Crystal by supplying enough power to a Glowroot Node by using flora in the biome.",
       "gui.glowroot.glowroot_tools_gui_2.tooltip_glowroot_drill_head": "Glowroot Drill Head",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_raw_squid_tentacle1": "Raw Squid Tentacle",
       "block.glowroot.glowroot_spawner": "Glowroot Spawner",
@@ -12186,7 +12382,7 @@
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_back": "Back",
       "item.glowroot.glowroot_battery": "Glowroot Battery",
       "subtitles.glowrootcavesbiomemusic": "",
-      "advancements.loot_bug.descr": "Get hooked by the claws of a Glowroot Hermit.",
+      "advancements.loot_bug.descr": "§3Get hooked by the claws of a Glowroot Hermit.",
       "block.glowroot.glow_emitter": "Glow Emitter",
       "gui.glowroot.glowroot_machine_gui_info_1.label_the_recipe_for_it": "the recipe for it.",
       "gui.glowroot.glowroot_keycard_gui_1.label_artificial_blocks": "Artificial Blocks.",
@@ -12208,7 +12404,7 @@
       "gui.glowroot.glowroot_machine_recipe_gui.tooltip_glowrooted_rune2": "Glowrooted Rune",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_empty_emitter_flask": "Empty Emitter Flask",
       "block.glowroot.glowroot_brick_wall": "Glowroot Brick Wall",
-      "advancements.better_than_horses.title": "Better Than Horses",
+      "advancements.better_than_horses.title": "§bBetter Than Horses",
       "block.glowroot.glowroot_stone_slab": "Glowroot Stone Slab",
       "block.glowroot.glowroot_lamp_14": "Glowroot Lamp",
       "block.glowroot.glow_weeds": "Glowroot Grass",
@@ -12222,8 +12418,8 @@
       "block.glowroot.glowroot_lamp_11": "Glowroot Lamp",
       "block.glowroot.glowroot_tall_weeds": "Glowroot Tall Grass",
       "block.glowroot.glowroot_redstone_ore": "Glowroot Redstone Ore",
-      "block.glowroot.glowroot_lamp_12": "Glowroot Lamp",
       "item.glowroot.glowsquid_tentacle": "Raw Glow Squid Tentacle",
+      "block.glowroot.glowroot_lamp_12": "Glowroot Lamp",
       "block.glowroot.glowroot_lamp_13": "Glowroot Lamp",
       "block.glowroot.cut_glowroot_stairs": "Cut Glowroot Stairs",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_glowing_flask1": "Glowing Flask",
@@ -12250,7 +12446,7 @@
       "gui.glowroot.glowroot_cart_gui.label_glowroot_cart": "Glowroot Cart",
       "block.glowroot.artifical_glowroot_block_1": "Glowroot Artifical-1 Block",
       "item.glowroot.ghone_spawn_egg": "GHONE Spawn Egg",
-      "advancements.true_power_of_light.descr": "Use a Glow Emitter and Glow Detector in a loop, creating a sensing machine",
+      "advancements.true_power_of_light.descr": "§3Use a Glow Emitter and Glow Detector in a loop, creating a sensing machine",
       "block.glowroot.glowroot_pipe_4_way": "Glowroot Pipe 4-Way",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_page_2": "Page 2",
       "item.glowroot.glowroot_golem_drill_spawn_egg": "Glowroot Golem Spawn Egg",
@@ -12298,7 +12494,7 @@
       "block.glowroot.the_right_side": "Pure Glowroot Stone",
       "gui.glowroot.glowroot_tools_gui_1.tooltip_page_2": "Page 2",
       "gui.glowroot.glowroot_keycard_gui_1.label_respective_id_or": "respective ID, name",
-      "advancements.power_with_light.title": "Night Light",
+      "advancements.power_with_light.title": "§bNight Light",
       "gui.glowroot.glowroot_tools_gui_1.tooltip_glowroot_pickaxe": "Glowroot Pickaxe",
       "block.glowroot.glowroot_bars": "Glowroot Bars",
       "block.glowroot.glowroot_emerald_ore": "Glowroot Emerald Ore",
@@ -12324,6 +12520,7 @@
       "gui.glowroot.glowroot_machine_gui.tooltip_transform": "Transform",
       "item.glowroot.ghroomorhallway_spawn_egg": "GHONE Spawn Egg",
       "gui.glowroot.glowroot_machine_gui_info_1.label_the_searchbar_above": "the searchbar above",
+      "block.glowroot.chrysoprase_brick_wall": "Chrysoprase Brick Wall",
       "gui.glowroot.glowroot_tools_gui_2.tooltip_glowroot_engine": "Glowroot Engine",
       "gui.glowroot.glowroot_machine_gui_info_1.label_combines_certain": "combines certain items",
       "subtitles.gogglesequipped": "Glowroot Advancement completed",
@@ -12331,17 +12528,17 @@
       "block.glowroot.glowroot_chain": "Glowroot Chain",
       "gui.glowroot.glowroot_keycard_gui_2.tooltip_page_1": "Page 1",
       "gui.glowroot.glowroot_machine_gui_info_1.label_you_can_search_up": "You can search up items",
-      "block.glowroot.cave_painting_1": "Cave Painting 1",
       "block.glowroot.glowroot_paeonia": "Glowroot Paeonia",
       "gui.glowroot.glowroot_keycard_gui_1.label_glowroot_machine": "Glowroot Machine",
-      "advancements.stunning.title": "Stunning!",
+      "advancements.stunning.title": "§bStunning!",
       "block.glowroot.glowroot_vent_duct": "Glowroot Vent Duct",
       "gui.glowroot.glowroot_machine_gui.label_glowroot_machine": "Glowroot Machine",
       "gui.glowroot.glowroot_keycard_gui_1.label_artificial_power_has": "Artificial power has 3",
       "gui.glowroot.glowroot_keycard_gui_1.label_an_infuser_of_which": "an infuser of which",
       "item.glowroot.cooked_squid_tentacle": "Cooked Squid Tentacle",
+      "block.glowroot.polished_chrysoprase": "Polished Chrysoprase",
       "block.glowroot.glowroot_lit_vent_duct": "Glowroot Lit Vent Duct",
-      "advancements.power_with_light.descr": "Use Chrysoprase Dust onto an unactivated rune block to give it power.",
+      "advancements.power_with_light.descr": "§3Use Chrysoprase Dust onto an unactivated rune block to give it power.",
       "gui.glowroot.glowroot_machine_gui_info_1.label_recipe_via_searchbar": "recipe via searchbar.",
       "item.glowroot.mining_helmet_helmet": "Mining Helmet",
       "entity.glowroot.grpone": "GHONE",
@@ -12355,6 +12552,7 @@
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_chrysoprase_crystal3": "Chrysoprase Crystal",
       "block.glowroot.torch_wall": "Torch Wall",
       "item.glowroot.ink_balloon": "Ink Balloon",
+      "block.glowroot.chrysoprase_pillar": "Chrysoprase Pillar",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_empty_emitter_flask": "Empty Emitter Flask",
       "subtitles.drillgenericmove": "Glowroot Drill moves",
       "gui.glowroot.glowroot_tools_gui_1.tooltip_back": "Back",
@@ -12367,8 +12565,9 @@
       "block.glowroot.glowroot_machine": "Glowroot Machine",
       "gui.glowroot.glowroot_keycard_gui_1.label_and_their_respective": "and their respective",
       "gui.glowroot.glowroot_keycard_gui_1.tooltip_glowroot_chip": "Glowroot Chip",
-      "advancements.methamphetamine.title": "Protein",
+      "advancements.methamphetamine.title": "§bProtein",
       "block.glowroot.glowroot_pipe_1_way": "Glowroot Pipe 1-Way",
+      "block.glowroot.chrysoprase_tiled_slab": "Chrysoprase Tiled Slab",
       "block.glowroot.budded_block_of_chrysoprase": "Budding Chrysoprase",
       "gui.glowroot.glowroot_keycard_gui_2.tooltip_prism1": "Prism",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_empty_emitter_flask1": "Empty Emitter Flask",
@@ -12377,7 +12576,7 @@
       "block.glowroot.glow_flower": "Glowroot Daisy",
       "item.glowroot.glow_ink_balloon": "Glow Ink Balloon",
       "block.glowroot.glowroot_leaves_fallen": "Glowroot Petals",
-      "advancements.stunning.descr": "Get hit by a projectile or item that emits the dazzling effect.",
+      "advancements.stunning.descr": "§3Get hit by a projectile or item that emits the dazzling effect.",
       "block.glowroot.glowroot_door": "Glowroot Door",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_ink_sac1": "Ink Sac",
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_glowstone_dust": "Glowstone Dust",
@@ -12390,7 +12589,7 @@
       "gui.glowroot.glowroot_machine_gui_info_1.label_artificial_blocks": "Artificial Blocks.",
       "block.glowroot.small_chrysoprase_bud": "Small Chrysoprase Bud",
       "gui.glowroot.glowroot_machine_gui_info_1.tooltip_close_out": "Close Out",
-      "advancements.methamphetamine.descr": "Give a Glowroot Golem some Chrysoprase Dust while riding it to increase it\u0027s power and speed.",
+      "advancements.methamphetamine.descr": "§3Give a Glowroot Golem some Chrysoprase Dust while riding it to increase it\u0027s power and speed.",
       "item.glowroot.prism": "Prism",
       "block.glowroot.artificial_glowrooted_block_2": "Glowrooted Artifical-2 Block",
       "gui.glowroot.glowroot_tools_gui_1.tooltip_glowroot_engine": "Glowroot Engine",
@@ -12425,8 +12624,8 @@
       "gui.glowroot.glowroot_tools_gui_2.tooltip_glowroot_chip": "Glowroot Chip",
       "block.glowroot.glowroot_laser_emitter": "Laser Emitter",
       "block.glowroot.glow_glass": "Glowroot Glass",
-      "advancements.greenhouse.title": "Greenhouse",
-      "advancements.glow_goggles_advancement.descr": "Put on a pair of Glowroot Visors to disable all dazzling effects, and read the amount of light.",
+      "advancements.greenhouse.title": "§bGreenhouse",
+      "advancements.glow_goggles_advancement.descr": "§3Put on a pair of Glowroot Visors to disable all dazzling effects, and read the amount of light.",
       "gui.glowroot.glowroot_keycard_gui_1.label_different_levels_with_3": "different levels, with 3",
       "block.glowroot.glowshroom": "Glowshroom",
       "block.glowroot.glowroot_gold_ore": "Glowroot Gold Ore",
@@ -12448,6 +12647,7 @@
       "gui.glowroot.glowroot_emitter_flask_1gui.tooltip_glowstone_dust3": "Glowstone Dust",
       "gui.glowroot.glowroot_keycard_gui_1.label_ingame_name_will": "or similar name into",
       "painting.glowroot.beck_painting.title": "Experiment",
+      "block.glowroot.chiseled_chrysoprase_bricks": "Chiseled Chrysoprase Bricks",
       "subtitles.hybridbites": "Hybrid bites",
       "gui.glowroot.glowroot_machine_gui_info_1.label_and_their_respective": "and their respective",
       "block.glowroot.invisible_glowroot_block_1": "Invisible Glowroot Block",
@@ -12469,9 +12669,10 @@
       "entity.glowroot.glowrooted_zombie": "Glowrooted Zombie",
       "block.glowroot.glowroot_seeker": "Glowroot Seeker",
       "gui.glowroot.glowroot_machine_gui_info_1.label_some_main_items_are": "Some main items are",
-      "advancements.loot_bug.title": "Loot Bug",
+      "block.glowroot.chrysoprase_tiles": "Chrysoprase Tiles",
+      "advancements.loot_bug.title": "§bLoot Bug",
       "item.glowroot.squid_tentacle": "Raw Squid Tentacle",
-      "item.glowroot.glowroot_vest_chestplate": "Glowroot Vest",
+      "block.glowroot.chrysoprase_tiled_stairs": "Chrysoprase Tiled Stairs",
       "block.glowroot.glowroot_cart": "Glowroot Cart",
       "gui.glowroot.glowroot_machine_gui_info_1.label_glowcards_emitter_flasks": "Glowcards, Glowbangs,",
       "item.glowroot.glowroot_bomber_spawn_egg": "Glowroot Quadcopter Spawn Egg",
@@ -12480,8 +12681,8 @@
       "gui.glowroot.glowroot_keycard_gui_2.tooltip_glowroot_engine1": "Glowroot Engine",
       "gui.glowroot.glowroot_emitter_flaskgui_2.tooltip_growing_flask": "Growing Flask",
       "subtitles.robotstep": "Glowroot Robot steps",
-      "advancements.glow_goggles_advancement.title": "J.A.R.V.I.S",
-      "advancements.underground_lighting.descr": "Discover a Glowroot Cave. Use /glowrootinfo for information.",
+      "advancements.glow_goggles_advancement.title": "§bJ.A.R.V.I.S",
+      "advancements.underground_lighting.descr": "§3Discover a Glowroot Cave. Use /glowrootinfo for information.",
       "block.glowroot.artificial_glowroot_block_2": "Glowroot Artifical-2 Block",
       "gui.glowroot.glowroot_keycard_gui_2.tooltip_prism": "Prism",
       "gui.glowroot.glowroot_tools_gui_1.tooltip_glowroot_engine1": "Glowroot Engine",
@@ -12494,6 +12695,7 @@
       "block.glowroot.glowroot_lamp_8": "Glowroot Lamp",
       "block.glowroot.glowroot_locker_open": "Glowroot Locker Opened",
       "block.glowroot.glowroot_lamp_9": "Glowroot Lamp",
+      "block.glowroot.chrysoprase_brick_stairs": "Chrysoprase Brick Stairs",
       "item.glowroot.chrysoprase_dust": "Chrysoprase Dust",
       "block.glowroot.glowroot_lamp_1": "Glowroot Lamp",
       "gui.glowroot.glowroot_keycard_gui_1.tooltip_glowcard_2": "Glowcard - 2",
@@ -12519,7 +12721,7 @@
       "block.glowroot.glowroot_diamond_ore": "Glowroot Diamond Ore",
       "gui.glowroot.glowroot_keycard_gui_1.RecipeFinder": "Glowroot Machine",
       "item.glowroot.glowroot_engine": "Glowroot Engine",
-      "advancements.better_than_horses.descr": "Equip a Glowroot Drill Head onto a Glowroot Golem, allowing it to mine blocks when using the custom keybind.",
+      "advancements.better_than_horses.descr": "§3Equip a Glowroot Drill Head onto a Glowroot Golem, allowing it to mine blocks when using the custom keybind.",
       "gui.glowroot.glowroot_keycard_gui_1.tooltip_glowrooted_runes": "Glowrooted Rune",
       "enchantment.glowroot.glowrooted": "Glowrooted",
       "entity.glowroot.glowroot_golem_drill": "Glowroot Golem",
@@ -12531,7 +12733,8 @@
       "block.glowroot.glowrooted_stone": "Glowrooted Stone",
       "subtitles.robotactive": "Glowroot Robot computes",
       "block.glowroot.glowrooted_calcite": "Glowrooted Calcite",
-      "advancements.underground_lighting.title": "Glowroot",
+      "advancements.underground_lighting.title": "§bGlowroot",
+      "block.glowroot.chrysoprase_tiled_wall": "Chrysoprase Tiled Wall",
       "item.glowroot.glowroot_drill_head": "Glowroot Drill Head",
       "block.glowroot.glowroot_ladder": "Glowroot Ladder",
       "item.glowroot.forcelooker": "Forcelooker",
@@ -12549,6 +12752,7 @@
       "gui.glowroot.glowroot_keycard_gui_2.tooltip_glowroot_engine": "Glowroot Engine",
       "biome.glowroot.glowroot_caves": "Glowroot Caves",
       "gui.glowroot.glowroot_keycard_gui_1.label_the_recipe_for_it": "the recipe for it.",
+      "block.glowroot.chrysoprase_brick_slab": "Chrysoprase Brick Slab",
       "block.glowroot.light_detector": "Light Detector",
       "block.glowroot.glowroot_furnace": "Glowroot Cooker",
       "subtitles.button": "Machine button pressed",
@@ -12562,12 +12766,13 @@
       "block.glowroot.glowroot_stone_button": "Glowroot Stone Button",
       "gui.glowroot.glowroot_machine_gui_info_1.RecipeFinder": "Glowroot Machine",
       "gui.glowroot.glowroot_keycard_gui_1.tooltip_chrysoprase_crystal": "Chrysoprase Crystal",
+      "block.glowroot.chrysoprase_bricks": "Chrysoprase Bricks",
       "subtitles.keycardaccept": "Keycard accepted",
       "block.glowroot.glowroot_bricks": "Glowroot Bricks",
       "gui.glowroot.glowroot_tools_gui_2.tooltip_glowroot_core": "Glowroot Core",
       "block.glowroot.block_of_chrysoprase": "Block of Chrysoprase",
       "block.glowroot.glowshroom_block": "Glowshroom Block",
-      "advancements.true_power_of_light.title": "Light to Power",
+      "advancements.true_power_of_light.title": "§bLight to Power",
       "item.glowroot.glowcard": "Glowcard"
     }
   },

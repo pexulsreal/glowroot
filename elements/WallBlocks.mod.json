@@ -12,7 +12,10 @@
         "value": "CUSTOM:GlowrootStoneWall"
       },
       {
-        "value": "CUSTOM:GlowrootBrickFence"
+        "value": "CUSTOM:ChrysopraseBrickWall"
+      },
+      {
+        "value": "CUSTOM:ChrysopraseTiledWall"
       }
     ],
     "functions": [],
